@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="953109454830176">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="879690891392040" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">startButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="556416155980344" type="Audio">
+                    <param id="0" name="Audio file">39562__the-bizniss__mouse-click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="130259656420757">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="409241147695923" type="Mouse">
+                    <param id="0" name="Object">startButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="719013207892177" type="startButton">
+                    <param id="0" name="Width">145.722</param>
+                    <param id="1" name="Height">62.608</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="369060616778260">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="216320696192461" type="Mouse">
+                    <param id="0" name="Object">startButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="199398461021795" type="startButton">
+                    <param id="0" name="Width">135.722</param>
+                    <param id="1" name="Height">52.608</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

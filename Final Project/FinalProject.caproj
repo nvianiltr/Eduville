@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>FinalProject</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>x6m5sbdegphd</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="TiledBackground" sid="479985357040770">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\nvian\Desktop\Backup (FP)\Assets\start.jpg" />
+        </object-type>
+        <object-type name="startButton" sid="217893038848468">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="906444119567053" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502959" original-source="C:\Users\nvian\Desktop\Backup (FP)\Assets\startbutton.png">
+                        <collision-poly>
+                            <point x="0.0458716" y="0.118343" />
+                            <point x="0.5" y="0" />
+                            <point x="0.951835" y="0.12426" />
+                            <point x="1" y="0.497041" />
+                            <point x="0.951835" y="0.87574" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0481651" y="0.87574" />
+                            <point x="0" y="0.497041" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="368707874481914">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="FarmerBoy" sid="489424889207096">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="948000711465488" speed="3">
+                    <frame duration="1" hotspotX="0.500573" hotspotY="0.500279" original-source="C:\Users\nvian\Desktop\Backup (FP)\farmerboy1.png">
+                        <collision-poly>
+                            <point x="0.132875" y="0.064624" />
+                            <point x="0.499427" y="0" />
+                            <point x="0.857961" y="0.0690808" />
+                            <point x="0.860252" y="0.932033" />
+                            <point x="0.499427" y="0.972145" />
+                            <point x="0.139748" y="0.932033" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500573" hotspotY="0.500279" original-source="C:\Users\nvian\Desktop\Backup (FP)\farmerboy2.png">
+                        <collision-poly>
+                            <point x="0.146621" y="0.0713092" />
+                            <point x="0.499427" y="0" />
+                            <point x="0.817869" y="0.0885794" />
+                            <point x="0.875143" y="0.499721" />
+                            <point x="0.689576" y="0.849025" />
+                            <point x="0.499427" y="1" />
+                            <point x="0.332188" y="0.83844" />
+                            <point x="0.145475" y="0.499721" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="FarmerGirl" sid="904803939762374">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="508506089097356" speed="4">
+                    <frame duration="1" hotspotX="0.500573" hotspotY="0.500279" original-source="C:\Users\nvian\Desktop\Backup (FP)\female1.png">
+                        <collision-poly>
+                            <point x="0.166094" y="0.0807799" />
+                            <point x="0.499427" y="0.135376" />
+                            <point x="0.888889" y="0.054039" />
+                            <point x="0.875143" y="0.499721" />
+                            <point x="0.72394" y="0.865738" />
+                            <point x="0.499427" y="1" />
+                            <point x="0.262314" y="0.872423" />
+                            <point x="0.0950745" y="0.499721" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500573" hotspotY="0.500279" original-source="C:\Users\nvian\Desktop\Backup (FP)\female2.png">
+                        <collision-poly>
+                            <point x="0.15693" y="0.0763231" />
+                            <point x="0.499427" y="0.137047" />
+                            <point x="0.888889" y="0.054039" />
+                            <point x="0.849943" y="0.499721" />
+                            <point x="0.789233" y="0.897493" />
+                            <point x="0.499427" y="1" />
+                            <point x="0.209622" y="0.89805" />
+                            <point x="0.214204" y="0.499721" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500573" hotspotY="0.500279" original-source="C:\Users\nvian\Desktop\Backup (FP)\female3.png">
+                        <collision-poly>
+                            <point x="0.171821" y="0.0835655" />
+                            <point x="0.499427" y="0.138162" />
+                            <point x="0.884307" y="0.0562674" />
+                            <point x="0.821306" y="0.499721" />
+                            <point x="0.710195" y="0.859053" />
+                            <point x="0.499427" y="0.899164" />
+                            <point x="0.26575" y="0.870752" />
+                            <point x="0.152348" y="0.499721" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.499427" hotspotY="0.500279">
+                        <collision-poly>
+                            <point x="0.785796" y="0.499721" />
+                            <point x="0.790378" y="0.89805" />
+                            <point x="0.500573" y="1" />
+                            <point x="0.210767" y="0.897493" />
+                            <point x="0.150057" y="0.499721" />
+                            <point x="0.111111" y="0.054039" />
+                            <point x="0.500573" y="0.137047" />
+                            <point x="0.84307" y="0.0763231" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="612613273304460">
+            <plugin id="Audio" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="2" />
+        <global-instance type="Audio" uid="5">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder>
+        <file name="39562__the-bizniss__mouse-click.m4a" />
+        <file name="39562__the-bizniss__mouse-click.ogg" />
+    </sounds-folder>
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
