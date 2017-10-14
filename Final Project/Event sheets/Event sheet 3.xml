@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 3</name>
+    <events>
+        <event-block sid="602389958891003">
+            <conditions>
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="461906254380035" type="topleft" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="740958414221278" type="topleft">
+                    <param id="0" name="Width">181</param>
+                    <param id="1" name="Height">177</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="436166556850952">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="362949387401664" type="topleft" />
+                <condition id="1" name="Is overlapping another object" sid="104559617515282" type="topleft">
+                    <param id="0" name="Object">topleftpl</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="275848179513150" type="topleft">
+                    <param id="0" name="Object">topleftpl</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="871573306860624" type="topleft">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-25" name="Move to bottom" sid="642295505660106" type="topleft" />
+            </actions>
+        </event-block>
+        <event-block sid="226526618191953">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="476521112453124" type="topleft" />
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="574581848230593" type="topleft">
+                    <param id="0" name="Object">topleftpl</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="231969217372129" type="topleft">
+                    <param id="0" name="Width">96</param>
+                    <param id="1" name="Height">93</param>
+                </action>
+                <action id="-1" name="Set X" sid="558167999066295" type="topleft">
+                    <param id="0" name="X">91</param>
+                </action>
+                <action id="-2" name="Set Y" sid="830932261572597" type="topleft">
+                    <param id="0" name="Y">165</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="997160830639019">
+            <conditions>
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="728912373306768" type="botleft" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="874099008980900" type="botleft">
+                    <param id="0" name="Width">191</param>
+                    <param id="1" name="Height">186</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="903351720923782">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="279227665534870" type="botleft" />
+                <condition id="1" name="Is overlapping another object" sid="723248841364430" type="botleft">
+                    <param id="0" name="Object">botleftpl</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="789182308294928" type="botleft">
+                    <param id="0" name="Object">botleftpl</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="319728978824430" type="botleft">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-25" name="Move to bottom" sid="336015773050360" type="botleft" />
+            </actions>
+        </event-block>
+        <event-block sid="909519906106333">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="925225262111617" type="botleft" />
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="862090778615137" type="botleft">
+                    <param id="0" name="Object">botleftpl</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="675065607629656" type="botleft">
+                    <param id="0" name="Width">96</param>
+                    <param id="1" name="Height">93</param>
+                </action>
+                <action id="-1" name="Set X" sid="276838450855869" type="botleft">
+                    <param id="0" name="X">91</param>
+                </action>
+                <action id="-2" name="Set Y" sid="234174961835111" type="botleft">
+                    <param id="0" name="Y">387</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="965687358974610">
+            <conditions>
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="772440643931051" type="top" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="633677451748803" type="top">
+                    <param id="0" name="Width">181</param>
+                    <param id="1" name="Height">177</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="759469240298641">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="870075091279185" type="top" />
+                <condition id="1" name="Is overlapping another object" sid="758042666473367" type="top">
+                    <param id="0" name="Object">toppl</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="766768576856819" type="top">
+                    <param id="0" name="Object">toppl</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="527020067281731" type="top">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-25" name="Move to bottom" sid="483804333242925" type="top" />
+            </actions>
+        </event-block>
+        <event-block sid="277210965780214">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="571239473465823" type="top" />
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="722235279883902" type="top">
+                    <param id="0" name="Object">toppl</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="813771181407325" type="top">
+                    <param id="0" name="Width">96</param>
+                    <param id="1" name="Height">93</param>
+                </action>
+                <action id="-1" name="Set X" sid="618566410303050" type="top">
+                    <param id="0" name="X">91</param>
+                </action>
+                <action id="-2" name="Set Y" sid="429713966236426" type="top">
+                    <param id="0" name="Y">276</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="734179238178093">
+            <conditions>
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="722308406867686" type="bot" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="749460094170659" type="bot">
+                    <param id="0" name="Width">184</param>
+                    <param id="1" name="Height">185</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="705622372154036">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="542501869339793" type="bot" />
+                <condition id="1" name="Is overlapping another object" sid="576561743430707" type="bot">
+                    <param id="0" name="Object">botpl</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="156376603568129" type="bot">
+                    <param id="0" name="Object">botpl</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="227525213107429" type="bot">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-25" name="Move to bottom" sid="480089651360991" type="bot" />
+            </actions>
+        </event-block>
+        <event-block sid="866502137447757">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="344354821621106" type="bot" />
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="688773058848884" type="bot">
+                    <param id="0" name="Object">botpl</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="844604855091891" type="bot">
+                    <param id="0" name="Width">96</param>
+                    <param id="1" name="Height">93</param>
+                </action>
+                <action id="-1" name="Set X" sid="244088615659017" type="bot">
+                    <param id="0" name="X">222</param>
+                </action>
+                <action id="-2" name="Set Y" sid="988582563297519" type="bot">
+                    <param id="0" name="Y">164</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="660141543398211">
+            <conditions>
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="136393988689905" type="topright" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="120182912643769" type="topright">
+                    <param id="0" name="Width">173</param>
+                    <param id="1" name="Height">186</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="897183600989995">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="165560281934671" type="topright" />
+                <condition id="1" name="Is overlapping another object" sid="859619671485908" type="topright">
+                    <param id="0" name="Object">toprightpl</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="938277710611597" type="topright">
+                    <param id="0" name="Object">toprightpl</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="501819898415727" type="topright">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-25" name="Move to bottom" sid="706236332074363" type="topright" />
+            </actions>
+        </event-block>
+        <event-block sid="213150333031478">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="890113266787996" type="topright" />
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="560026523667916" type="topright">
+                    <param id="0" name="Object">toprightpl</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="836624217765692" type="topright">
+                    <param id="0" name="Width">96</param>
+                    <param id="1" name="Height">93</param>
+                </action>
+                <action id="-1" name="Set X" sid="126071655794735" type="topright">
+                    <param id="0" name="X">222</param>
+                </action>
+                <action id="-2" name="Set Y" sid="730085243006909" type="topright">
+                    <param id="0" name="Y">387</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="520174458460190">
+            <conditions>
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="466018690523297" type="botright" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="943829555954608" type="botright">
+                    <param id="0" name="Width">170</param>
+                    <param id="1" name="Height">167</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="510056702096783">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="184627008150735" type="botright" />
+                <condition id="1" name="Is overlapping another object" sid="594691070937315" type="botright">
+                    <param id="0" name="Object">botrightpl</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="357132071397052" type="botright">
+                    <param id="0" name="Object">botrightpl</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+                <action behavior="DragDrop" id="0" name="Set enabled" sid="317724618803138" type="botright">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-25" name="Move to bottom" sid="398865624345096" type="botright" />
+            </actions>
+        </event-block>
+        <event-block sid="558558346692191">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="729473815410360" type="botright" />
+                <condition id="1" inverted="1" name="Is overlapping another object" sid="203586007668301" type="botright">
+                    <param id="0" name="Object">botrightpl</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="412672950492627" type="botright">
+                    <param id="0" name="Width">96</param>
+                    <param id="1" name="Height">93</param>
+                </action>
+                <action id="-1" name="Set X" sid="829371517966011" type="botright">
+                    <param id="0" name="X">222</param>
+                </action>
+                <action id="-2" name="Set Y" sid="367617768957019" type="botright">
+                    <param id="0" name="Y">274</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

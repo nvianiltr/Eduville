@@ -18,6 +18,9 @@
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
+                <action id="-25" name="Go to layout (by name)" sid="207893854239282" type="System">
+                    <param id="0" name="Layout">&quot;menu&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="130259656420757">
@@ -63,6 +66,19 @@
                 <action id="-7" name="Set size" sid="287525486072360" type="exitButton">
                     <param id="0" name="Width">145.722</param>
                     <param id="1" name="Height">62.608</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="147143499176766">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="889556063157482" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="665633962119850" type="Audio">
+                    <param id="0" name="Audio file">bg-song</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>

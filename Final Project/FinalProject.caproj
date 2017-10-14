@@ -15,7 +15,10 @@
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
-    <used-behaviors />
+    <used-behaviors>
+        <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+    </used-behaviors>
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -45,7 +48,7 @@
     <object-folder>
         <object-type name="TiledBackground" sid="479985357040770">
             <plugin id="TiledBg" />
-            <texture original-source="C:\Users\nvian\Desktop\Backup (FP)\Assets\start.jpg" />
+            <texture original-source="E:\kuliah\Sem 3\final project\Assets\bg-final.jpg" />
         </object-type>
         <object-type name="startButton" sid="217893038848468">
             <plugin id="Sprite" />
@@ -175,13 +178,238 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="TiledBackground2" sid="574144290488923">
+            <plugin id="TiledBg" />
+            <texture original-source="E:\kuliah\Sem 3\final project\Assets\bg-menu.jpg" />
+        </object-type>
+        <object-type name="Sprite" sid="419162028935631">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="746458060715224" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\Assets\pig-button.jpg" />
+                </animation>
+                <animation framecount="1" loop="0" name="clicked" pingpong="0" repeatcount="1" repeatto="0" sid="234108196281679" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\Assets\pig.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground3" sid="576729789432674">
+            <plugin id="TiledBg" />
+            <texture original-source="E:\kuliah\Sem 3\final project\Assets\bg-menu.jpg" />
+        </object-type>
+        <object-type name="topleft" sid="245179935080308">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="994688642199457">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="347866290221403">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="885499734971664" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501272" original-source="E:\kuliah\Sem 3\final project\Assets\pig\1.png">
+                        <collision-poly>
+                            <point x="0.00252525" y="0.00254453" />
+                            <point x="0.5" y="0" />
+                            <point x="0.805556" y="0.195929" />
+                            <point x="0.828283" y="0.498728" />
+                            <point x="0.75505" y="0.753181" />
+                            <point x="0.5" y="0.992366" />
+                            <point x="0.159091" y="0.839695" />
+                            <point x="0.00252525" y="0.498728" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="380521565792667">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="930651284112577" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\Assets\pig.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="top" sid="526794819776630">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="744232027967817">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="581413645796381" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501272" original-source="E:\kuliah\Sem 3\final project\Assets\pig\3.png">
+                        <collision-poly>
+                            <point x="0.0265957" y="0.0254453" />
+                            <point x="0.5" y="0" />
+                            <point x="0.930851" y="0.0661578" />
+                            <point x="0.755319" y="0.498728" />
+                            <point x="0.914894" y="0.918575" />
+                            <point x="0.5" y="0.997455" />
+                            <point x="0.25" y="0.760814" />
+                            <point x="0.0265957" y="0.498728" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="topright" sid="561206013282212">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="466941119732622">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="986934194476445" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\Assets\pig\2.png">
+                        <collision-poly>
+                            <point x="0.206186" y="0.192308" />
+                            <point x="0.5" y="0" />
+                            <point x="0.997423" y="0.00240385" />
+                            <point x="0.997423" y="0.5" />
+                            <point x="0.804124" y="0.817308" />
+                            <point x="0.5" y="0.983173" />
+                            <point x="0.198454" y="0.814904" />
+                            <point x="0.00773196" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="botleft" sid="106271888057174">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="873072133344883">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="365650630527863" speed="5">
+                    <frame duration="1" hotspotX="0.501211" hotspotY="0.501205" original-source="E:\kuliah\Sem 3\final project\Assets\pig\4.png">
+                        <collision-poly>
+                            <point x="0.101695" y="0.101205" />
+                            <point x="0.498789" y="0.219277" />
+                            <point x="0.79661" y="0.20241" />
+                            <point x="1" y="0.498795" />
+                            <point x="0.498789" y="1" />
+                            <point x="0.00242131" y="0.99759" />
+                            <point x="0.00242131" y="0.498795" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="botright" sid="146305051913786">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="978314904390248">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="785745919572260" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501348" original-source="E:\kuliah\Sem 3\final project\Assets\pig\5.png">
+                        <collision-poly>
+                            <point x="0.206806" y="0.212938" />
+                            <point x="0.5" y="0.191375" />
+                            <point x="0.968586" y="0.032345" />
+                            <point x="1" y="0.498652" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="1" />
+                            <point x="0.196335" y="0.797844" />
+                            <point x="0" y="0.498652" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bot" sid="565509131698405">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="394277383331305">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="666050404548926" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501222" original-source="E:\kuliah\Sem 3\final project\Assets\pig\6.png">
+                        <collision-poly>
+                            <point x="0.0863874" y="0.0806846" />
+                            <point x="0.5" y="0.227384" />
+                            <point x="0.866492" y="0.124694" />
+                            <point x="0.787958" y="0.498778" />
+                            <point x="0.934555" y="0.938875" />
+                            <point x="0.5" y="1" />
+                            <point x="0.039267" y="0.963325" />
+                            <point x="0.269634" y="0.498778" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="topleftpl" sid="534919455712647">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="967800687473426" speed="5">
+                    <frame duration="1" hotspotX="0.996" hotspotY="0.996" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="botleftpl" sid="120602587887413">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="760662014881721" speed="5">
+                    <frame duration="1" hotspotX="1" hotspotY="0.004" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="toppl" sid="435274426412733">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="597496961561182" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="botpl" sid="460959763246892">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="564671976447742" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="toprightpl" sid="515003006329924">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="215545955331755" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="botrightpl" sid="541423494197218">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="818221135805394" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Layout 1.xml</layout>
+        <layout>start.xml</layout>
+        <layout>menu.xml</layout>
+        <layout>pig.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="2" />
@@ -207,6 +435,8 @@
         <file name="button hover.ogg" />
         <file name="button lepas.m4a" />
         <file name="button lepas.ogg" />
+        <file name="bg-song.m4a" />
+        <file name="bg-song.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>
