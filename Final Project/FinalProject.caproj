@@ -51,7 +51,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="906444119567053" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502959" original-source="C:\Users\nvian\Desktop\Backup (FP)\Assets\startbutton.png">
+                    <frame duration="1" hotspotX="0.500664" hotspotY="0.503979" original-source="E:\kuliah\Sem 3\final project\Assets\button background.png">
                         <collision-poly>
                             <point x="0.0458716" y="0.118343" />
                             <point x="0.5" y="0" />
@@ -156,6 +156,25 @@
         <object-type name="Audio" sid="612613273304460">
             <plugin id="Audio" />
         </object-type>
+        <object-type name="exitButton" sid="420320062790208">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="864987013818451" speed="5">
+                    <frame duration="1" hotspotX="0.500664" hotspotY="0.503979" original-source="E:\kuliah\Sem 3\final project\Assets\button background.png">
+                        <collision-poly>
+                            <point x="0.0458716" y="0.118343" />
+                            <point x="0.5" y="0" />
+                            <point x="0.951835" y="0.12426" />
+                            <point x="1" y="0.497041" />
+                            <point x="0.951835" y="0.87574" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0481651" y="0.87574" />
+                            <point x="0" y="0.497041" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -184,6 +203,10 @@
     <sounds-folder>
         <file name="39562__the-bizniss__mouse-click.m4a" />
         <file name="39562__the-bizniss__mouse-click.ogg" />
+        <file name="button hover.m4a" />
+        <file name="button hover.ogg" />
+        <file name="button lepas.m4a" />
+        <file name="button lepas.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>
