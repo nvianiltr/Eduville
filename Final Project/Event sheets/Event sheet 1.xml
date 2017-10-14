@@ -38,11 +38,31 @@
                 <condition id="7" inverted="1" name="Cursor is over object" sid="216320696192461" type="Mouse">
                     <param id="0" name="Object">startButton</param>
                 </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="409488581958635" type="Mouse">
+                    <param id="0" name="Object">exitButton</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-7" name="Set size" sid="199398461021795" type="startButton">
                     <param id="0" name="Width">135.722</param>
                     <param id="1" name="Height">52.608</param>
+                </action>
+                <action id="-7" name="Set size" sid="346013158322109" type="exitButton">
+                    <param id="0" name="Width">135.722</param>
+                    <param id="1" name="Height">52.608</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="671352349244770">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="474665742276660" type="Mouse">
+                    <param id="0" name="Object">exitButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="287525486072360" type="exitButton">
+                    <param id="0" name="Width">145.722</param>
+                    <param id="1" name="Height">62.608</param>
                 </action>
             </actions>
         </event-block>
