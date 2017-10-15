@@ -13,6 +13,7 @@
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
@@ -182,7 +183,7 @@
             <plugin id="TiledBg" />
             <texture original-source="E:\kuliah\Sem 3\final project\Assets\bg-menu.jpg" />
         </object-type>
-        <object-type name="Sprite" sid="419162028935631">
+        <object-type name="PIG" sid="419162028935631">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="746458060715224" speed="5">
@@ -191,11 +192,14 @@
                 <animation framecount="1" loop="0" name="clicked" pingpong="0" repeatcount="1" repeatto="0" sid="234108196281679" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\Assets\pig.jpg" />
                 </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="166644945670472" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
             </animation-folder>
         </object-type>
         <object-type name="TiledBackground3" sid="576729789432674">
             <plugin id="TiledBg" />
-            <texture original-source="E:\kuliah\Sem 3\final project\Assets\bg-menu.jpg" />
+            <texture original-source="C:\Users\nvian\Desktop\Backup (FP)\Assets\gamebg.jpg" />
         </object-type>
         <object-type name="topleft" sid="245179935080308">
             <plugin id="Sprite" />
@@ -399,6 +403,58 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="minute1" sid="248937659298591">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="second1" sid="120222592500378">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="colon" sid="490340451330849">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="minute2" sid="568331028389803">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="Minute" sid="943643440351474" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="second2" sid="688865776707942">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="Second" sid="280720211033278" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="COW" sid="210003247848514">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="963220564959962" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nvian\Desktop\Backup (FP)\Assets\cow-button.jpg" />
+                </animation>
+                <animation framecount="1" loop="0" name="Clicked" pingpong="0" repeatcount="1" repeatto="0" sid="338099192204269" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nvian\Desktop\Backup (FP)\Assets\cow.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CHICKEN" sid="499519832274606">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="200990309049136" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nvian\Desktop\Backup (FP)\Assets\chicken-button.jpg" />
+                </animation>
+                <animation framecount="1" loop="0" name="Clicked" pingpong="0" repeatcount="1" repeatto="0" sid="981676786644882" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nvian\Desktop\Backup (FP)\Assets\chicken.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PIG_txt" sid="184954595521944">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="COW_txt" sid="340987336686743">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="CHICKEN_txt" sid="642583325942112">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -437,6 +493,8 @@
         <file name="button lepas.ogg" />
         <file name="bg-song.m4a" />
         <file name="bg-song.ogg" />
+        <file name="quiet_pig.m4a" />
+        <file name="quiet_pig.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>

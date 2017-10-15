@@ -13,8 +13,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="0">start</layout>
         <layout order="2">menu</layout>
         <layout order="4">pig</layout>
-        <event-sheet order="1">Event sheet 1</event-sheet>
-        <event-sheet active="1" order="3">Event sheet 2</event-sheet>
+        <event-sheet active="1" order="1">Event sheet 1</event-sheet>
+        <event-sheet order="3">Event sheet 2</event-sheet>
         <event-sheet order="5">Event sheet 3</event-sheet>
     </open-tabs>
     <properties>
@@ -36,7 +36,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/FarmerBoy/" />
         <folder expanded="1" path="animation-folder/FarmerGirl/" />
         <folder expanded="1" path="animation-folder/exitButton/" />
-        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/PIG/" />
         <folder expanded="1" path="animation-folder/topleft/" />
         <folder expanded="1" path="animation-folder/Sprite2/" />
         <folder expanded="1" path="animation-folder/top/" />
@@ -50,5 +50,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/botpl/" />
         <folder expanded="1" path="animation-folder/toprightpl/" />
         <folder expanded="1" path="animation-folder/botrightpl/" />
+        <folder expanded="1" path="animation-folder/COW/" />
+        <folder expanded="1" path="animation-folder/CHICKEN/" />
     </folders-expanded>
 </c2uistate>
