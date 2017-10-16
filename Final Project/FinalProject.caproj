@@ -232,7 +232,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="930651284112577" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\Assets\pig.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\Assets\cow.jpg" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -461,11 +461,13 @@
         <layout>start.xml</layout>
         <layout>menu.xml</layout>
         <layout>pig.xml</layout>
+        <layout>cow.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
         <event-sheet>Event sheet 2.xml</event-sheet>
         <event-sheet>Event sheet 3.xml</event-sheet>
+        <event-sheet>Event sheet 4.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="2" />

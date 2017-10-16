@@ -25,7 +25,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <active-layer name="game" />
     <layers>
-        <layer locked="1" name="Layer 0" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Layer 0" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="game" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="default" parallax-in-editor="0" visible="1" />
     </layers>
