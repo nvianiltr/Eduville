@@ -324,160 +324,15 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="564236993836289">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="793690021325811" type="System">
-                    <param id="0" name="Variable">Tracker</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">6</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-16" name="Set opacity" sid="438456332424782" type="Sprite2">
-                    <param id="0" name="Opacity">100</param>
-                </action>
-                <action id="-26" name="Move to layer" sid="641009307913586" type="Sprite2">
-                    <param id="0" name="Layer">1</param>
-                </action>
-                <action id="-9" name="Set value" sid="511803250607839" type="System">
-                    <param id="0" name="Variable">FinalMinute</param>
-                    <param id="1" name="Value">minute2.Minute</param>
-                </action>
-                <action id="-9" name="Set value" sid="478811996334303" type="System">
-                    <param id="0" name="Variable">FinalSecond</param>
-                    <param id="1" name="Value">second2.Second</param>
-                </action>
-                <action id="-2" name="Set Y" sid="725781048035119" type="minute1">
-                    <param id="0" name="Y">268</param>
-                </action>
-                <action id="-2" name="Set Y" sid="137312912317180" type="minute2">
-                    <param id="0" name="Y">268</param>
-                </action>
-                <action id="-2" name="Set Y" sid="372993595157056" type="second1">
-                    <param id="0" name="Y">268</param>
-                </action>
-                <action id="-2" name="Set Y" sid="726773078272614" type="second2">
-                    <param id="0" name="Y">268</param>
-                </action>
-                <action id="-2" name="Set Y" sid="959080304234736" type="colon">
-                    <param id="0" name="Y">268</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="718938661512631">
-            <conditions>
-                <condition id="-6" name="Every X seconds" sid="658748004243564" type="System">
-                    <param id="0" name="Interval (seconds)">1.0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-11" name="Add to" sid="687181413040655" type="second2">
-                    <param id="0" name="Instance variable">Second</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="0" name="Set text" sid="938324125278433" type="second2">
-                    <param id="0" name="Text">second2.Second</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="920187792199791">
-            <conditions>
-                <condition id="-7" name="Compare instance variable" sid="567857124624997" type="second2">
-                    <param id="0" name="Instance variable">Second</param>
-                    <param id="1" name="Comparison">5</param>
-                    <param id="2" name="Value">10</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-15" name="Set visible" sid="296206952801121" type="second1">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="827987944518480">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="948680948623900" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Set text" sid="640965615777150" type="second2">
-                    <param id="0" name="Text">second2.Second</param>
-                </action>
-                <action id="0" name="Set text" sid="905438115423442" type="minute2">
-                    <param id="0" name="Text">minute2.Minute</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="720192015333878">
-            <conditions>
-                <condition id="-7" name="Compare instance variable" sid="107300875591757" type="second2">
-                    <param id="0" name="Instance variable">Second</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">60</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-11" name="Add to" sid="922650445950732" type="minute2">
-                    <param id="0" name="Instance variable">Minute</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-                <action id="-10" name="Set value" sid="298874924943549" type="second2">
-                    <param id="0" name="Instance variable">Second</param>
-                    <param id="1" name="Value">0</param>
-                </action>
-                <action id="0" name="Set text" sid="143041988732380" type="minute2">
-                    <param id="0" name="Text">minute2.Minute</param>
-                </action>
-                <action id="0" name="Set text" sid="193038609159290" type="second2">
-                    <param id="0" name="Text">second2.Second</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="102394269098492">
-            <conditions>
-                <condition id="-7" name="Compare instance variable" sid="983850505416566" type="second2">
-                    <param id="0" name="Instance variable">Second</param>
-                    <param id="1" name="Comparison">2</param>
-                    <param id="2" name="Value">10</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-15" name="Set visible" sid="179638628757419" type="second1">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="341672174899628">
-            <conditions>
-                <condition id="-7" name="Compare instance variable" sid="402649169902290" type="minute2">
-                    <param id="0" name="Instance variable">Minute</param>
-                    <param id="1" name="Comparison">2</param>
-                    <param id="2" name="Value">10</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-15" name="Set visible" sid="378640391627480" type="minute1">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="308261562928859">
-            <conditions>
-                <condition id="-7" name="Compare instance variable" sid="540535013227246" type="minute2">
-                    <param id="0" name="Instance variable">Minute</param>
-                    <param id="1" name="Comparison">5</param>
-                    <param id="2" name="Value">10</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-15" name="Set visible" sid="678928785546548" type="minute1">
-                    <param id="0" name="Visibility">0</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="866282785165755">
             <conditions>
                 <condition id="-6" name="Every X seconds" sid="532251902656139" type="System">
                     <param id="0" name="Interval (seconds)">5</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="390853221955094" type="System">
+                    <param id="0" name="Variable">Tracker</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">6</param>
                 </condition>
             </conditions>
             <actions>
@@ -490,6 +345,152 @@
                 <action id="3" name="Set volume" sid="690691914305248" type="Audio">
                     <param id="0" name="Tag">&quot;bg&quot;</param>
                     <param id="1" name="dB">-10</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="493208599161099">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="750250076557579" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="610929875208797" type="System">
+                    <param id="0" name="Variable">Tracker</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="681563518526891" type="System">
+                    <param id="0" name="Variable">FinalSecond</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="866810484448005">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="161909135112336" type="System">
+                    <param id="0" name="Variable">FinalSecond</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">60</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="734006318146541" type="System">
+                    <param id="0" name="Variable">Tracker</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="227994252649453" type="System">
+                    <param id="0" name="Variable">FinalSecond</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-10" name="Add to" sid="885336288733824" type="System">
+                    <param id="0" name="Variable">FinalMinute</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="949673072506123">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="370153645722242" type="System">
+                    <param id="0" name="Variable">FinalSecond</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">60</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="305597907406418" type="System">
+                    <param id="0" name="Variable">Tracker</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="100900023545860" type="second2">
+                    <param id="0" name="Text">FinalSecond</param>
+                </action>
+                <action id="0" name="Set text" sid="164111282745330" type="minute2">
+                    <param id="0" name="Text">FinalMinute</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="928767986814901">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="481348381788256" type="System">
+                    <param id="0" name="Variable">Tracker</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">6</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Set Y" sid="221215313840642" type="second2">
+                    <param id="0" name="Y">268</param>
+                </action>
+                <action id="-2" name="Set Y" sid="531995074452490" type="minute2">
+                    <param id="0" name="Y">268</param>
+                </action>
+                <action id="-2" name="Set Y" sid="760367415459371" type="colon">
+                    <param id="0" name="Y">268</param>
+                </action>
+                <action id="-2" name="Set Y" sid="611176293731824" type="minute1">
+                    <param id="0" name="Y">268</param>
+                </action>
+                <action id="-2" name="Set Y" sid="129252515136651" type="second1">
+                    <param id="0" name="Y">268</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="924790080986129">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="292573849000198" type="System">
+                    <param id="0" name="Variable">FinalSecond</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="926630712295002" type="second1">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="880260689574992">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="396654157641906" type="System">
+                    <param id="0" name="Variable">FinalSecond</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="239178385296402" type="second1">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="494215098758541">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="189039802276348" type="System">
+                    <param id="0" name="Variable">FinalMinute</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="422281015539446" type="minute1">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="747966022054259">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="516637644933369" type="System">
+                    <param id="0" name="Variable">FinalMinute</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="802274956021312" type="minute1">
+                    <param id="0" name="Visibility">0</param>
                 </action>
             </actions>
         </event-block>

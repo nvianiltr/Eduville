@@ -232,7 +232,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="930651284112577" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\Assets\cow.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\Assets\pig.jpg" />
                 </animation>
             </animation-folder>
         </object-type>
