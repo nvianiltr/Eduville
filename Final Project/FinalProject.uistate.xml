@@ -10,13 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="1">start</layout>
-        <layout order="3">menu</layout>
-        <layout active="1" order="5">pig</layout>
-        <event-sheet order="2">Event sheet 1</event-sheet>
-        <event-sheet order="4">Event sheet 2</event-sheet>
-        <event-sheet order="6">Event sheet 3</event-sheet>
-        <event-sheet order="7">Event sheet 4</event-sheet>
+        <layout active="1" order="0">cow</layout>
+        <event-sheet order="1">Event sheet 4</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -26,11 +21,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <families-expanded root="1" />
     <folders-expanded>
-        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
-        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="0" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/startButton/" />
@@ -51,7 +46,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/botpl/" />
         <folder expanded="1" path="animation-folder/toprightpl/" />
         <folder expanded="1" path="animation-folder/botrightpl/" />
-        <folder expanded="1" path="animation-folder/COW/" />
         <folder expanded="1" path="animation-folder/CHICKEN/" />
+        <folder expanded="1" path="animation-folder/Volume/" />
+        <folder expanded="1" path="animation-folder/Cow/" />
+        <folder expanded="1" path="animation-folder/CowPl/" />
     </folders-expanded>
 </c2uistate>

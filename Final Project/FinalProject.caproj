@@ -11,6 +11,7 @@
     <saved-with-version>24400</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
@@ -18,6 +19,7 @@
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
     </used-behaviors>
     <used-effects />
@@ -210,6 +212,9 @@
                 <behavior-type name="Pin" sid="347866290221403">
                     <behavior id="Pin" />
                 </behavior-type>
+                <behavior-type name="Fade" sid="220374060801078">
+                    <behavior id="Fade" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="885499734971664" speed="5">
@@ -230,6 +235,11 @@
         </object-type>
         <object-type name="Sprite2" sid="380521565792667">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="889081388483409">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="930651284112577" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\Assets\pig.jpg" />
@@ -241,6 +251,9 @@
             <behaviors>
                 <behavior-type name="DragDrop" sid="744232027967817">
                     <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="579857303478436">
+                    <behavior id="Fade" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -266,6 +279,9 @@
                 <behavior-type name="DragDrop" sid="466941119732622">
                     <behavior id="DragnDrop" />
                 </behavior-type>
+                <behavior-type name="Fade" sid="721891422670883">
+                    <behavior id="Fade" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="986934194476445" speed="5">
@@ -290,6 +306,9 @@
                 <behavior-type name="DragDrop" sid="873072133344883">
                     <behavior id="DragnDrop" />
                 </behavior-type>
+                <behavior-type name="Fade" sid="575439724773039">
+                    <behavior id="Fade" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="365650630527863" speed="5">
@@ -312,6 +331,9 @@
             <behaviors>
                 <behavior-type name="DragDrop" sid="978314904390248">
                     <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="757304847140902">
+                    <behavior id="Fade" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -336,6 +358,9 @@
             <behaviors>
                 <behavior-type name="DragDrop" sid="394277383331305">
                     <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="679678819895089">
+                    <behavior id="Fade" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -424,17 +449,6 @@
                 <instance-variable name="Second" sid="280720211033278" type="number" />
             </instance-variables>
         </object-type>
-        <object-type name="COW" sid="210003247848514">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="963220564959962" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nvian\Desktop\Backup (FP)\Assets\cow-button.jpg" />
-                </animation>
-                <animation framecount="1" loop="0" name="Clicked" pingpong="0" repeatcount="1" repeatto="0" sid="338099192204269" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nvian\Desktop\Backup (FP)\Assets\cow.jpg" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="CHICKEN" sid="499519832274606">
             <plugin id="Sprite" />
             <animation-folder>
@@ -454,6 +468,61 @@
         </object-type>
         <object-type name="CHICKEN_txt" sid="642583325942112">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="Volume" sid="752751657004858">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="stts" sid="248904197098660" type="boolean" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="556901647134058" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\Assets\button volume enabled.png">
+                        <collision-poly>
+                            <point x="0.189091" y="0.189091" />
+                            <point x="0.5" y="0.0545455" />
+                            <point x="0.816364" y="0.183636" />
+                            <point x="0.945455" y="0.5" />
+                            <point x="0.810909" y="0.810909" />
+                            <point x="0.5" y="0.936364" />
+                            <point x="0.192727" y="0.807273" />
+                            <point x="0.0636364" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="mute" pingpong="0" repeatcount="1" repeatto="0" sid="847867141674131" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\Assets\button mute.png">
+                        <collision-poly>
+                            <point x="0.189091" y="0.189091" />
+                            <point x="0.5" y="0.0545455" />
+                            <point x="0.816364" y="0.183636" />
+                            <point x="0.945455" y="0.5" />
+                            <point x="0.810909" y="0.810909" />
+                            <point x="0.5" y="0.936364" />
+                            <point x="0.192727" y="0.807273" />
+                            <point x="0.0636364" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button" sid="231303994296983">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Cow" sid="156227277545597">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="604555840722879" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\Assets\cow.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="CowPl" sid="176402180159026">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="516261714290122" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
