@@ -10,8 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">cow</layout>
-        <event-sheet order="1">Event sheet 4</event-sheet>
+        <layout order="0">cow</layout>
+        <event-sheet active="1" order="1">cow_event</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -49,6 +49,30 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/CHICKEN/" />
         <folder expanded="1" path="animation-folder/Volume/" />
         <folder expanded="1" path="animation-folder/Cow/" />
-        <folder expanded="1" path="animation-folder/CowPl/" />
+        <folder expanded="1" path="animation-folder/plc1/" />
+        <folder expanded="1" path="animation-folder/piece1/" />
+        <folder expanded="1" path="animation-folder/piece2/" />
+        <folder expanded="1" path="animation-folder/piece3/" />
+        <folder expanded="1" path="animation-folder/piece4/" />
+        <folder expanded="1" path="animation-folder/piece5/" />
+        <folder expanded="1" path="animation-folder/piece6/" />
+        <folder expanded="1" path="animation-folder/piece7/" />
+        <folder expanded="1" path="animation-folder/piece8/" />
+        <folder expanded="1" path="animation-folder/piece9/" />
+        <folder expanded="1" path="animation-folder/piece10/" />
+        <folder expanded="1" path="animation-folder/piece11/" />
+        <folder expanded="1" path="animation-folder/piece12/" />
+        <folder expanded="1" path="animation-folder/COW_Menu/" />
+        <folder expanded="1" path="animation-folder/plc2/" />
+        <folder expanded="1" path="animation-folder/plc3/" />
+        <folder expanded="1" path="animation-folder/plc4/" />
+        <folder expanded="1" path="animation-folder/plc5/" />
+        <folder expanded="1" path="animation-folder/plc6/" />
+        <folder expanded="1" path="animation-folder/plc7/" />
+        <folder expanded="1" path="animation-folder/plc8/" />
+        <folder expanded="1" path="animation-folder/plc9/" />
+        <folder expanded="1" path="animation-folder/plc10/" />
+        <folder expanded="1" path="animation-folder/plc11/" />
+        <folder expanded="1" path="animation-folder/plc12/" />
     </folders-expanded>
 </c2uistate>

@@ -1,0 +1,833 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>cow_event</name>
+    <events>
+        <variable constant="0" name="FinalSecond2" sid="799310625113869" static="0" type="number">0</variable>
+        <variable constant="0" name="FinalMinute2" sid="254466822298776" static="0" type="number">0</variable>
+        <variable constant="0" name="Tracker2" sid="452019506081908" static="0" type="number">0</variable>
+        <event-group description="" sid="603755353815183" title="Timer2">
+            <sub-events>
+                <event-block sid="324553572069304">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="174671526106968" type="System">
+                            <param id="0" name="Interval (seconds)">5</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="829635057648808" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set volume" sid="359514241260591" type="Audio">
+                            <param id="0" name="Tag">&quot;bg&quot;</param>
+                            <param id="1" name="dB">-10</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="365770054346738">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="285472840739019" type="System">
+                            <param id="0" name="Interval (seconds)">1.0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="470939516994093" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="587203259041880" type="System">
+                            <param id="0" name="Variable">FinalSecond</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="359591900881391">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="207544615591319" type="System">
+                            <param id="0" name="Variable">FinalSecond</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">60</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="481787727931571" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="344617630768988" type="System">
+                            <param id="0" name="Variable">FinalSecond</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="716461242596714" type="System">
+                            <param id="0" name="Variable">FinalMinute</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="619300038471463">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="399671005861560" type="System">
+                            <param id="0" name="Variable">FinalSecond</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">60</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="505606342586627" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="753216585077732" type="second2">
+                            <param id="0" name="Text">FinalSecond</param>
+                        </action>
+                        <action id="0" name="Set text" sid="329820763102882" type="minute2">
+                            <param id="0" name="Text">FinalMinute</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="449750112091785">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="189464441745125" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="793112008389585" type="second2">
+                            <param id="0" name="Y">268</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="545060143790175" type="minute2">
+                            <param id="0" name="Y">268</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="806220302330865" type="colon">
+                            <param id="0" name="Y">268</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="711098213740036" type="minute1">
+                            <param id="0" name="Y">268</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="168109809739427" type="second1">
+                            <param id="0" name="Y">268</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="482371276977229" type="piece1" />
+                        <action behavior="Fade" id="1" name="Start fade" sid="494067634783739" type="piece2" />
+                        <action behavior="Fade" id="1" name="Start fade" sid="594687286631577" type="piece3" />
+                        <action behavior="Fade" id="1" name="Start fade" sid="546891257041722" type="piece4" />
+                        <action behavior="Fade" id="1" name="Start fade" sid="195041406783638" type="piece5" />
+                        <action behavior="Fade" id="1" name="Start fade" sid="205820097767971" type="piece6" />
+                        <action behavior="Fade" id="1" name="Start fade" sid="224833116243981" type="piece7" />
+                        <action behavior="Fade" id="1" name="Start fade" sid="773356345989511" type="piece8" />
+                        <action behavior="Fade" id="1" name="Start fade" sid="876700889812690" type="piece9" />
+                        <action behavior="Fade" id="1" name="Start fade" sid="217132033950343" type="piece10" />
+                        <action behavior="Fade" id="1" name="Start fade" sid="740252224475115" type="piece11" />
+                        <action behavior="Fade" id="1" name="Start fade" sid="242984605936750" type="piece12" />
+                        <action id="-16" name="Set opacity" sid="897133492761964" type="Cow">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="486947171049247">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="869744220343699" type="System">
+                            <param id="0" name="Variable">FinalSecond</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="816576148918869" type="second1">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="264240255693077">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="400114641667062" type="System">
+                            <param id="0" name="Variable">FinalSecond</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="555880298809470" type="second1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="360126796930561">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="142798119679049" type="System">
+                            <param id="0" name="Variable">FinalMinute</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="217174539238283" type="minute1">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="504179311582528">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="665158253516955" type="System">
+                            <param id="0" name="Variable">FinalMinute</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="902432814690073" type="minute1">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="778144852541387" title="Puzzle_Cow">
+            <sub-events>
+                <event-block sid="193231139161237">
+                    <conditions>
+                        <condition behavior="DragDrop" id="1" name="On drag start" sid="813343892370649" type="piece1" />
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="516186990397560" type="piece1">
+                            <param id="0" name="Width">124.143</param>
+                            <param id="1" name="Height">111.645</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="787429821531120">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="834031737539680" type="piece1" />
+                        <condition id="1" name="Is overlapping another object" sid="139554926856366" type="piece1">
+                            <param id="0" name="Object">plc1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" sid="514587393267189" type="piece1">
+                            <param id="0" name="Object">plc1</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="401141704241981" type="piece1">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-25" name="Move to bottom" sid="501380280854751" type="piece1" />
+                        <action id="-10" name="Add to" sid="597970182978627" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="256180358459060">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="448558604419374" type="piece1" />
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="106112368748496" type="piece1">
+                            <param id="0" name="Object">plc1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="709402590524978" type="piece1">
+                            <param id="0" name="Width">62</param>
+                            <param id="1" name="Height">56</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="136824075659619" type="piece1">
+                            <param id="0" name="X">293</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="486743157014939" type="piece1">
+                            <param id="0" name="Y">405</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="518751412860520">
+                    <conditions>
+                        <condition behavior="DragDrop" id="1" name="On drag start" sid="503215310219798" type="piece2" />
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="299916010301040" type="piece2">
+                            <param id="0" name="Width">135.38</param>
+                            <param id="1" name="Height">121.303</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="360390499299749">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="249095549255163" type="piece2" />
+                        <condition id="1" name="Is overlapping another object" sid="726210055935832" type="piece2">
+                            <param id="0" name="Object">plc2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" sid="138635900842890" type="piece2">
+                            <param id="0" name="Object">plc2</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="679346575652768" type="piece2">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-25" name="Move to bottom" sid="558723732372940" type="piece2" />
+                        <action id="-10" name="Add to" sid="817292426219500" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="849167866677624">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="505932290873592" type="piece2" />
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="291349230706981" type="piece2">
+                            <param id="0" name="Object">plc2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="592010691748412" type="piece2">
+                            <param id="0" name="Width">62</param>
+                            <param id="1" name="Height">56</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="565054914096622" type="piece2">
+                            <param id="0" name="X">149</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="575940457169708" type="piece2">
+                            <param id="0" name="Y">320</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="140594201196313">
+                    <conditions>
+                        <condition behavior="DragDrop" id="1" name="On drag start" sid="913318838463652" type="piece3" />
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="202157757769544" type="piece3">
+                            <param id="0" name="Width">147.966</param>
+                            <param id="1" name="Height">123.028</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="558657586929094">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="466107073916040" type="piece3" />
+                        <condition id="1" name="Is overlapping another object" sid="253798170787937" type="piece3">
+                            <param id="0" name="Object">plc3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" sid="479699386067460" type="piece3">
+                            <param id="0" name="Object">plc3</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="799002911241729" type="piece3">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-25" name="Move to bottom" sid="206380987866716" type="piece3" />
+                        <action id="-10" name="Add to" sid="853568369784310" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="717779048795179">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="613267219778680" type="piece3" />
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="686938378563080" type="piece3">
+                            <param id="0" name="Object">plc3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="823412819047993" type="piece3">
+                            <param id="0" name="Width">62</param>
+                            <param id="1" name="Height">56</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="505890804152774" type="piece3">
+                            <param id="0" name="X">294</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="734379327057462" type="piece3">
+                            <param id="0" name="Y">322</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="438350400289485">
+                    <conditions>
+                        <condition behavior="DragDrop" id="1" name="On drag start" sid="731494917271583" type="piece4" />
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="137972365845444" type="piece4">
+                            <param id="0" name="Width">117.678</param>
+                            <param id="1" name="Height">111.049</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="997552112970166">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="230400785440344" type="piece4" />
+                        <condition id="1" name="Is overlapping another object" sid="694640949089771" type="piece4">
+                            <param id="0" name="Object">plc4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" sid="851966418529362" type="piece4">
+                            <param id="0" name="Object">plc4</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="659291958440405" type="piece4">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-25" name="Move to bottom" sid="989942169346574" type="piece4" />
+                        <action id="-10" name="Add to" sid="505341582160494" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="451950851945949">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="764529163439842" type="piece4" />
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="610081303224201" type="piece4">
+                            <param id="0" name="Object">plc4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="983786635673800" type="piece4">
+                            <param id="0" name="Width">62</param>
+                            <param id="1" name="Height">56</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="716568259296295" type="piece4">
+                            <param id="0" name="X">287</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="185546703145714" type="piece4">
+                            <param id="0" name="Y">240</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="666303881894080">
+                    <conditions>
+                        <condition behavior="DragDrop" id="1" name="On drag start" sid="307499424919794" type="piece5" />
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="533321125816571" type="piece5">
+                            <param id="0" name="Width">129.768</param>
+                            <param id="1" name="Height">140.166</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="770023421258939">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="322167368672586" type="piece5" />
+                        <condition id="1" name="Is overlapping another object" sid="584498752093408" type="piece5">
+                            <param id="0" name="Object">plc5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" sid="915458216165576" type="piece5">
+                            <param id="0" name="Object">plc5</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="399855841388961" type="piece5">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-25" name="Move to bottom" sid="209433436166385" type="piece5" />
+                        <action id="-10" name="Add to" sid="126467399720711" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="225897160432986">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="505275606516454" type="piece5" />
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="179618796695427" type="piece5">
+                            <param id="0" name="Object">plc5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="401954549645688" type="piece5">
+                            <param id="0" name="Width">62</param>
+                            <param id="1" name="Height">56</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="382595180078563" type="piece5">
+                            <param id="0" name="X">73</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="502877368410357" type="piece5">
+                            <param id="0" name="Y">320</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="410867880924317">
+                    <conditions>
+                        <condition behavior="DragDrop" id="1" name="On drag start" sid="387483685685549" type="piece6" />
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="962348626745397" type="piece6">
+                            <param id="0" name="Width">131.813</param>
+                            <param id="1" name="Height">113.16</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="279300758464835">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="966017933024664" type="piece6" />
+                        <condition id="1" name="Is overlapping another object" sid="235851693151550" type="piece6">
+                            <param id="0" name="Object">plc6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" sid="990255695125752" type="piece6">
+                            <param id="0" name="Object">plc6</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="383383526337649" type="piece6">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-25" name="Move to bottom" sid="808402374447821" type="piece6" />
+                        <action id="-10" name="Add to" sid="874055003598700" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="432242489243264">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="375688132319417" type="piece6" />
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="196105164193059" type="piece6">
+                            <param id="0" name="Object">plc6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="882596631835192" type="piece6">
+                            <param id="0" name="Width">62</param>
+                            <param id="1" name="Height">56</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="608885886646998" type="piece6">
+                            <param id="0" name="X">219</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="761433279698708" type="piece6">
+                            <param id="0" name="Y">241</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="733758849261194">
+                    <conditions>
+                        <condition behavior="DragDrop" id="1" name="On drag start" sid="870173960057079" type="piece7" />
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="355804414155029" type="piece7">
+                            <param id="0" name="Width">146.483</param>
+                            <param id="1" name="Height">117.611</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="127171605981345">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="763652379238037" type="piece7" />
+                        <condition id="1" name="Is overlapping another object" sid="809615776865170" type="piece7">
+                            <param id="0" name="Object">plc7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" sid="536536191656994" type="piece7">
+                            <param id="0" name="Object">plc7</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="179391321382194" type="piece7">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-25" name="Move to bottom" sid="809042492626113" type="piece7" />
+                        <action id="-10" name="Add to" sid="265309653014973" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="186344124067859">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="323873371376870" type="piece7" />
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="893431703962660" type="piece7">
+                            <param id="0" name="Object">plc7</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="575472175263866" type="piece7">
+                            <param id="0" name="Width">62</param>
+                            <param id="1" name="Height">56</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="621391992562438" type="piece7">
+                            <param id="0" name="X">73</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="496707538997598" type="piece7">
+                            <param id="0" name="Y">238</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="581970026365419">
+                    <conditions>
+                        <condition behavior="DragDrop" id="1" name="On drag start" sid="476263159467288" type="piece8" />
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="948932444035288" type="piece8">
+                            <param id="0" name="Width">120.744</param>
+                            <param id="1" name="Height">138.292</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="379368262435222">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="132472340158825" type="piece8" />
+                        <condition id="1" name="Is overlapping another object" sid="924549621157443" type="piece8">
+                            <param id="0" name="Object">plc8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" sid="106273896582263" type="piece8">
+                            <param id="0" name="Object">plc8</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="598076980143074" type="piece8">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-25" name="Move to bottom" sid="242535577156451" type="piece8" />
+                        <action id="-10" name="Add to" sid="720410773695646" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="643323154618409">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="294021249521043" type="piece8" />
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="584972482661452" type="piece8">
+                            <param id="0" name="Object">plc8</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="616401634497984" type="piece8">
+                            <param id="0" name="Width">62</param>
+                            <param id="1" name="Height">56</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="722622054709756" type="piece8">
+                            <param id="0" name="X">68</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="996144536599796" type="piece8">
+                            <param id="0" name="Y">399</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="683315285103308">
+                    <conditions>
+                        <condition behavior="DragDrop" id="1" name="On drag start" sid="852566798702865" type="piece9" />
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="536787419926396" type="piece9">
+                            <param id="0" name="Width">140</param>
+                            <param id="1" name="Height">136</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="347762489281852">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="952928839992067" type="piece9" />
+                        <condition id="1" name="Is overlapping another object" sid="127424529922017" type="piece9">
+                            <param id="0" name="Object">plc9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" sid="701400453641718" type="piece9">
+                            <param id="0" name="Object">plc9</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="597215038001683" type="piece9">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-25" name="Move to bottom" sid="654667230989613" type="piece9" />
+                        <action id="-10" name="Add to" sid="211992486707270" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="663074042724614">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="503235216702851" type="piece9" />
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="467560127741188" type="piece9">
+                            <param id="0" name="Object">plc9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="598206855774684" type="piece9">
+                            <param id="0" name="Width">62</param>
+                            <param id="1" name="Height">56</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="520544870292644" type="piece9">
+                            <param id="0" name="X">150</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="730741807905203" type="piece9">
+                            <param id="0" name="Y">401</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="853126309806648">
+                    <conditions>
+                        <condition behavior="DragDrop" id="1" name="On drag start" sid="758057735722291" type="piece10" />
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="686521076954715" type="piece10">
+                            <param id="0" name="Width">127.996</param>
+                            <param id="1" name="Height">143.132</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="214244489293782">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="747145723949969" type="piece10" />
+                        <condition id="1" name="Is overlapping another object" sid="906295918468357" type="piece10">
+                            <param id="0" name="Object">plc10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" sid="685111826836278" type="piece10">
+                            <param id="0" name="Object">plc10</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="131627264268676" type="piece10">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-25" name="Move to bottom" sid="299472664556121" type="piece10" />
+                        <action id="-10" name="Add to" sid="268660317014524" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="544458282363122">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="755494352089961" type="piece10" />
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="749653361963658" type="piece10">
+                            <param id="0" name="Object">plc10</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="859581952802408" type="piece10">
+                            <param id="0" name="Width">62</param>
+                            <param id="1" name="Height">56</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="643861632823433" type="piece10">
+                            <param id="0" name="X">226</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="363381879598002" type="piece10">
+                            <param id="0" name="Y">319</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="344305221816427">
+                    <conditions>
+                        <condition behavior="DragDrop" id="1" name="On drag start" sid="260858429724808" type="piece11" />
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="680624635028954" type="piece11">
+                            <param id="0" name="Width">141</param>
+                            <param id="1" name="Height">140</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="760848593152245">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="385122618628585" type="piece11" />
+                        <condition id="1" name="Is overlapping another object" sid="217077227670157" type="piece11">
+                            <param id="0" name="Object">plc11</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" sid="117756527905264" type="piece11">
+                            <param id="0" name="Object">plc11</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="371596412653625" type="piece11">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-25" name="Move to bottom" sid="213315365914927" type="piece11" />
+                        <action id="-10" name="Add to" sid="737308982525355" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="457949527968356">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="589446932128160" type="piece11" />
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="279842837166025" type="piece11">
+                            <param id="0" name="Object">plc11</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="709018802973261" type="piece11">
+                            <param id="0" name="Width">62</param>
+                            <param id="1" name="Height">56</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="509520962177961" type="piece11">
+                            <param id="0" name="X">222</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="980791816924787" type="piece11">
+                            <param id="0" name="Y">403</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="903017800822129">
+                    <conditions>
+                        <condition behavior="DragDrop" id="1" name="On drag start" sid="454990649516075" type="piece12" />
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="455079475661033" type="piece12">
+                            <param id="0" name="Width">136</param>
+                            <param id="1" name="Height">132</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="351524095002419">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="209068451768729" type="piece12" />
+                        <condition id="1" name="Is overlapping another object" sid="610818378984683" type="piece12">
+                            <param id="0" name="Object">plc12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" sid="313585621094381" type="piece12">
+                            <param id="0" name="Object">plc12</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="157808299151328" type="piece12">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-25" name="Move to bottom" sid="365804936271473" type="piece12" />
+                        <action id="-10" name="Add to" sid="697713330264799" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="690746194538984">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="358997540666617" type="piece12" />
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="596757046599915" type="piece12">
+                            <param id="0" name="Object">plc12</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="578637178042579" type="piece12">
+                            <param id="0" name="Width">62</param>
+                            <param id="1" name="Height">56</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="401609534470711" type="piece12">
+                            <param id="0" name="X">147</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="319206804233649" type="piece12">
+                            <param id="0" name="Y">234</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

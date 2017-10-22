@@ -2,7 +2,7 @@
 <c2layout>
     <name>pig</name>
     <sid>489027937358756</sid>
-    <event-sheet>Event sheet 3</event-sheet>
+    <event-sheet>pig_event</event-sheet>
     <size>
         <width>854</width>
         <height>480</height>

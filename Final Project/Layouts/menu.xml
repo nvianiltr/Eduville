@@ -2,7 +2,7 @@
 <c2layout>
     <name>menu</name>
     <sid>821375615248228</sid>
-    <event-sheet>Event sheet 2</event-sheet>
+    <event-sheet>menu_event</event-sheet>
     <size>
         <width>854</width>
         <height>480</height>
@@ -211,6 +211,28 @@
                         <z>0</z>
                         <width>58.446556091</width>
                         <height>58.446556091</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="COW_Menu" uid="54">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>432</x>
+                        <y>267</y>
+                        <z>0</z>
+                        <width>233</width>
+                        <height>164</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

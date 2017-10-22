@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>menu_event</name>
+    <events>
+        <event-group description="" sid="692432767619456" title="Volume">
+            <sub-events>
+                <event-block sid="891971337493764">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="102211778773749" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Volume</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-14" name="Toggle boolean" sid="340298365160782" type="Volume">
+                            <param id="0" name="Instance variable">stts</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="310113319384932">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="911812825070610" type="Volume">
+                            <param id="0" name="Instance variable">stts</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set muted" sid="144902472198469" type="Audio">
+                            <param id="0" name="Tag">&quot;bg&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="557724538042193" type="Volume">
+                            <param id="0" name="Animation">&quot;mute&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="707625944171170">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="151436702195031" type="Volume">
+                            <param id="0" name="Instance variable">stts</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set muted" sid="875287704711091" type="Audio">
+                            <param id="0" name="Tag">&quot;bg&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="821727372491690" type="Volume">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="399938632748863">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="449246517566113" type="Mouse">
+                            <param id="0" name="Object">Volume</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="987749443467358" type="Volume">
+                            <param id="0" name="Width">65</param>
+                            <param id="1" name="Height">65</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="466494727254346">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="387504417148988" type="Mouse">
+                            <param id="0" name="Object">Volume</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="523365933040095" type="Volume">
+                            <param id="0" name="Width">58.447</param>
+                            <param id="1" name="Height">58.447</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="807485239965299" title="Menu">
+            <sub-events>
+                <event-block sid="483105653964558">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="903456325604205" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">COW_Menu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="822662673286106" type="COW_Menu">
+                            <param id="0" name="Animation">&quot;Clicked&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="112933729440595" type="System">
+                            <param id="0" name="Layout">cow</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="553169847698564">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="465406644123989" type="Mouse">
+                            <param id="0" name="Object">COW_Menu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="353068407472258" type="COW_Menu">
+                            <param id="0" name="Width">243</param>
+                            <param id="1" name="Height">174</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="967265719560783" type="COW_Menu">
+                            <param id="0" name="Opacity">70</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="845430155979547" type="COW_txt">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="576142268057881">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="720205109532510" type="Mouse">
+                            <param id="0" name="Object">COW_Menu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="199615066910600" type="COW_Menu">
+                            <param id="0" name="Width">233</param>
+                            <param id="1" name="Height">164</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="835419634328306" type="COW_Menu">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="235686329993847" type="COW_txt">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="543112653416206">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="955088755825535" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">PIG</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="140032234669418" type="PIG">
+                            <param id="0" name="Animation">&quot;clicked&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="707062621198168" type="System">
+                            <param id="0" name="Layout">pig</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="966692886872734">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="500411986211237" type="Mouse">
+                            <param id="0" name="Object">PIG</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="441924982615758" type="PIG">
+                            <param id="0" name="Width">243</param>
+                            <param id="1" name="Height">174</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="201714066110357" type="PIG">
+                            <param id="0" name="Opacity">70</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="687088544113074" type="PIG_txt">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="519771256042822">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="545054176320795" type="Mouse">
+                            <param id="0" name="Object">PIG</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="949010911475411" type="PIG">
+                            <param id="0" name="Width">233</param>
+                            <param id="1" name="Height">164</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="805875308125645" type="PIG_txt">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="870755561638483" type="PIG">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="104963900412272">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="304961947530697" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">CHICKEN</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="986308850320036" type="CHICKEN">
+                            <param id="0" name="Animation">&quot;Clicked&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="523038157490916">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="209056185308861" type="Mouse">
+                            <param id="0" name="Object">CHICKEN</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="228779403862413" type="CHICKEN">
+                            <param id="0" name="Width">243</param>
+                            <param id="1" name="Height">174</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="573173531785656" type="CHICKEN">
+                            <param id="0" name="Opacity">70</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="285595042711379" type="CHICKEN_txt">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="421154922829871">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="232587133507908" type="Mouse">
+                            <param id="0" name="Object">CHICKEN</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="669024155032407" type="CHICKEN">
+                            <param id="0" name="Width">233</param>
+                            <param id="1" name="Height">164</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="731610226517836" type="CHICKEN">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="807514384461647" type="CHICKEN_txt">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

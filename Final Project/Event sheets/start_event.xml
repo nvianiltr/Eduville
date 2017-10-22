@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>start_event</name>
+    <events>
+        <event-block sid="953109454830176">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="879690891392040" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">startButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="556416155980344" type="Audio">
+                    <param id="0" name="Audio file">39562__the-bizniss__mouse-click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-25" name="Go to layout (by name)" sid="207893854239282" type="System">
+                    <param id="0" name="Layout">&quot;menu&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="130259656420757">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="409241147695923" type="Mouse">
+                    <param id="0" name="Object">startButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="719013207892177" type="startButton">
+                    <param id="0" name="Width">145.722</param>
+                    <param id="1" name="Height">62.608</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="369060616778260">
+            <conditions>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="216320696192461" type="Mouse">
+                    <param id="0" name="Object">startButton</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="409488581958635" type="Mouse">
+                    <param id="0" name="Object">exitButton</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="592890814801023" type="Mouse">
+                    <param id="0" name="Object">Volume</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="199398461021795" type="startButton">
+                    <param id="0" name="Width">135.722</param>
+                    <param id="1" name="Height">52.608</param>
+                </action>
+                <action id="-7" name="Set size" sid="346013158322109" type="exitButton">
+                    <param id="0" name="Width">135.722</param>
+                    <param id="1" name="Height">52.608</param>
+                </action>
+                <action id="-7" name="Set size" sid="482442917283782" type="Volume">
+                    <param id="0" name="Width">58.447</param>
+                    <param id="1" name="Height">58.447</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="671352349244770">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="474665742276660" type="Mouse">
+                    <param id="0" name="Object">exitButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="287525486072360" type="exitButton">
+                    <param id="0" name="Width">145.722</param>
+                    <param id="1" name="Height">62.608</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="727736438672950" title="Volume_">
+            <sub-events>
+                <event-block sid="940393195212182">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="469462068083272" type="Mouse">
+                            <param id="0" name="Object">Volume</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="395383745721267" type="Volume">
+                            <param id="0" name="Width">65</param>
+                            <param id="1" name="Height">65</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="147143499176766">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="889556063157482" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="665633962119850" type="Audio">
+                            <param id="0" name="Audio file">bg-song</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;bg&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="915593030872059">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="650456352444277" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Volume</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-14" name="Toggle boolean" sid="453559555019487" type="Volume">
+                            <param id="0" name="Instance variable">stts</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="929369811898888">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="343696154052226" type="Volume">
+                            <param id="0" name="Instance variable">stts</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set muted" sid="614561500939110" type="Audio">
+                            <param id="0" name="Tag">&quot;bg&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="363257859966328" type="Volume">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="834221886341339">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="401422566547340" type="Volume">
+                            <param id="0" name="Instance variable">stts</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set muted" sid="403265433270232" type="Audio">
+                            <param id="0" name="Tag">&quot;bg&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="653808372210285" type="Volume">
+                            <param id="0" name="Animation">&quot;mute&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

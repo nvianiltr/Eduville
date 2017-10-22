@@ -2,7 +2,7 @@
 <c2layout>
     <name>start</name>
     <sid>732660443683182</sid>
-    <event-sheet>Event sheet 1</event-sheet>
+    <event-sheet>start_event</event-sheet>
     <size>
         <width>854</width>
         <height>480</height>
