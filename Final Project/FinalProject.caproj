@@ -953,6 +953,546 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="TiledBackground4" sid="906566005945170">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\gamebg.jpg" />
+        </object-type>
+        <object-type name="Sprite" sid="448024306819980">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="734093128454333" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ten" sid="620353543971382">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="504719837809266" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fourteen" sid="135738790177018">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="993273708128690" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="eleven" sid="474009014118655">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="858496880055103" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="twelve" sid="566616119653199">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="955845356093050" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="thirteen" sid="817968402379587">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="567673272957495" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fifteen" sid="505396796260734">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="835391737892945" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="c1" sid="423277836497829">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="584500779208978">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="111150901537915">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="497679662418816" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501887" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\chicken\111.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.5" y="0" />
+                            <point x="0.785714" y="0.215094" />
+                            <point x="0.984962" y="0.498113" />
+                            <point x="0.853383" y="0.85283" />
+                            <point x="0.5" y="0.758491" />
+                            <point x="0.0112782" y="0.988679" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="one" sid="219472065717484">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="494744771762346" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="two" sid="988493358977943">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="879523610477660" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="three" sid="431934968106280">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="154504676011966" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="four" sid="267078165354629">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="911383000636620" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="five" sid="877709300942943">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="645798478439269" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="six" sid="886527174791894">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="788706370043202" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="seven" sid="194771883111447">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="329263814743764" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="eight" sid="765973881331210">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="748501306735367" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="nine" sid="123793249833787">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="269713544753042" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="c2" sid="676133238673587">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="892980228188239">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="812015655410448">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="144217688552411" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\chicken\121.png">
+                        <collision-poly>
+                            <point x="0.031746" y="0.028169" />
+                            <point x="0.5" y="0" />
+                            <point x="0.924603" y="0.0669014" />
+                            <point x="0.734127" y="0.5" />
+                            <point x="0.940476" y="0.947183" />
+                            <point x="0.5" y="1" />
+                            <point x="0.25" y="0.778169" />
+                            <point x="0.0277778" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="c3" sid="844116790783258">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="136209486806309">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="912676922280351">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="504509352967955" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501845" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\chicken\131png.png">
+                        <collision-poly>
+                            <point x="0.194079" y="0.217712" />
+                            <point x="0.5" y="0" />
+                            <point x="0.819079" y="0.202952" />
+                            <point x="0.986842" y="0.498155" />
+                            <point x="0.861842" y="0.845018" />
+                            <point x="0.5" y="0.778598" />
+                            <point x="0.213816" y="0.760148" />
+                            <point x="0" y="0.498155" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="c4" sid="763666470892179">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="941961377374821">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="700800386400944">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="132505330223732" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\chicken\141.png">
+                        <collision-poly>
+                            <point x="0.0384615" y="0.0378788" />
+                            <point x="0.5" y="0.00378788" />
+                            <point x="0.915385" y="0.0833333" />
+                            <point x="0.796154" y="0.5" />
+                            <point x="0.784615" y="0.787879" />
+                            <point x="0.5" y="1" />
+                            <point x="0.169231" y="0.833333" />
+                            <point x="0.203846" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="c5" sid="541253052869804">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="241694497640482">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="270522823981010">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="877689688969098" speed="5">
+                    <frame duration="1" hotspotX="0.502024" hotspotY="0.501901" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\chicken\1511.png">
+                        <collision-poly>
+                            <point x="0.174089" y="0.163498" />
+                            <point x="0.497976" y="0" />
+                            <point x="0.995951" y="0.00380228" />
+                            <point x="0.991903" y="0.992395" />
+                            <point x="0.497976" y="0.91635" />
+                            <point x="0.198381" y="0.813688" />
+                            <point x="0.0202429" y="0.498099" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="c6" sid="525385497248871">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="199585232092164">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="734715389432085">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="103324299156486" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501475" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\chicken\61.png">
+                        <collision-poly>
+                            <point x="0.237226" y="0.19174" />
+                            <point x="0.5" y="0.00884956" />
+                            <point x="0.824818" y="0.141593" />
+                            <point x="0.981752" y="0.498525" />
+                            <point x="0.759124" y="0.80531" />
+                            <point x="0.5" y="0.976401" />
+                            <point x="0.124088" y="0.899705" />
+                            <point x="0" y="0.498525" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="c7" sid="413114416834762">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="106476752054286">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="246789323397385">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="121044493740416" speed="5">
+                    <frame duration="1" hotspotX="0.502041" hotspotY="0.5" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\chicken\71.png">
+                        <collision-poly>
+                            <point x="0.0734694" y="0.0604027" />
+                            <point x="0.497959" y="0.211409" />
+                            <point x="0.857143" y="0.11745" />
+                            <point x="0.77551" y="0.5" />
+                            <point x="0.865306" y="0.889262" />
+                            <point x="0.497959" y="0.996644" />
+                            <point x="0.212245" y="0.825503" />
+                            <point x="0.240816" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="c8" sid="498225010280427">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="961853380379907">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="438725547134150">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="311845680321024" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\chicken\81.png">
+                        <collision-poly>
+                            <point x="0.210345" y="0.176301" />
+                            <point x="0.5" y="0.00289017" />
+                            <point x="0.903448" y="0.0809249" />
+                            <point x="0.717241" y="0.5" />
+                            <point x="0.948276" y="0.956647" />
+                            <point x="0.5" y="0.774566" />
+                            <point x="0.186207" y="0.843931" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="c9" sid="149155852479094">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="217012809555106">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="434245372823406">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="414622851984312" speed="5">
+                    <frame duration="1" hotspotX="0.50173" hotspotY="0.501424" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\chicken\91.png">
+                        <collision-poly>
+                            <point x="0.224913" y="0.185185" />
+                            <point x="0.49827" y="0.153846" />
+                            <point x="0.965398" y="0.02849" />
+                            <point x="0.743945" y="0.498576" />
+                            <point x="0.778547" y="0.817664" />
+                            <point x="0.49827" y="1" />
+                            <point x="0.00346021" y="0.498576" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="c10" sid="509311234644453">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="714558201654157">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="589953521371673">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="463507620380026" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501538" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\chicken\101.png">
+                        <collision-poly>
+                            <point x="0.290441" y="0.243077" />
+                            <point x="0.5" y="0.126154" />
+                            <point x="0.786765" y="0.178462" />
+                            <point x="1" y="0.498462" />
+                            <point x="0.977941" y="0.981538" />
+                            <point x="0.5" y="0.8" />
+                            <point x="0.125" y="0.895385" />
+                            <point x="0.00367647" y="0.498462" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="c11" sid="122521062394654">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="760424877324541">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="933913469430899">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="868311276590031" speed="5">
+                    <frame duration="1" hotspotX="0.502075" hotspotY="0.501608" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\chicken\1.png">
+                        <collision-poly>
+                            <point x="0.136929" y="0.106109" />
+                            <point x="0.497925" y="0.209003" />
+                            <point x="0.937759" y="0.0482315" />
+                            <point x="0.688797" y="0.498392" />
+                            <point x="0.925311" y="0.942122" />
+                            <point x="0.497925" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.498392" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="c12" sid="500198684604911">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="326112463230915">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="765153992792523">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="779052615735988" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\chicken\21.png">
+                        <collision-poly>
+                            <point x="0.253472" y="0.22956" />
+                            <point x="0.5" y="0.157233" />
+                            <point x="0.920139" y="0.072327" />
+                            <point x="0.75" y="0.5" />
+                            <point x="0.951389" y="0.955975" />
+                            <point x="0.5" y="1" />
+                            <point x="0.246528" y="0.77673" />
+                            <point x="0.00347222" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="c13" sid="802729291305944">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="810506942051591">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="481691793118097">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="632554997716259" speed="5">
+                    <frame duration="1" hotspotX="0.501672" hotspotY="0.5" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\chicken\31.png">
+                        <collision-poly>
+                            <point x="0.214047" y="0.20915" />
+                            <point x="0.498328" y="0.00980392" />
+                            <point x="1" y="0.5" />
+                            <point x="0.93311" y="0.934641" />
+                            <point x="0.498328" y="1" />
+                            <point x="0.230769" y="0.77451" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="c14" sid="990379017490200">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="604046299215380">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="785007114149251">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="449591217341155" speed="5">
+                    <frame duration="1" hotspotX="0.50193" hotspotY="0.501718" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\chicken\41.png">
+                        <collision-poly>
+                            <point x="0.223938" y="0.199313" />
+                            <point x="0.498069" y="0.223368" />
+                            <point x="0.895753" y="0.0927835" />
+                            <point x="0.706564" y="0.498282" />
+                            <point x="0.969112" y="0.972509" />
+                            <point x="0.498069" y="1" />
+                            <point x="0.185328" y="0.835052" />
+                            <point x="0.042471" y="0.498282" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="c15" sid="485803836213794">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="973680983534283">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Fade" sid="165156738965005">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="838086500657780" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\chicken\51.png">
+                        <collision-poly>
+                            <point x="0.15493" y="0.1375" />
+                            <point x="0.5" y="0.00625" />
+                            <point x="0.767606" y="0.20625" />
+                            <point x="1" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="1" />
+                            <point x="0.00352113" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="818846722535051">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="516291436038227" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\chicken.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -960,12 +1500,14 @@
         <layout>menu.xml</layout>
         <layout>pig.xml</layout>
         <layout>cow.xml</layout>
+        <layout>chicken.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>start_event.xml</event-sheet>
         <event-sheet>menu_event.xml</event-sheet>
         <event-sheet>pig_event.xml</event-sheet>
         <event-sheet>cow_event.xml</event-sheet>
+        <event-sheet>chicken_event.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="2" />

@@ -11,7 +11,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">cow</layout>
-        <event-sheet active="1" order="1">cow_event</event-sheet>
+        <layout order="2">chicken</layout>
+        <event-sheet order="1">cow_event</event-sheet>
+        <event-sheet active="1" order="3">chicken_event</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -21,7 +23,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <families-expanded root="1" />
     <folders-expanded>
-        <folder expanded="0" path="object-folder/" />
+        <folder expanded="1" path="object-folder/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
@@ -74,5 +76,37 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/plc10/" />
         <folder expanded="1" path="animation-folder/plc11/" />
         <folder expanded="1" path="animation-folder/plc12/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/ten/" />
+        <folder expanded="1" path="animation-folder/fourteen/" />
+        <folder expanded="1" path="animation-folder/eleven/" />
+        <folder expanded="1" path="animation-folder/twelve/" />
+        <folder expanded="1" path="animation-folder/thirteen/" />
+        <folder expanded="1" path="animation-folder/fifteen/" />
+        <folder expanded="1" path="animation-folder/c1/" />
+        <folder expanded="1" path="animation-folder/one/" />
+        <folder expanded="1" path="animation-folder/two/" />
+        <folder expanded="1" path="animation-folder/three/" />
+        <folder expanded="1" path="animation-folder/four/" />
+        <folder expanded="1" path="animation-folder/five/" />
+        <folder expanded="1" path="animation-folder/six/" />
+        <folder expanded="1" path="animation-folder/seven/" />
+        <folder expanded="1" path="animation-folder/eight/" />
+        <folder expanded="1" path="animation-folder/nine/" />
+        <folder expanded="1" path="animation-folder/c2/" />
+        <folder expanded="1" path="animation-folder/c3/" />
+        <folder expanded="1" path="animation-folder/c4/" />
+        <folder expanded="1" path="animation-folder/c5/" />
+        <folder expanded="1" path="animation-folder/c6/" />
+        <folder expanded="1" path="animation-folder/c7/" />
+        <folder expanded="1" path="animation-folder/c8/" />
+        <folder expanded="1" path="animation-folder/c9/" />
+        <folder expanded="1" path="animation-folder/c10/" />
+        <folder expanded="1" path="animation-folder/c11/" />
+        <folder expanded="1" path="animation-folder/c12/" />
+        <folder expanded="1" path="animation-folder/c13/" />
+        <folder expanded="1" path="animation-folder/c14/" />
+        <folder expanded="1" path="animation-folder/c15/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
     </folders-expanded>
 </c2uistate>
