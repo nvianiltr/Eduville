@@ -659,6 +659,10 @@
                             <param id="0" name="Variable">best_second_pig</param>
                             <param id="1" name="Value">second2.Text</param>
                         </action>
+                        <action id="-9" name="Set value" sid="267122698981661" type="System">
+                            <param id="0" name="Variable">user1</param>
+                            <param id="1" name="Value">nametxt.Text</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="452958430544775">
@@ -673,7 +677,7 @@
                             <param id="0" name="Key">&quot;best_second_pig&quot;</param>
                         </action>
                         <action id="5" name="Check item exists" sid="962433969544431" type="LocalStorage">
-                            <param id="0" name="Key">&quot;best_pig_second&quot;</param>
+                            <param id="0" name="Key">&quot;best_pig_name&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -753,6 +757,10 @@
                         <action id="0" name="Set item" sid="215410659109277" type="LocalStorage">
                             <param id="0" name="Key">&quot;best_second_pig&quot;</param>
                             <param id="1" name="Value">best_second_pig</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="877495542484974" type="System">
+                            <param id="0" name="Layer">&quot;highscore&quot;</param>
+                            <param id="1" name="Visibility">0</param>
                         </action>
                     </actions>
                 </event-block>
