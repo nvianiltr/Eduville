@@ -154,5 +154,19 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="521600936010315">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="456275370457947" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">exitButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-25" name="Go to layout (by name)" sid="305300157920201" type="System">
+                    <param id="0" name="Layout">&quot;leaderboard&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

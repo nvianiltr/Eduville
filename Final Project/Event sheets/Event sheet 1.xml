@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="180048136113745">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="488586766376153" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Check item exists" sid="367435165807085" type="LocalStorage">
+                    <param id="0" name="Key">&quot;best_pig_name&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="648921678148269" type="LocalStorage">
+                    <param id="0" name="Key">&quot;best_minute_pig&quot;</param>
+                </action>
+                <action id="5" name="Check item exists" sid="308366343796793" type="LocalStorage">
+                    <param id="0" name="Key">&quot;best_second_pig&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="659902910503634">
+            <conditions>
+                <condition id="9" name="On item exists" sid="742311417365126" type="LocalStorage">
+                    <param id="0" name="Key">&quot;best_pig_name&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="662276784340067" type="System">
+                    <param id="0" name="Variable">user1</param>
+                    <param id="1" name="Value">LocalStorage.ItemValue</param>
+                </action>
+                <action id="0" name="Set text" sid="339866709427031" type="name">
+                    <param id="0" name="Text">user1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="767983347607103">
+            <conditions>
+                <condition id="9" name="On item exists" sid="440569386176223" type="LocalStorage">
+                    <param id="0" name="Key">&quot;best_minute_pig&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="161831263384782" type="System">
+                    <param id="0" name="Variable">best_minute_pig</param>
+                    <param id="1" name="Value">LocalStorage.ItemValue</param>
+                </action>
+                <action id="0" name="Set text" sid="534286833828150" type="minute">
+                    <param id="0" name="Text">best_minute_pig</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="681683099106863">
+            <conditions>
+                <condition id="9" name="On item exists" sid="679485967545879" type="LocalStorage">
+                    <param id="0" name="Key">&quot;best_second_pig&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="971529553889026" type="System">
+                    <param id="0" name="Variable">best_second_pig</param>
+                    <param id="1" name="Value">LocalStorage.ItemValue</param>
+                </action>
+                <action id="0" name="Set text" sid="615174934567426" type="second">
+                    <param id="0" name="Text">best_second_pig</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

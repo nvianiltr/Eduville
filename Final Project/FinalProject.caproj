@@ -12,6 +12,7 @@
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="LocalStorage" version="1">Local storage</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
@@ -1532,13 +1533,10 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="TextBox" sid="343613435778188">
-            <plugin id="TextBox" />
-        </object-type>
         <object-type name="Text2" sid="902512107818978">
             <plugin id="Text" />
         </object-type>
-        <object-type name="TextBox2" sid="386282304682638">
+        <object-type name="nametxt" sid="386282304682638">
             <plugin id="TextBox" />
         </object-type>
         <object-type name="ok" sid="709314320755587">
@@ -1632,6 +1630,21 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="LocalStorage" sid="444228267879607">
+            <plugin id="LocalStorage" />
+        </object-type>
+        <object-type name="name" sid="152070757793741">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="minute" sid="850932809062761">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="second" sid="702663764816623">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text4" sid="657259962022611">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1640,6 +1653,7 @@
         <layout>pig.xml</layout>
         <layout>cow.xml</layout>
         <layout>chicken.xml</layout>
+        <layout>leaderboard.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>start_event.xml</event-sheet>
@@ -1647,6 +1661,7 @@
         <event-sheet>pig_event.xml</event-sheet>
         <event-sheet>cow_event.xml</event-sheet>
         <event-sheet>chicken_event.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="2" />
@@ -1664,6 +1679,7 @@
                 <roll-off-factor>1</roll-off-factor>
             </properties>
         </global-instance>
+        <global-instance type="LocalStorage" uid="113" />
     </global-instances>
     <sounds-folder>
         <file name="mouse_click.m4a" />

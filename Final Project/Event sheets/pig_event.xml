@@ -3,6 +3,11 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>pig_event</name>
     <events>
+        <variable constant="0" name="best_second_pig" sid="852478768228959" static="0" type="number">0</variable>
+        <variable constant="0" name="best_minute_pig" sid="872694910023649" static="0" type="number">0</variable>
+        <variable constant="0" name="user3" sid="669980033325553" static="0" type="text"></variable>
+        <variable constant="0" name="user2" sid="676375267575483" static="0" type="text"></variable>
+        <variable constant="0" name="user1" sid="279201222292947" static="0" type="text"></variable>
         <variable constant="0" name="FinalSecond" sid="315267188225035" static="0" type="number">-1</variable>
         <variable constant="0" name="FinalMinute" sid="167992534322719" static="0" type="number">0</variable>
         <variable constant="0" name="Tracker" sid="258024019510445" static="0" type="number">0</variable>
@@ -607,10 +612,20 @@
             <sub-events>
                 <event-block sid="439352275650435">
                     <conditions>
-                        <condition id="-14" name="Compare variable" sid="321536453054582" type="System">
+                        <condition id="-14" name="Compare variable" sid="104185708110057" type="System">
                             <param id="0" name="Variable">Tracker</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">6</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="900761158624379" type="System">
+                            <param id="0" name="Variable">best_minute_pig</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="102994279316734" type="System">
+                            <param id="0" name="Variable">best_second_pig</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -636,6 +651,109 @@
                             <param id="0" name="Visibility">1</param>
                         </action>
                         <action behavior="Fade" id="1" name="Start fade" sid="653378719051107" type="star3" />
+                        <action id="-9" name="Set value" sid="174587142133762" type="System">
+                            <param id="0" name="Variable">best_minute_pig</param>
+                            <param id="1" name="Value">minute2.Text</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="205025114532619" type="System">
+                            <param id="0" name="Variable">best_second_pig</param>
+                            <param id="1" name="Value">second2.Text</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="452958430544775">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="461110824708483" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Check item exists" sid="384557457272512" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_minute_pig&quot;</param>
+                        </action>
+                        <action id="5" name="Check item exists" sid="473370847848385" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_second_pig&quot;</param>
+                        </action>
+                        <action id="5" name="Check item exists" sid="962433969544431" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_pig_second&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="751904537885233">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="262292591613630" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_pig_name&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="284216899646246" type="System">
+                            <param id="0" name="Variable">user1</param>
+                            <param id="1" name="Value">LocalStorage.ItemValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="741687929951179">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="330807199190613" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_minute_pig&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="980219912114771" type="System">
+                            <param id="0" name="Variable">best_minute_pig</param>
+                            <param id="1" name="Value">LocalStorage.ItemValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="743719406884289">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="658858370542061" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_second_pig&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="978365483254351" type="System">
+                            <param id="0" name="Variable">best_second_pig</param>
+                            <param id="1" name="Value">LocalStorage.ItemValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="691565736552927">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="952164181286255" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">ok</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="645626356417342" type="System">
+                            <param id="0" name="Variable">FinalMinute</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">best_minute_pig</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="365109204716694" type="System">
+                            <param id="0" name="Variable">FinalSecond</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">best_second_pig</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="111948522758986" type="System">
+                            <param id="0" name="Layout">start</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="175093786791263" type="System">
+                            <param id="0" name="Variable">user1</param>
+                            <param id="1" name="Value">nametxt.Text</param>
+                        </action>
+                        <action id="0" name="Set item" sid="839386067398573" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_pig_name&quot;</param>
+                            <param id="1" name="Value">user1</param>
+                        </action>
+                        <action id="0" name="Set item" sid="952127899652596" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_minute_pig&quot;</param>
+                            <param id="1" name="Value">best_minute_pig</param>
+                        </action>
+                        <action id="0" name="Set item" sid="215410659109277" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_second_pig&quot;</param>
+                            <param id="1" name="Value">best_second_pig</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
