@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>pig_event</name>
     <events>
-        <variable constant="0" name="FinalSecond" sid="315267188225035" static="0" type="number">0</variable>
+        <variable constant="0" name="FinalSecond" sid="315267188225035" static="0" type="number">-1</variable>
         <variable constant="0" name="FinalMinute" sid="167992534322719" static="0" type="number">0</variable>
         <variable constant="0" name="Tracker" sid="258024019510445" static="0" type="number">0</variable>
         <event-group description="" sid="659382475277436" title="Puzzle">
@@ -350,7 +350,7 @@
                         </action>
                         <action id="3" name="Set volume" sid="690691914305248" type="Audio">
                             <param id="0" name="Tag">&quot;bg&quot;</param>
-                            <param id="1" name="dB">-10</param>
+                            <param id="1" name="dB">-13</param>
                         </action>
                     </actions>
                 </event-block>
@@ -363,6 +363,9 @@
                             <param id="0" name="Variable">Tracker</param>
                             <param id="1" name="Comparison">2</param>
                             <param id="2" name="Value">6</param>
+                        </condition>
+                        <condition id="-9" name="Layer is visible" sid="437831337711745" type="System">
+                            <param id="0" name="Layer">0</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -508,6 +511,131 @@
                         <action id="-15" name="Set visible" sid="802274956021312" type="minute1">
                             <param id="0" name="Visibility">0</param>
                         </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="468337325054237" title="Button">
+            <sub-events>
+                <event-block sid="421435910863742">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="906424849392003" type="Mouse">
+                            <param id="0" name="Object">back</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="772185932890281" type="back">
+                            <param id="0" name="Width">65</param>
+                            <param id="1" name="Height">65</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="414433835361854">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="220325137122952" type="Mouse">
+                            <param id="0" name="Object">back</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="638667040480953" type="back">
+                            <param id="0" name="Width">59</param>
+                            <param id="1" name="Height">59</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="254718621872265">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="580681474658486" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">back</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="714658657939926" type="Audio">
+                            <param id="0" name="Audio file">mouse_click</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="599635848201193" type="System">
+                            <param id="0" name="Layout">menu</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="299188787209520" type="System">
+                            <param id="0" name="Variable">FinalSecond</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="222158104809711" type="System">
+                            <param id="0" name="Variable">FinalMinute</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="623076524467483" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="774108233538882">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="786282516399603" type="Mouse">
+                            <param id="0" name="Object">ok</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="515843604877245" type="ok">
+                            <param id="0" name="Width">71.072</param>
+                            <param id="1" name="Height">32.673</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="673887162837325">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="669150483406522" type="Mouse">
+                            <param id="0" name="Object">ok</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="555270521162615" type="ok">
+                            <param id="0" name="Width">70.072</param>
+                            <param id="1" name="Height">31.673</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="422709720545756" title="highscore">
+            <sub-events>
+                <event-block sid="439352275650435">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="321536453054582" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="765788330587309" type="System">
+                            <param id="0" name="Seconds">1.</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="946238520253696" type="System">
+                            <param id="0" name="Layer">&quot;highscore&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="498079204302610" type="star1" />
+                        <action id="-16" name="Wait" sid="598493240198911" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="663006230528580" type="star2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="657702450949721" type="star2" />
+                        <action id="-16" name="Wait" sid="168455734700550" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="929144750051329" type="star3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="653378719051107" type="star3" />
                     </actions>
                 </event-block>
             </sub-events>

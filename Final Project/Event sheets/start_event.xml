@@ -13,7 +13,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Play" sid="556416155980344" type="Audio">
-                    <param id="0" name="Audio file">39562__the-bizniss__mouse-click</param>
+                    <param id="0" name="Audio file">mouse_click</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
@@ -31,8 +31,8 @@
             </conditions>
             <actions>
                 <action id="-7" name="Set size" sid="719013207892177" type="startButton">
-                    <param id="0" name="Width">145.722</param>
-                    <param id="1" name="Height">62.608</param>
+                    <param id="0" name="Width">146</param>
+                    <param id="1" name="Height">72</param>
                 </action>
             </actions>
         </event-block>
@@ -41,25 +41,25 @@
                 <condition id="7" inverted="1" name="Cursor is over object" sid="216320696192461" type="Mouse">
                     <param id="0" name="Object">startButton</param>
                 </condition>
-                <condition id="7" inverted="1" name="Cursor is over object" sid="409488581958635" type="Mouse">
-                    <param id="0" name="Object">exitButton</param>
-                </condition>
                 <condition id="7" inverted="1" name="Cursor is over object" sid="592890814801023" type="Mouse">
                     <param id="0" name="Object">Volume</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="409488581958635" type="Mouse">
+                    <param id="0" name="Object">exitButton</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-7" name="Set size" sid="199398461021795" type="startButton">
-                    <param id="0" name="Width">135.722</param>
-                    <param id="1" name="Height">52.608</param>
-                </action>
-                <action id="-7" name="Set size" sid="346013158322109" type="exitButton">
-                    <param id="0" name="Width">135.722</param>
-                    <param id="1" name="Height">52.608</param>
+                    <param id="0" name="Width">136</param>
+                    <param id="1" name="Height">62</param>
                 </action>
                 <action id="-7" name="Set size" sid="482442917283782" type="Volume">
                     <param id="0" name="Width">58.447</param>
                     <param id="1" name="Height">58.447</param>
+                </action>
+                <action id="-7" name="Set size" sid="346013158322109" type="exitButton">
+                    <param id="0" name="Width">136</param>
+                    <param id="1" name="Height">62</param>
                 </action>
             </actions>
         </event-block>
@@ -71,8 +71,8 @@
             </conditions>
             <actions>
                 <action id="-7" name="Set size" sid="287525486072360" type="exitButton">
-                    <param id="0" name="Width">145.722</param>
-                    <param id="1" name="Height">62.608</param>
+                    <param id="0" name="Width">136</param>
+                    <param id="1" name="Height">62</param>
                 </action>
             </actions>
         </event-block>
@@ -99,7 +99,7 @@
                         <action id="0" name="Play" sid="665633962119850" type="Audio">
                             <param id="0" name="Audio file">bg-song</param>
                             <param id="2" name="Loop">1</param>
-                            <param id="3" name="Volume">0</param>
+                            <param id="3" name="Volume">-10</param>
                             <param id="1" name="Tag (optional)">&quot;bg&quot;</param>
                         </action>
                     </actions>

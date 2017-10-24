@@ -829,5 +829,67 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-group description="" sid="294623787557056" title="Button2">
+            <sub-events>
+                <event-block sid="896216070689790">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="450230178394955" type="Mouse">
+                            <param id="0" name="Object">back</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="252013401105907" type="back">
+                            <param id="0" name="Width">65</param>
+                            <param id="1" name="Height">65</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="492972302011540">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="839751654836276" type="Mouse">
+                            <param id="0" name="Object">back</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="340492667350607" type="back">
+                            <param id="0" name="Width">59</param>
+                            <param id="1" name="Height">59</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="253718104047912">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="420922305016646" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">back</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="119339251451787" type="Audio">
+                            <param id="0" name="Audio file">mouse_click</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="231603366827367" type="System">
+                            <param id="0" name="Layout">menu</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="268798209957263" type="System">
+                            <param id="0" name="Variable">FinalSecond</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="387492353851841" type="System">
+                            <param id="0" name="Variable">FinalMinute</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="483032537406444" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

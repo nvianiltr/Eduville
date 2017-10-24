@@ -15,6 +15,7 @@
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
@@ -57,7 +58,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="906444119567053" speed="5">
-                    <frame duration="1" hotspotX="0.500664" hotspotY="0.503979" original-source="E:\kuliah\Sem 3\final project\Assets\button background.png">
+                    <frame duration="1" hotspotX="0.500664" hotspotY="0.503979" original-source="C:\Users\nvian\Desktop\Final Project\Assets\play-buttonbackground.png">
                         <collision-poly>
                             <point x="0.0458716" y="0.118343" />
                             <point x="0.5" y="0" />
@@ -183,7 +184,7 @@
         </object-type>
         <object-type name="TiledBackground2" sid="574144290488923">
             <plugin id="TiledBg" />
-            <texture original-source="E:\kuliah\Sem 3\final project\Assets\bg-menu.jpg" />
+            <texture original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\menubg.png" />
         </object-type>
         <object-type name="PIG" sid="419162028935631">
             <plugin id="Sprite" />
@@ -201,7 +202,7 @@
         </object-type>
         <object-type name="TiledBackground3" sid="576729789432674">
             <plugin id="TiledBg" />
-            <texture original-source="C:\Users\nvian\Desktop\Backup (FP)\Assets\gamebg.jpg" />
+            <texture original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\gamebg.png" />
         </object-type>
         <object-type name="topleft" sid="245179935080308">
             <plugin id="Sprite" />
@@ -955,7 +956,7 @@
         </object-type>
         <object-type name="TiledBackground4" sid="906566005945170">
             <plugin id="TiledBg" />
-            <texture original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\gamebg.jpg" />
+            <texture original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\gamebg.png" />
         </object-type>
         <object-type name="Sprite" sid="448024306819980">
             <plugin id="Sprite" />
@@ -1493,6 +1494,144 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="back" sid="356948183252243">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="128360179454635" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\backbutton.png">
+                        <collision-poly>
+                            <point x="0.189091" y="0.189091" />
+                            <point x="0.5" y="0.0545455" />
+                            <point x="0.816364" y="0.183636" />
+                            <point x="0.945455" y="0.5" />
+                            <point x="0.810909" y="0.810909" />
+                            <point x="0.5" y="0.936364" />
+                            <point x="0.192727" y="0.807273" />
+                            <point x="0.0636364" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="659912732319807">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="414375673935996" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\savescore.png">
+                        <collision-poly>
+                            <point x="0.0488889" y="0.0733333" />
+                            <point x="0.5" y="0" />
+                            <point x="0.951111" y="0.0733333" />
+                            <point x="1" y="0.5" />
+                            <point x="0.951111" y="0.926667" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0488889" y="0.926667" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextBox" sid="343613435778188">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="Text2" sid="902512107818978">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextBox2" sid="386282304682638">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="ok" sid="709314320755587">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="124261861975559" speed="5">
+                    <frame duration="1" hotspotX="0.503106" hotspotY="0.506849" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\ok.png">
+                        <collision-poly>
+                            <point x="0.068323" y="0.150685" />
+                            <point x="0.496894" y="0.0136986" />
+                            <point x="0.931677" y="0.150685" />
+                            <point x="0.993789" y="0.493151" />
+                            <point x="0.931677" y="0.849315" />
+                            <point x="0.496894" y="0.986301" />
+                            <point x="0.068323" y="0.849315" />
+                            <point x="0.00621118" y="0.493151" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="star1" sid="330079433687794">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="987394306205456">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="532197509323353" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\star.png">
+                        <collision-poly>
+                            <point x="0.31625" y="0.332312" />
+                            <point x="0.5" y="0.000437828" />
+                            <point x="0.684167" y="0.331874" />
+                            <point x="0.884583" y="0.5" />
+                            <point x="0.769583" y="0.757881" />
+                            <point x="0.5" y="0.829247" />
+                            <point x="0.22875" y="0.759632" />
+                            <point x="0.115417" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="star2" sid="808920347767028">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="828073296115713">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="842109139501892" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\star.png">
+                        <collision-poly>
+                            <point x="0.31625" y="0.332312" />
+                            <point x="0.5" y="0.000437828" />
+                            <point x="0.684167" y="0.331874" />
+                            <point x="0.884583" y="0.5" />
+                            <point x="0.769583" y="0.757881" />
+                            <point x="0.5" y="0.829247" />
+                            <point x="0.22875" y="0.759632" />
+                            <point x="0.115417" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="star3" sid="774026571207928">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="367378180503620">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="275383644750031" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\star.png">
+                        <collision-poly>
+                            <point x="0.31625" y="0.332312" />
+                            <point x="0.5" y="0.000437828" />
+                            <point x="0.684167" y="0.331874" />
+                            <point x="0.884583" y="0.5" />
+                            <point x="0.769583" y="0.757881" />
+                            <point x="0.5" y="0.829247" />
+                            <point x="0.22875" y="0.759632" />
+                            <point x="0.115417" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1527,8 +1666,8 @@
         </global-instance>
     </global-instances>
     <sounds-folder>
-        <file name="39562__the-bizniss__mouse-click.m4a" />
-        <file name="39562__the-bizniss__mouse-click.ogg" />
+        <file name="mouse_click.m4a" />
+        <file name="mouse_click.ogg" />
         <file name="button hover.m4a" />
         <file name="button hover.ogg" />
         <file name="button lepas.m4a" />
