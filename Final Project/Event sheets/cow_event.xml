@@ -3,8 +3,219 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>cow_event</name>
     <events>
-        <variable constant="0" name="FinalSecond2" sid="799310625113869" static="0" type="number">0</variable>
-        <variable constant="0" name="FinalMinute2" sid="254466822298776" static="0" type="number">0</variable>
+        <variable constant="0" name="best_minute_cow" sid="799310625113869" static="0" type="number">0</variable>
+        <variable constant="0" name="best_second_cow" sid="254466822298776" static="0" type="number">0</variable>
+        <event-group description="" sid="130477676312842" title="highscore2">
+            <sub-events>
+                <event-block sid="925791129163114">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="239253974360152" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="108800095130580" type="System">
+                            <param id="0" name="Variable">best_second_cow</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="504865218583707" type="System">
+                            <param id="0" name="Variable">best_minute_cow</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="774191159022493" type="System">
+                            <param id="0" name="Seconds">1.</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="609829514219505" type="System">
+                            <param id="0" name="Layer">&quot;highscore&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="201592232481595" type="star1" />
+                        <action id="-16" name="Wait" sid="270157937653612" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="349412497559269" type="star2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="831991267414224" type="star2" />
+                        <action id="-16" name="Wait" sid="284225394745829" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="311370943732952" type="star3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="449166449691963" type="star3" />
+                        <action id="-9" name="Set value" sid="808188225397627" type="System">
+                            <param id="0" name="Variable">best_minute_cow</param>
+                            <param id="1" name="Value">minute2.Text</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="768274705717750" type="System">
+                            <param id="0" name="Variable">best_second_cow</param>
+                            <param id="1" name="Value">second2.Text</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="280070527545067" type="System">
+                            <param id="0" name="Variable">user2</param>
+                            <param id="1" name="Value">nametxt.Text</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="192307127729534">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="182571872840547" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">12</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="706135959491470" type="System">
+                            <param id="0" name="Variable">FinalMinute</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">best_minute_cow</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="303263566161653" type="System">
+                            <param id="0" name="Variable">FinalSecond</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">best_second_cow</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="470025808638663" type="System">
+                            <param id="0" name="Seconds">1.</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="982823278116111" type="System">
+                            <param id="0" name="Layer">&quot;highscore&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="818631457692672" type="star1" />
+                        <action id="-16" name="Wait" sid="248662866185997" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="259025669666653" type="star2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="508498513243386" type="star2" />
+                        <action id="-16" name="Wait" sid="949820207659284" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="817835068349440" type="star3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="988000147401586" type="star3" />
+                        <action id="-9" name="Set value" sid="737584266741275" type="System">
+                            <param id="0" name="Variable">best_minute_cow</param>
+                            <param id="1" name="Value">minute2.Text</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="299849852609914" type="System">
+                            <param id="0" name="Variable">best_second_cow</param>
+                            <param id="1" name="Value">second2.Text</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="947422155489127" type="System">
+                            <param id="0" name="Variable">user2</param>
+                            <param id="1" name="Value">nametxt.Text</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="748497146369840">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="637000770995494" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Check item exists" sid="993462586803545" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_minute_cow&quot;</param>
+                        </action>
+                        <action id="5" name="Check item exists" sid="861927609491632" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_second_cow&quot;</param>
+                        </action>
+                        <action id="5" name="Check item exists" sid="984183614347233" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_cow_name&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="743860334752729" type="System">
+                            <param id="0" name="Variable">FinalMinute</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="120250489874756" type="System">
+                            <param id="0" name="Variable">FinalSecond</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="274409526590817">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="384469725499786" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_cow_name&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="510540436733335" type="System">
+                            <param id="0" name="Variable">user2</param>
+                            <param id="1" name="Value">LocalStorage.ItemValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="588927720796584">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="332047493421638" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_minute_cow&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="590756759307417" type="System">
+                            <param id="0" name="Variable">best_minute_cow</param>
+                            <param id="1" name="Value">LocalStorage.ItemValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="629527871000986">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="266585454339196" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_second_cow&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="750683952991971" type="System">
+                            <param id="0" name="Variable">best_second_cow</param>
+                            <param id="1" name="Value">LocalStorage.ItemValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="408920834341994">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="514813023824350" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">ok</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="535480252701267" type="System">
+                            <param id="0" name="Layout">start</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="838253667647275" type="System">
+                            <param id="0" name="Variable">user2</param>
+                            <param id="1" name="Value">nametxt.Text</param>
+                        </action>
+                        <action id="0" name="Set item" sid="916026441813948" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_cow_name&quot;</param>
+                            <param id="1" name="Value">user2</param>
+                        </action>
+                        <action id="0" name="Set item" sid="466386109205190" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_minute_cow&quot;</param>
+                            <param id="1" name="Value">best_minute_cow</param>
+                        </action>
+                        <action id="0" name="Set item" sid="919869761086880" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_second_cow&quot;</param>
+                            <param id="1" name="Value">best_second_cow</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="323850813137075" type="System">
+                            <param id="0" name="Layer">&quot;highscore&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
         <variable constant="0" name="Tracker2" sid="452019506081908" static="0" type="number">0</variable>
         <event-group description="" sid="603755353815183" title="Timer2">
             <sub-events>
@@ -886,6 +1097,32 @@
                         <action id="-9" name="Set value" sid="483032537406444" type="System">
                             <param id="0" name="Variable">Tracker</param>
                             <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="887143057541055">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="913509708790436" type="Mouse">
+                            <param id="0" name="Object">ok</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="702839889741269" type="ok">
+                            <param id="0" name="Width">71.072</param>
+                            <param id="1" name="Height">32.673</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="927070436085577">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="365384772878983" type="Mouse">
+                            <param id="0" name="Object">ok</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="304153745462983" type="ok">
+                            <param id="0" name="Width">70.072</param>
+                            <param id="1" name="Height">31.673</param>
                         </action>
                     </actions>
                 </event-block>

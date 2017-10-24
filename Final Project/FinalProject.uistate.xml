@@ -14,8 +14,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="2">cow</layout>
         <layout order="4">chicken</layout>
         <layout order="6">leaderboard</layout>
-        <layout order="8">start</layout>
-        <event-sheet active="1" order="1">pig_event</event-sheet>
+        <layout active="1" order="8">start</layout>
+        <event-sheet order="1">pig_event</event-sheet>
         <event-sheet order="3">cow_event</event-sheet>
         <event-sheet order="5">chicken_event</event-sheet>
         <event-sheet order="7">Event sheet 1</event-sheet>

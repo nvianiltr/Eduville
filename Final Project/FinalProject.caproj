@@ -1633,16 +1633,34 @@
         <object-type name="LocalStorage" sid="444228267879607">
             <plugin id="LocalStorage" />
         </object-type>
-        <object-type name="name" sid="152070757793741">
+        <object-type name="name_pig" sid="152070757793741">
             <plugin id="Text" />
         </object-type>
-        <object-type name="minute" sid="850932809062761">
+        <object-type name="minute_pig" sid="850932809062761">
             <plugin id="Text" />
         </object-type>
-        <object-type name="second" sid="702663764816623">
+        <object-type name="second_pig" sid="702663764816623">
             <plugin id="Text" />
         </object-type>
         <object-type name="Text4" sid="657259962022611">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="name_cow" sid="623973308960276">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="minute_cow" sid="924523860821550">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="second_cow" sid="434175703839760">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="name_chicken" sid="549666417642954">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="minute_chicken" sid="162484770923338">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="second_chicken" sid="851063961325699">
             <plugin id="Text" />
         </object-type>
     </object-folder>

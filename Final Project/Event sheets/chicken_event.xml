@@ -3,6 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>chicken_event</name>
     <events>
+        <variable constant="0" name="best_second_chick" sid="603536452982670" static="0" type="number">0</variable>
+        <variable constant="0" name="best_minute_chick" sid="988185028133943" static="0" type="number">0</variable>
         <event-group description="" sid="546045194405073" title="Puzzle_Chicken">
             <sub-events>
                 <event-block sid="887322028983605">
@@ -1015,6 +1017,243 @@
                         <action id="-9" name="Set value" sid="890114024005050" type="System">
                             <param id="0" name="Variable">Tracker</param>
                             <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="735361170501873">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="613233695734656" type="Mouse">
+                            <param id="0" name="Object">ok</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="954892081397849" type="ok">
+                            <param id="0" name="Width">71.072</param>
+                            <param id="1" name="Height">32.673</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="659588137993122">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="140541359082056" type="Mouse">
+                            <param id="0" name="Object">ok</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="513621709186555" type="ok">
+                            <param id="0" name="Width">70.072</param>
+                            <param id="1" name="Height">31.673</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="501837858342136" title="highscore3">
+            <sub-events>
+                <event-block sid="524723107740073">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="914296554738376" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="195180295482703" type="System">
+                            <param id="0" name="Variable">best_second_chick</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="954688418275782" type="System">
+                            <param id="0" name="Variable">best_minute_chick</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="790061826672595" type="System">
+                            <param id="0" name="Seconds">1.</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="855344796971170" type="System">
+                            <param id="0" name="Layer">&quot;highscore&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="603003114578528" type="star1" />
+                        <action id="-16" name="Wait" sid="842982237587718" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="712807701144746" type="star2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="625016675479720" type="star2" />
+                        <action id="-16" name="Wait" sid="592978722754911" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="841359926764810" type="star3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="417715013155368" type="star3" />
+                        <action id="-9" name="Set value" sid="139703185426518" type="System">
+                            <param id="0" name="Variable">best_minute_chick</param>
+                            <param id="1" name="Value">minute2.Text</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="944664640235163" type="System">
+                            <param id="0" name="Variable">best_second_chick</param>
+                            <param id="1" name="Value">second2.Text</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="123883694837220" type="System">
+                            <param id="0" name="Variable">user3</param>
+                            <param id="1" name="Value">nametxt.Text</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="982673267466858">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="768445400355966" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="796094879713782" type="System">
+                            <param id="0" name="Variable">FinalMinute</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">best_minute_chick</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="460535130199861" type="System">
+                            <param id="0" name="Variable">FinalSecond</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">best_second_chick</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="991512533833218" type="System">
+                            <param id="0" name="Seconds">1.</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="431551046318474" type="System">
+                            <param id="0" name="Layer">&quot;highscore&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="908229657626683" type="star1" />
+                        <action id="-16" name="Wait" sid="872716623494824" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="468364647181191" type="star2">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="798056352300677" type="star2" />
+                        <action id="-16" name="Wait" sid="122661072395047" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="578671334707091" type="star3">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="881380700714205" type="star3" />
+                        <action id="-9" name="Set value" sid="300513430947807" type="System">
+                            <param id="0" name="Variable">best_minute_chick</param>
+                            <param id="1" name="Value">minute2.Text</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="544165346861000" type="System">
+                            <param id="0" name="Variable">best_second_chick</param>
+                            <param id="1" name="Value">second2.Text</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="688462892565213" type="System">
+                            <param id="0" name="Variable">user3</param>
+                            <param id="1" name="Value">nametxt.Text</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="456321530997751">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="776828956702338" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Check item exists" sid="367978641038149" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_minute_chick&quot;</param>
+                        </action>
+                        <action id="5" name="Check item exists" sid="508412607832838" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_second_chick&quot;</param>
+                        </action>
+                        <action id="5" name="Check item exists" sid="420394518003916" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_chick_name&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="664746300044749" type="System">
+                            <param id="0" name="Variable">FinalMinute</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="141945611402998" type="System">
+                            <param id="0" name="Variable">FinalSecond</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="538881659900372">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="755035914414130" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_chick_name&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="618871868504279" type="System">
+                            <param id="0" name="Variable">user3</param>
+                            <param id="1" name="Value">LocalStorage.ItemValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="653021788951472">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="704774241710669" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_minute_chick&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="671032044079054" type="System">
+                            <param id="0" name="Variable">best_minute_chick</param>
+                            <param id="1" name="Value">LocalStorage.ItemValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="165048486160472">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="493815965028902" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_second_chick&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="294320646069360" type="System">
+                            <param id="0" name="Variable">best_second_chick</param>
+                            <param id="1" name="Value">LocalStorage.ItemValue</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="430966998141788">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="747884314458659" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">ok</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="177504956173465" type="System">
+                            <param id="0" name="Layout">start</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="853220209015936" type="System">
+                            <param id="0" name="Variable">user3</param>
+                            <param id="1" name="Value">nametxt.Text</param>
+                        </action>
+                        <action id="0" name="Set item" sid="944373137248687" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_chick_name&quot;</param>
+                            <param id="1" name="Value">user3</param>
+                        </action>
+                        <action id="0" name="Set item" sid="530848873874595" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_minute_chick&quot;</param>
+                            <param id="1" name="Value">best_minute_chick</param>
+                        </action>
+                        <action id="0" name="Set item" sid="128718406260046" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_second_chick&quot;</param>
+                            <param id="1" name="Value">best_second_chick</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="963466489193650" type="System">
+                            <param id="0" name="Layer">&quot;highscore&quot;</param>
+                            <param id="1" name="Visibility">0</param>
                         </action>
                     </actions>
                 </event-block>
