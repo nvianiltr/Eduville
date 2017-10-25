@@ -485,7 +485,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <stts>true</stts>
+                        <SoundOn>true</SoundOn>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Fade">

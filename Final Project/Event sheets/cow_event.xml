@@ -1132,5 +1132,145 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-group description="" sid="278294151819319" title="Volume3">
+            <sub-events>
+                <event-block sid="125486014264610">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="911885228904418" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Volume</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-14" name="Toggle boolean" sid="443810105242087" type="Volume">
+                            <param id="0" name="Instance variable">SoundOn</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="690297337400956">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="978407838103236" type="Volume">
+                                    <param id="0" name="Instance variable">SoundOn</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="2" name="Set muted" sid="549665507162924" type="Audio">
+                                    <param id="0" name="Tag">&quot;bg&quot;</param>
+                                    <param id="1" name="State">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="127715141512800" type="Volume">
+                                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="550480614955602" type="System">
+                                    <param id="0" name="Variable">Sound</param>
+                                    <param id="1" name="Value">&quot;on&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="518284282553997">
+                            <conditions>
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="120773728390592" type="Volume">
+                                    <param id="0" name="Instance variable">SoundOn</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="2" name="Set muted" sid="776916375598433" type="Audio">
+                                    <param id="0" name="Tag">&quot;bg&quot;</param>
+                                    <param id="1" name="State">0</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="548667057702550" type="Volume">
+                                    <param id="0" name="Animation">&quot;mute&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="321616420595848" type="System">
+                                    <param id="0" name="Variable">Sound</param>
+                                    <param id="1" name="Value">&quot;off&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="957166649416103">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="301066136700992" type="Mouse">
+                            <param id="0" name="Object">Volume</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="633798650860589" type="Volume">
+                            <param id="0" name="Width">65</param>
+                            <param id="1" name="Height">65</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="101275269298038">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="270557981904005" type="Mouse">
+                            <param id="0" name="Object">Volume</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="223513317295559" type="Volume">
+                            <param id="0" name="Width">58.447</param>
+                            <param id="1" name="Height">58.447</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="880917956491647">
+                    <conditions>
+                        <condition id="-9" name="Layer is visible" sid="146197614303929" type="System">
+                            <param id="0" name="Layer">&quot;Layer 0&quot;</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="981739937772425" type="System">
+                            <param id="0" name="Variable">Sound</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;off&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set muted" sid="498184905865813" type="Audio">
+                            <param id="0" name="Tag">&quot;bg&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="180688690034547" type="Volume">
+                            <param id="0" name="Animation">&quot;mute&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="498940062216385" type="Volume">
+                            <param id="0" name="Instance variable">SoundOn</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="236502481809950">
+                    <conditions>
+                        <condition id="-9" name="Layer is visible" sid="358008409288359" type="System">
+                            <param id="0" name="Layer">&quot;Layer 0&quot;</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="777755399188815" type="System">
+                            <param id="0" name="Variable">Sound</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;on&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set muted" sid="777849397459370" type="Audio">
+                            <param id="0" name="Tag">&quot;bg&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="437213575839459" type="Volume">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="680905866767560" type="Volume">
+                            <param id="0" name="Instance variable">SoundOn</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

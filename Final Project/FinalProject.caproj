@@ -20,9 +20,11 @@
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
         <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
         <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects />
     <configurations>
@@ -489,7 +491,7 @@
         <object-type name="Volume" sid="752751657004858">
             <plugin id="Sprite" />
             <instance-variables>
-                <instance-variable name="stts" sid="248904197098660" type="boolean" />
+                <instance-variable name="SoundOn" sid="248904197098660" type="boolean" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="Fade" sid="549392669935645">
@@ -1741,6 +1743,9 @@
                 <behavior-type name="Fade" sid="761356879383637">
                     <behavior id="Fade" />
                 </behavior-type>
+                <behavior-type name="Bullet" sid="706854974773453">
+                    <behavior id="Bullet" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="186512736745864" speed="5">
@@ -1761,6 +1766,19 @@
         <object-type name="TiledBackground" sid="388264546244183">
             <plugin id="TiledBg" />
             <texture />
+        </object-type>
+        <object-type name="Sprite4" sid="287382428800790">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="488128715765077">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="160959482977585" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
