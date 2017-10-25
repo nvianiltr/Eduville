@@ -868,19 +868,19 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Set Y" sid="789005883607658" type="second2">
-                            <param id="0" name="Y">268</param>
+                            <param id="0" name="Y">232.071</param>
                         </action>
                         <action id="-2" name="Set Y" sid="155127651274040" type="minute2">
-                            <param id="0" name="Y">268</param>
+                            <param id="0" name="Y">232.071</param>
                         </action>
                         <action id="-2" name="Set Y" sid="464118652277375" type="colon">
-                            <param id="0" name="Y">268</param>
+                            <param id="0" name="Y">232.071</param>
                         </action>
                         <action id="-2" name="Set Y" sid="791496142465704" type="minute1">
-                            <param id="0" name="Y">268</param>
+                            <param id="0" name="Y">232.071</param>
                         </action>
                         <action id="-2" name="Set Y" sid="360349201287705" type="second1">
-                            <param id="0" name="Y">268</param>
+                            <param id="0" name="Y">232.071</param>
                         </action>
                         <action behavior="Fade" id="1" name="Start fade" sid="492602023729873" type="c1" />
                         <action behavior="Fade" id="1" name="Start fade" sid="626188358384985" type="c10" />
@@ -1263,6 +1263,38 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="174510944877971">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="569984568345876" type="System">
+                    <param id="0" name="Variable">Tracker</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">15</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="867701707123336" type="System">
+                    <param id="0" name="Variable">FinalMinute</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">best_minute_chick</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="631633898391257" type="System">
+                    <param id="0" name="Variable">FinalSecond</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">best_second_chick</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="816373867053976" type="System">
+                    <param id="0" name="Seconds">1.</param>
+                </action>
+                <action id="-4" name="Set layer visible" sid="859710314635718" type="System">
+                    <param id="0" name="Layer">&quot;congrats&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="771489434183596" type="txtCongrats" />
+                <action id="-16" name="Wait" sid="858075276929974" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group description="" sid="348421030641192" title="Volume4">
             <sub-events>
                 <event-block sid="719555699879626">

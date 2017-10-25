@@ -436,19 +436,19 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Set Y" sid="221215313840642" type="second2">
-                            <param id="0" name="Y">268</param>
+                            <param id="0" name="Y">232.071</param>
                         </action>
                         <action id="-2" name="Set Y" sid="531995074452490" type="minute2">
-                            <param id="0" name="Y">268</param>
+                            <param id="0" name="Y">232.071</param>
                         </action>
                         <action id="-2" name="Set Y" sid="760367415459371" type="colon">
-                            <param id="0" name="Y">268</param>
+                            <param id="0" name="Y">232.071</param>
                         </action>
                         <action id="-2" name="Set Y" sid="611176293731824" type="minute1">
-                            <param id="0" name="Y">268</param>
+                            <param id="0" name="Y">232.071</param>
                         </action>
                         <action id="-2" name="Set Y" sid="129252515136651" type="second1">
-                            <param id="0" name="Y">268</param>
+                            <param id="0" name="Y">232.071</param>
                         </action>
                         <action behavior="Fade" id="1" name="Start fade" sid="846428474471544" type="bot" />
                         <action behavior="Fade" id="1" name="Start fade" sid="469585027098913" type="botleft" />
@@ -717,6 +717,38 @@
                         <action id="-9" name="Set value" sid="136386847473210" type="System">
                             <param id="0" name="Variable">user1</param>
                             <param id="1" name="Value">nametxt.Text</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="980749191743151">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="931399058682138" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="961814485920264" type="System">
+                            <param id="0" name="Variable">FinalMinute</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">best_minute_pig</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="605538484475859" type="System">
+                            <param id="0" name="Variable">FinalSecond</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">best_second_pig</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="126734200601661" type="System">
+                            <param id="0" name="Seconds">1.</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="781580779813518" type="System">
+                            <param id="0" name="Layer">&quot;congrats&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="508559619115593" type="txtCongrats" />
+                        <action id="-16" name="Wait" sid="142366883826558" type="System">
+                            <param id="0" name="Seconds">0.5</param>
                         </action>
                     </actions>
                 </event-block>
