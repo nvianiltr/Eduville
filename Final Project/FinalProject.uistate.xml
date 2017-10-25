@@ -16,9 +16,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="6">leaderboard</layout>
         <layout order="8">menu</layout>
         <layout order="10">start</layout>
-        <event-sheet active="1" order="1">pig_event</event-sheet>
+        <event-sheet order="1">pig_event</event-sheet>
         <event-sheet order="3">cow_event</event-sheet>
-        <event-sheet order="5">chicken_event</event-sheet>
+        <event-sheet active="1" order="5">chicken_event</event-sheet>
         <event-sheet order="7">Event sheet 1</event-sheet>
         <event-sheet order="9">menu_event</event-sheet>
         <event-sheet order="11">start_event</event-sheet>
@@ -127,5 +127,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/title/" />
         <folder expanded="1" path="animation-folder/Sprite4/" />
         <folder expanded="1" path="animation-folder/txtCongrats/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
     </folders-expanded>
 </c2uistate>

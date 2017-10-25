@@ -1796,7 +1796,36 @@
         </object-type>
         <object-type name="Particles" sid="610104242481666">
             <plugin id="Particles" />
+            <behaviors>
+                <behavior-type name="Fade" sid="280902089544164">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
             <texture />
+        </object-type>
+        <object-type name="Sprite6" sid="260101788043602">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="166334053819666">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="595057152639173" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501792" original-source="E:\kuliah\Sem 3\final project\Assets\Fireworks-PNG-Free-Download-332x279.png">
+                        <collision-poly>
+                            <point x="0.195783" y="0.232975" />
+                            <point x="0.5" y="0.139785" />
+                            <point x="0.876506" y="0.146953" />
+                            <point x="0.822289" y="0.498208" />
+                            <point x="0.843373" y="0.81362" />
+                            <point x="0.5" y="0.946237" />
+                            <point x="0.343374" y="0.591398" />
+                            <point x="0.0843373" y="0.498208" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />

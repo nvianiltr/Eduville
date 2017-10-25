@@ -44,6 +44,12 @@
                             <param id="0" name="Variable">Tracker</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="-3" name="Create object" sid="919068095912075" type="System">
+                            <param id="0" name="Object to create">Particles</param>
+                            <param id="1" name="Layer">&quot;Layer 0&quot;</param>
+                            <param id="2" name="X">topleft.ImagePointX(0)</param>
+                            <param id="3" name="Y">topleft.ImagePointY(0)</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="226526618191953">
@@ -96,6 +102,12 @@
                         <action id="-10" name="Add to" sid="360669271320463" type="System">
                             <param id="0" name="Variable">Tracker</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="638955140630771" type="System">
+                            <param id="0" name="Object to create">Particles</param>
+                            <param id="1" name="Layer">&quot;Layer 0&quot;</param>
+                            <param id="2" name="X">botleft.ImagePointX(0)</param>
+                            <param id="3" name="Y">botleft.ImagePointY(0)</param>
                         </action>
                     </actions>
                 </event-block>
@@ -150,6 +162,12 @@
                             <param id="0" name="Variable">Tracker</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="-3" name="Create object" sid="946460038655675" type="System">
+                            <param id="0" name="Object to create">Particles</param>
+                            <param id="1" name="Layer">&quot;Layer 0&quot;</param>
+                            <param id="2" name="X">top.ImagePointX(0)</param>
+                            <param id="3" name="Y">top.ImagePointY(0)</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="277210965780214">
@@ -202,6 +220,12 @@
                         <action id="-10" name="Add to" sid="840222099558251" type="System">
                             <param id="0" name="Variable">Tracker</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="880754770145850" type="System">
+                            <param id="0" name="Object to create">Particles</param>
+                            <param id="1" name="Layer">&quot;Layer 0&quot;</param>
+                            <param id="2" name="X">bot.ImagePointX(0)</param>
+                            <param id="3" name="Y">bot.ImagePointY(0)</param>
                         </action>
                     </actions>
                 </event-block>
@@ -256,6 +280,12 @@
                             <param id="0" name="Variable">Tracker</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="-3" name="Create object" sid="810064461872505" type="System">
+                            <param id="0" name="Object to create">Particles</param>
+                            <param id="1" name="Layer">&quot;Layer 0&quot;</param>
+                            <param id="2" name="X">topright.ImagePointX(0)</param>
+                            <param id="3" name="Y">topright.ImagePointY(0)</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="213150333031478">
@@ -308,6 +338,12 @@
                         <action id="-10" name="Add to" sid="326033466523911" type="System">
                             <param id="0" name="Variable">Tracker</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="923124062489567" type="System">
+                            <param id="0" name="Object to create">Particles</param>
+                            <param id="1" name="Layer">&quot;Layer 0&quot;</param>
+                            <param id="2" name="X">botright.ImagePointX(0)</param>
+                            <param id="3" name="Y">botright.ImagePointY(0)</param>
                         </action>
                     </actions>
                 </event-block>
@@ -747,9 +783,7 @@
                             <param id="1" name="Visibility">1</param>
                         </action>
                         <action behavior="Fade" id="1" name="Start fade" sid="508559619115593" type="txtCongrats" />
-                        <action id="-16" name="Wait" sid="142366883826558" type="System">
-                            <param id="0" name="Seconds">0.5</param>
-                        </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="582159815704488" type="Sprite6" />
                     </actions>
                 </event-block>
                 <event-block sid="452958430544775">
