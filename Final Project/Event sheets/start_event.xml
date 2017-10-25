@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>start_event</name>
     <events>
+        <variable constant="0" name="startGame" sid="850770373703972" static="0" type="text">yes</variable>
         <event-block sid="953109454830176">
             <conditions>
                 <condition id="6" name="On object clicked" sid="879690891392040" type="Mouse">
@@ -31,7 +32,33 @@
             </conditions>
             <actions>
                 <action id="-7" name="Set size" sid="719013207892177" type="startButton">
-                    <param id="0" name="Width">146</param>
+                    <param id="0" name="Width">159.659</param>
+                    <param id="1" name="Height">72</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="183647379429377">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="613399670066825" type="Mouse">
+                    <param id="0" name="Object">creditsButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="219098556097568" type="creditsButton">
+                    <param id="0" name="Width">159.659</param>
+                    <param id="1" name="Height">72</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="233769894895304">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="460556172557500" type="Mouse">
+                    <param id="0" name="Object">leaderboardButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="199823362756236" type="leaderboardButton">
+                    <param id="0" name="Width">159.659</param>
                     <param id="1" name="Height">72</param>
                 </action>
             </actions>
@@ -47,10 +74,16 @@
                 <condition id="7" inverted="1" name="Cursor is over object" sid="409488581958635" type="Mouse">
                     <param id="0" name="Object">exitButton</param>
                 </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="741848425029257" type="Mouse">
+                    <param id="0" name="Object">creditsButton</param>
+                </condition>
+                <condition id="7" inverted="1" name="Cursor is over object" sid="490575968874751" type="Mouse">
+                    <param id="0" name="Object">leaderboardButton</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-7" name="Set size" sid="199398461021795" type="startButton">
-                    <param id="0" name="Width">136</param>
+                    <param id="0" name="Width">149.659</param>
                     <param id="1" name="Height">62</param>
                 </action>
                 <action id="-7" name="Set size" sid="482442917283782" type="Volume">
@@ -58,7 +91,15 @@
                     <param id="1" name="Height">58.447</param>
                 </action>
                 <action id="-7" name="Set size" sid="346013158322109" type="exitButton">
-                    <param id="0" name="Width">136</param>
+                    <param id="0" name="Width">149.659</param>
+                    <param id="1" name="Height">62</param>
+                </action>
+                <action id="-7" name="Set size" sid="318703580078120" type="creditsButton">
+                    <param id="0" name="Width">149.659</param>
+                    <param id="1" name="Height">62</param>
+                </action>
+                <action id="-7" name="Set size" sid="306692090193001" type="leaderboardButton">
+                    <param id="0" name="Width">149.659</param>
                     <param id="1" name="Height">62</param>
                 </action>
             </actions>
@@ -71,8 +112,8 @@
             </conditions>
             <actions>
                 <action id="-7" name="Set size" sid="287525486072360" type="exitButton">
-                    <param id="0" name="Width">136</param>
-                    <param id="1" name="Height">62</param>
+                    <param id="0" name="Width">159.659</param>
+                    <param id="1" name="Height">72</param>
                 </action>
             </actions>
         </event-block>
@@ -159,12 +200,83 @@
                 <condition id="6" name="On object clicked" sid="456275370457947" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">exitButton</param>
+                    <param id="2" name="Object clicked">leaderboardButton</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-25" name="Go to layout (by name)" sid="305300157920201" type="System">
                     <param id="0" name="Layout">&quot;leaderboard&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="541563132757875">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="630473223645587" type="System" />
+                <condition id="-14" name="Compare variable" sid="386484893934745" type="System">
+                    <param id="0" name="Variable">startGame</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;yes&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="278628609210125" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="122683832258798" type="Volume">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="596247911225004" type="Volume" />
+                <action id="-15" name="Set visible" sid="689527122898317" type="title">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="360382349570419" type="title" />
+                <action id="-15" name="Set visible" sid="707188365268777" type="startButton">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="468281368257799" type="startButton" />
+                <action id="-15" name="Set visible" sid="388774996705458" type="exitButton">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="861014410270780" type="exitButton" />
+                <action id="-15" name="Set visible" sid="503182677852479" type="creditsButton">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="296046043717738" type="creditsButton" />
+                <action id="-15" name="Set visible" sid="622183756138391" type="leaderboardButton">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="466348145949395" type="leaderboardButton" />
+            </actions>
+        </event-block>
+        <event-block sid="269507506081423">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="467424490122901" type="System">
+                    <param id="0" name="Variable">startGame</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;no&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="295859731135726" type="BG1">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="964509257982826" type="Volume">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="341340012139463" type="title">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="517825235605059" type="startButton">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="833198094760703" type="exitButton">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="140587484275649" type="creditsButton">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="915413398120663" type="leaderboardButton">
+                    <param id="0" name="Visibility">1</param>
                 </action>
             </actions>
         </event-block>

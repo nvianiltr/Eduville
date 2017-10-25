@@ -51,15 +51,25 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="TiledBackground" sid="479985357040770">
+        <object-type name="BG1" sid="479985357040770">
             <plugin id="TiledBg" />
-            <texture original-source="E:\kuliah\Sem 3\final project\Assets\bg-final.jpg" />
+            <behaviors>
+                <behavior-type name="Fade" sid="182519874145142">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\STARTLAYOUT.png" />
         </object-type>
         <object-type name="startButton" sid="217893038848468">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="416577567311076">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="906444119567053" speed="5">
-                    <frame duration="1" hotspotX="0.500664" hotspotY="0.503979" original-source="C:\Users\nvian\Desktop\Final Project\Assets\play-buttonbackground.png">
+                    <frame duration="1" hotspotX="0.500664" hotspotY="0.503979" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\play-buttonbackground.png">
                         <collision-poly>
                             <point x="0.0458716" y="0.118343" />
                             <point x="0.5" y="0" />
@@ -166,9 +176,14 @@
         </object-type>
         <object-type name="exitButton" sid="420320062790208">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="663578557585404">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="864987013818451" speed="5">
-                    <frame duration="1" hotspotX="0.500664" hotspotY="0.503979" original-source="E:\kuliah\Sem 3\final project\Assets\button background.png">
+                    <frame duration="1" hotspotX="0.500664" hotspotY="0.503979" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\EXI2T.png">
                         <collision-poly>
                             <point x="0.0458716" y="0.118343" />
                             <point x="0.5" y="0" />
@@ -476,6 +491,11 @@
             <instance-variables>
                 <instance-variable name="stts" sid="248904197098660" type="boolean" />
             </instance-variables>
+            <behaviors>
+                <behavior-type name="Fade" sid="549392669935645">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="556901647134058" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\Assets\button volume enabled.png">
@@ -1662,6 +1682,85 @@
         </object-type>
         <object-type name="second_chicken" sid="851063961325699">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="bg2" sid="527742290623603">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\bg.png" />
+        </object-type>
+        <object-type name="leaderboardButton" sid="416134192263934">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="635968362645090">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="873949223723073" speed="5">
+                    <frame duration="1" hotspotX="0.500664" hotspotY="0.501326" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\LEADERBOARD.png">
+                        <collision-poly>
+                            <point x="0.059761" y="0.119363" />
+                            <point x="0.499336" y="0" />
+                            <point x="0.940239" y="0.119363" />
+                            <point x="1" y="0.498674" />
+                            <point x="0.940239" y="0.880637" />
+                            <point x="0.499336" y="1" />
+                            <point x="0.059761" y="0.880637" />
+                            <point x="0" y="0.498674" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="creditsButton" sid="725238263741364">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="545784636191825">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="318677361908985" speed="5">
+                    <frame duration="1" hotspotX="0.500664" hotspotY="0.501326" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\CREDITS.png">
+                        <collision-poly>
+                            <point x="0.059761" y="0.119363" />
+                            <point x="0.499336" y="0" />
+                            <point x="0.940239" y="0.119363" />
+                            <point x="1" y="0.498674" />
+                            <point x="0.940239" y="0.880637" />
+                            <point x="0.499336" y="1" />
+                            <point x="0.059761" y="0.880637" />
+                            <point x="0" y="0.498674" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="title" sid="291273409321508">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="761356879383637">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="186512736745864" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\title.png">
+                        <collision-poly>
+                            <point x="0.23185" y="0.4125" />
+                            <point x="0.5" y="0.460417" />
+                            <point x="0.744731" y="0.454167" />
+                            <point x="0.95082" y="0.5" />
+                            <point x="0.772834" y="0.595833" />
+                            <point x="0.23185" y="0.5875" />
+                            <point x="0.0807962" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground" sid="388264546244183">
+            <plugin id="TiledBg" />
+            <texture />
         </object-type>
     </object-folder>
     <families />
