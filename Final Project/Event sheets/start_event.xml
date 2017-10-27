@@ -242,6 +242,9 @@
                 </condition>
             </conditions>
             <actions>
+                <action behavior="Bullet" id="3" name="Set angle of motion" sid="526625844328822" type="title">
+                    <param id="0" name="Angle">-90</param>
+                </action>
                 <action id="-16" name="Wait" sid="278628609210125" type="System">
                     <param id="0" name="Seconds">1</param>
                 </action>
@@ -249,10 +252,6 @@
                     <param id="0" name="Visibility">1</param>
                 </action>
                 <action behavior="Fade" id="1" name="Start fade" sid="596247911225004" type="Volume" />
-                <action id="-15" name="Set visible" sid="689527122898317" type="title">
-                    <param id="0" name="Visibility">1</param>
-                </action>
-                <action behavior="Fade" id="1" name="Start fade" sid="360382349570419" type="title" />
                 <action id="-15" name="Set visible" sid="707188365268777" type="startButton">
                     <param id="0" name="Visibility">1</param>
                 </action>
@@ -269,6 +268,7 @@
                     <param id="0" name="Visibility">1</param>
                 </action>
                 <action behavior="Fade" id="1" name="Start fade" sid="466348145949395" type="leaderboardButton" />
+                <action id="3" name="Clear storage" sid="109073412504345" type="LocalStorage" />
             </actions>
         </event-block>
         <event-block sid="269507506081423">
@@ -280,8 +280,12 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="295859731135726" type="BG1">
-                    <param id="0" name="Visibility">0</param>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="478083628014077" type="title">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="633434408208691" type="title">
+                    <param id="0" name="X">427.529</param>
+                    <param id="1" name="Y">73.59</param>
                 </action>
                 <action id="-15" name="Set visible" sid="964509257982826" type="Volume">
                     <param id="0" name="Visibility">1</param>
@@ -347,15 +351,15 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="123896508715945">
+        <event-block sid="956684853395526">
             <conditions>
-                <condition behavior="Bullet" id="1" name="Compare distance travelled" sid="827347086498486" type="title">
-                    <param id="0" name="Comparison">0</param>
+                <condition behavior="Bullet" id="1" name="Compare distance travelled" sid="185853083402934" type="title">
+                    <param id="0" name="Comparison">5</param>
                     <param id="1" name="Distance">166</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Bullet" id="5" name="Set enabled" sid="933387724661334" type="title">
+                <action behavior="Bullet" id="5" name="Set enabled" sid="853769317405100" type="title">
                     <param id="0" name="State">0</param>
                 </action>
             </actions>

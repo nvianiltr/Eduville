@@ -54,15 +54,6 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="BG1" sid="479985357040770">
-            <plugin id="TiledBg" />
-            <behaviors>
-                <behavior-type name="Fade" sid="182519874145142">
-                    <behavior id="Fade" />
-                </behavior-type>
-            </behaviors>
-            <texture original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\STARTLAYOUT.png" />
-        </object-type>
         <object-type name="startButton" sid="217893038848468">
             <plugin id="Sprite" />
             <behaviors>
@@ -1872,8 +1863,6 @@
         <file name="button lepas.ogg" />
         <file name="bg-song.m4a" />
         <file name="bg-song.ogg" />
-        <file name="quiet_pig.m4a" />
-        <file name="quiet_pig.ogg" />
         <file name="chick (2).m4a" />
         <file name="chick (2).ogg" />
         <file name="correct.m4a" />

@@ -199,9 +199,9 @@
                 </instance>
                 <instance type="CHICKEN_txt" uid="32">
                     <properties>
-                        <text>CHICKEN</text>
+                        <text>CHICK</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>BubbleGum,-48,400,0</font>
+                        <font>BubbleGum,-80,400,0</font>
                         <color>255,204,51</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -212,11 +212,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>608</x>
-                        <y>230</y>
+                        <x>593</x>
+                        <y>212</y>
                         <z>0</z>
                         <width>261</width>
-                        <height>75</height>
+                        <height>105</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

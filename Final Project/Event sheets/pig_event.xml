@@ -446,7 +446,7 @@
                 <event-block sid="866282785165755">
                     <conditions>
                         <condition id="-6" name="Every X seconds" sid="532251902656139" type="System">
-                            <param id="0" name="Interval (seconds)">5</param>
+                            <param id="0" name="Interval (seconds)">6.5</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="390853221955094" type="System">
                             <param id="0" name="Variable">Tracker</param>
@@ -455,15 +455,15 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Play" sid="193797062169019" type="Audio">
-                            <param id="0" name="Audio file">quiet_pig</param>
-                            <param id="2" name="Loop">0</param>
-                            <param id="3" name="Volume">0</param>
-                            <param id="1" name="Tag (optional)">&quot;pig&quot;</param>
-                        </action>
                         <action id="3" name="Set volume" sid="690691914305248" type="Audio">
                             <param id="0" name="Tag">&quot;bg&quot;</param>
                             <param id="1" name="dB">-13</param>
+                        </action>
+                        <action id="0" name="Play" sid="834274824216030" type="Audio">
+                            <param id="0" name="Audio file">snort</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
