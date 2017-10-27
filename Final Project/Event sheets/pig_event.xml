@@ -744,6 +744,10 @@
                             <param id="0" name="Layer">&quot;highscore&quot;</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
+                        <action id="-3" name="Set position" sid="104970080822343" type="ok">
+                            <param id="0" name="X">448.764</param>
+                            <param id="1" name="Y">355.887</param>
+                        </action>
                         <action behavior="Fade" id="1" name="Start fade" sid="498079204302610" type="star1" />
                         <action id="-16" name="Wait" sid="598493240198911" type="System">
                             <param id="0" name="Seconds">0.5</param>
@@ -799,6 +803,10 @@
                             <param id="0" name="Layer">&quot;highscore&quot;</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
+                        <action id="-3" name="Set position" sid="102079115216324" type="ok">
+                            <param id="0" name="X">448.764</param>
+                            <param id="1" name="Y">355.887</param>
+                        </action>
                         <action behavior="Fade" id="1" name="Start fade" sid="517172935421423" type="star1" />
                         <action id="-16" name="Wait" sid="369266191439011" type="System">
                             <param id="0" name="Seconds">0.5</param>
@@ -845,17 +853,28 @@
                             <param id="1" name="Comparison">4</param>
                             <param id="2" name="Value">best_second_pig</param>
                         </condition>
+                        <condition id="-14" inverted="1" name="Compare variable" sid="944901254744325" type="System">
+                            <param id="0" name="Variable">best_minute_pig</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" inverted="1" name="Compare variable" sid="200758625912323" type="System">
+                            <param id="0" name="Variable">best_second_pig</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
                     </conditions>
                     <actions>
-                        <action id="-16" name="Wait" sid="126734200601661" type="System">
-                            <param id="0" name="Seconds">1.</param>
-                        </action>
                         <action id="-4" name="Set layer visible" sid="781580779813518" type="System">
                             <param id="0" name="Layer">&quot;congrats&quot;</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
                         <action behavior="Fade" id="1" name="Start fade" sid="508559619115593" type="txtCongrats" />
                         <action behavior="Fade" id="1" name="Start fade" sid="582159815704488" type="Sprite6" />
+                        <action id="-3" name="Set position" sid="907247627325152" type="ok">
+                            <param id="0" name="X">183.157</param>
+                            <param id="1" name="Y">342.012</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="452958430544775">
@@ -871,6 +890,22 @@
                         </action>
                         <action id="5" name="Check item exists" sid="962433969544431" type="LocalStorage">
                             <param id="0" name="Key">&quot;best_pig_name&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="580442381360825" type="System">
+                            <param id="0" name="Variable">Tracker</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="516900197978060" type="System">
+                            <param id="0" name="Variable">FinalSecond</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="586619524787646" type="System">
+                            <param id="0" name="Layer">&quot;congrats&quot;</param>
+                            <param id="1" name="Visibility">0</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="877495542484974" type="System">
+                            <param id="0" name="Layer">&quot;highscore&quot;</param>
+                            <param id="1" name="Visibility">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -923,11 +958,15 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="111948522758986" type="System">
-                            <param id="0" name="Layout">start</param>
+                            <param id="0" name="Layout">menu</param>
                         </action>
                         <action id="-9" name="Set value" sid="175093786791263" type="System">
                             <param id="0" name="Variable">user1</param>
                             <param id="1" name="Value">nametxt.Text</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="461483301771808" type="System">
+                            <param id="0" name="Variable">startGame</param>
+                            <param id="1" name="Value">&quot;no&quot;</param>
                         </action>
                         <action id="0" name="Set item" sid="839386067398573" type="LocalStorage">
                             <param id="0" name="Key">&quot;best_pig_name&quot;</param>
@@ -940,14 +979,6 @@
                         <action id="0" name="Set item" sid="215410659109277" type="LocalStorage">
                             <param id="0" name="Key">&quot;best_second_pig&quot;</param>
                             <param id="1" name="Value">best_second_pig</param>
-                        </action>
-                        <action id="-4" name="Set layer visible" sid="877495542484974" type="System">
-                            <param id="0" name="Layer">&quot;highscore&quot;</param>
-                            <param id="1" name="Visibility">0</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="461483301771808" type="System">
-                            <param id="0" name="Variable">startGame</param>
-                            <param id="1" name="Value">&quot;no&quot;</param>
                         </action>
                     </actions>
                 </event-block>

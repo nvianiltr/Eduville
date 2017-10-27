@@ -268,7 +268,6 @@
                     <param id="0" name="Visibility">1</param>
                 </action>
                 <action behavior="Fade" id="1" name="Start fade" sid="466348145949395" type="leaderboardButton" />
-                <action id="3" name="Clear storage" sid="109073412504345" type="LocalStorage" />
             </actions>
         </event-block>
         <event-block sid="269507506081423">

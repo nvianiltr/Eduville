@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="700262160539468">
+        <layer name="bg" sid="700262160539468">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -56,6 +56,17 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Fade">
+                            <properties>
+                                <active-at-start>Yes</active-at-start>
+                                <fade-in-time>0</fade-in-time>
+                                <wait-time>0</wait-time>
+                                <fade-out-time>2</fade-out-time>
+                                <destroy>After fade out</destroy>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -110,7 +121,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="Layer 1" sid="690238485057164">
+        <layer name="game" sid="690238485057164">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -1380,8 +1391,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>440.253814697</x>
-                        <y>357.609436035</y>
+                        <x>-36.079925537</x>
+                        <y>359.863830566</y>
                         <z>0</z>
                         <width>70.07245636</width>
                         <height>31.673267365</height>
@@ -1568,8 +1579,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>183.656494141</x>
-                        <y>335.162322998</y>
+                        <x>-46.996704102</x>
+                        <y>302.856140137</y>
                         <z>0</z>
                         <width>70.07245636</width>
                         <height>31.673267365</height>
