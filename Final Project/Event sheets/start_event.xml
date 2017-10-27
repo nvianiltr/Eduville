@@ -347,5 +347,18 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="123896508715945">
+            <conditions>
+                <condition behavior="Bullet" id="1" name="Compare distance travelled" sid="827347086498486" type="title">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Distance">166</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Bullet" id="5" name="Set enabled" sid="933387724661334" type="title">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

@@ -50,6 +50,12 @@
                             <param id="2" name="X">topleft.ImagePointX(0)</param>
                             <param id="3" name="Y">topleft.ImagePointY(0)</param>
                         </action>
+                        <action id="0" name="Play" sid="907275158243751" type="Audio">
+                            <param id="0" name="Audio file">correct</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="226526618191953">
@@ -69,6 +75,12 @@
                         </action>
                         <action id="-2" name="Set Y" sid="830932261572597" type="topleft">
                             <param id="0" name="Y">229</param>
+                        </action>
+                        <action id="0" name="Play" sid="209442882513538" type="Audio">
+                            <param id="0" name="Audio file">false</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -109,6 +121,12 @@
                             <param id="2" name="X">botleft.ImagePointX(0)</param>
                             <param id="3" name="Y">botleft.ImagePointY(0)</param>
                         </action>
+                        <action id="0" name="Play" sid="136819691659202" type="Audio">
+                            <param id="0" name="Audio file">correct</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="909519906106333">
@@ -128,6 +146,12 @@
                         </action>
                         <action id="-2" name="Set Y" sid="234174961835111" type="botleft">
                             <param id="0" name="Y">387</param>
+                        </action>
+                        <action id="0" name="Play" sid="314638855781246" type="Audio">
+                            <param id="0" name="Audio file">false</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -168,6 +192,12 @@
                             <param id="2" name="X">top.ImagePointX(0)</param>
                             <param id="3" name="Y">top.ImagePointY(0)</param>
                         </action>
+                        <action id="0" name="Play" sid="766708157116638" type="Audio">
+                            <param id="0" name="Audio file">correct</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="277210965780214">
@@ -187,6 +217,12 @@
                         </action>
                         <action id="-2" name="Set Y" sid="429713966236426" type="top">
                             <param id="0" name="Y">311</param>
+                        </action>
+                        <action id="0" name="Play" sid="207503105987807" type="Audio">
+                            <param id="0" name="Audio file">false</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -227,6 +263,12 @@
                             <param id="2" name="X">bot.ImagePointX(0)</param>
                             <param id="3" name="Y">bot.ImagePointY(0)</param>
                         </action>
+                        <action id="0" name="Play" sid="592431658875328" type="Audio">
+                            <param id="0" name="Audio file">correct</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="866502137447757">
@@ -246,6 +288,12 @@
                         </action>
                         <action id="-2" name="Set Y" sid="988582563297519" type="bot">
                             <param id="0" name="Y">229</param>
+                        </action>
+                        <action id="0" name="Play" sid="617241520939146" type="Audio">
+                            <param id="0" name="Audio file">false</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -286,6 +334,12 @@
                             <param id="2" name="X">topright.ImagePointX(0)</param>
                             <param id="3" name="Y">topright.ImagePointY(0)</param>
                         </action>
+                        <action id="0" name="Play" sid="482545471050372" type="Audio">
+                            <param id="0" name="Audio file">correct</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="213150333031478">
@@ -305,6 +359,12 @@
                         </action>
                         <action id="-2" name="Set Y" sid="730085243006909" type="topright">
                             <param id="0" name="Y">394</param>
+                        </action>
+                        <action id="0" name="Play" sid="701766254661853" type="Audio">
+                            <param id="0" name="Audio file">false</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -345,6 +405,12 @@
                             <param id="2" name="X">botright.ImagePointX(0)</param>
                             <param id="3" name="Y">botright.ImagePointY(0)</param>
                         </action>
+                        <action id="0" name="Play" sid="793842177982186" type="Audio">
+                            <param id="0" name="Audio file">correct</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="558558346692191">
@@ -364,6 +430,12 @@
                         </action>
                         <action id="-2" name="Set Y" sid="367617768957019" type="botright">
                             <param id="0" name="Y"> 311.859</param>
+                        </action>
+                        <action id="0" name="Play" sid="777498379842119" type="Audio">
+                            <param id="0" name="Audio file">false</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>

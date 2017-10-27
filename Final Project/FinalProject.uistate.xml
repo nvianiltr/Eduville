@@ -15,10 +15,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="4">chicken</layout>
         <layout order="6">leaderboard</layout>
         <layout order="8">menu</layout>
-        <layout order="10">start</layout>
+        <layout active="1" order="10">start</layout>
         <event-sheet order="1">pig_event</event-sheet>
         <event-sheet order="3">cow_event</event-sheet>
-        <event-sheet active="1" order="5">chicken_event</event-sheet>
+        <event-sheet order="5">chicken_event</event-sheet>
         <event-sheet order="7">Event sheet 1</event-sheet>
         <event-sheet order="9">menu_event</event-sheet>
         <event-sheet order="11">start_event</event-sheet>

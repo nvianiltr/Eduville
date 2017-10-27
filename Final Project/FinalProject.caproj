@@ -1874,6 +1874,16 @@
         <file name="bg-song.ogg" />
         <file name="quiet_pig.m4a" />
         <file name="quiet_pig.ogg" />
+        <file name="chick (2).m4a" />
+        <file name="chick (2).ogg" />
+        <file name="correct.m4a" />
+        <file name="correct.ogg" />
+        <file name="cow.m4a" />
+        <file name="cow.ogg" />
+        <file name="false.m4a" />
+        <file name="false.ogg" />
+        <file name="snort.m4a" />
+        <file name="snort.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>
