@@ -1503,6 +1503,11 @@
         </object-type>
         <object-type name="Sprite3" sid="818846722535051">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="907624237899561">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="516291436038227" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\chicken.jpg" />
