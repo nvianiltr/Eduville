@@ -744,6 +744,7 @@
                             <param id="0" name="Layer">&quot;highscore&quot;</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="486230293869658" type="Sprite6" />
                         <action id="-3" name="Set position" sid="104970080822343" type="ok">
                             <param id="0" name="X">448.764</param>
                             <param id="1" name="Y">355.887</param>
@@ -803,6 +804,7 @@
                             <param id="0" name="Layer">&quot;highscore&quot;</param>
                             <param id="1" name="Visibility">1</param>
                         </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="586299583463935" type="Sprite6" />
                         <action id="-3" name="Set position" sid="102079115216324" type="ok">
                             <param id="0" name="X">448.764</param>
                             <param id="1" name="Y">355.887</param>
@@ -870,7 +872,6 @@
                             <param id="1" name="Visibility">1</param>
                         </action>
                         <action behavior="Fade" id="1" name="Start fade" sid="508559619115593" type="txtCongrats" />
-                        <action behavior="Fade" id="1" name="Start fade" sid="582159815704488" type="Sprite6" />
                         <action id="-3" name="Set position" sid="907247627325152" type="ok">
                             <param id="0" name="X">183.157</param>
                             <param id="1" name="Y">342.012</param>
