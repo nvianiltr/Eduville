@@ -1786,7 +1786,18 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="785525483528144" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\Assets\goodjob1.png">
+                        <collision-poly>
+                            <point x="0.412" y="0.412" />
+                            <point x="0.5" y="0.427" />
+                            <point x="0.644" y="0.356" />
+                            <point x="0.754" y="0.5" />
+                            <point x="0.511" y="0.511" />
+                            <point x="0.5" y="0.534" />
+                            <point x="0.411" y="0.589" />
+                            <point x="0.033" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -1839,6 +1850,718 @@
         <object-type name="minute2_leaderboard" sid="594094555771896">
             <plugin id="Text" />
         </object-type>
+        <object-type name="TiledBackground6" sid="750592725071386">
+            <plugin id="TiledBg" />
+            <texture original-source="E:\kuliah\Sem 3\final project\assetgameBARU\dbc59a745f87f780ba2e31eb1e667920.jpg" />
+        </object-type>
+        <object-type name="bgnew" sid="346858585840390">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="416060564497368" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\assetgameBARU\dbc59a745f87f780ba2e31eb1e667920.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="633003159838295">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="935034749013086" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite8" sid="705378258508474">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="201643750359422" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="cow_game2" sid="135895703954715">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="916125004573440" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\Assets\34eb7e56bc74aeea5b65f6537e9e8e45.png">
+                        <collision-poly>
+                            <point x="0.0411255" y="0.0501319" />
+                            <point x="0.5" y="0.170185" />
+                            <point x="0.843074" y="0.191293" />
+                            <point x="0.97619" y="0.5" />
+                            <point x="0.938312" y="0.924802" />
+                            <point x="0.5" y="0.64248" />
+                            <point x="0.274892" y="0.664908" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="chicken_game2" sid="973953629340653">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="566992675237302" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501916" original-source="E:\kuliah\Sem 3\final project\assetgameBARU\chicke.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.172414" />
+                            <point x="0.688462" y="0.310345" />
+                            <point x="0.915385" y="0.498084" />
+                            <point x="0.896154" y="0.896552" />
+                            <point x="0.5" y="0.942529" />
+                            <point x="0.1" y="0.900383" />
+                            <point x="0.130769" y="0.498084" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite11" sid="959569496582857">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="267841502344544" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite9" sid="882922681305597">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="675287161742940" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10" sid="739186761024916">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="280734689643095" speed="5">
+                    <frame duration="1" hotspotX="0.500978" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\assetgameBARU\pig2.png">
+                        <collision-poly>
+                            <point x="0.156556" y="0.151515" />
+                            <point x="0.499022" y="0.107955" />
+                            <point x="0.663405" y="0.325758" />
+                            <point x="0.751468" y="0.5" />
+                            <point x="0.833659" y="0.839015" />
+                            <point x="0.499022" y="0.977273" />
+                            <point x="0.21135" y="0.795455" />
+                            <point x="0.0391389" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500949" original-source="E:\kuliah\Sem 3\final project\assetgameBARU\pig1.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0.754941" y="0.499051" />
+                            <point x="0.835968" y="0.842505" />
+                            <point x="0.5" y="0.97723" />
+                            <point x="0.211462" y="0.796964" />
+                            <point x="0.0355731" y="0.499051" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite12" sid="845590799690352">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="424286450801496" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\assetgameBARU\How-to-draw-a-cartoon-horse-20.png">
+                        <collision-poly>
+                            <point x="0.225664" y="0.255" />
+                            <point x="0.5" y="0.195" />
+                            <point x="0.647493" y="0.398333" />
+                            <point x="0.737463" y="0.5" />
+                            <point x="0.764012" y="0.733333" />
+                            <point x="0.5" y="0.886667" />
+                            <point x="0.231563" y="0.738333" />
+                            <point x="0.253687" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="duck_game2" sid="200481268041035">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="750957486327598" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5008" original-source="E:\kuliah\Sem 3\final project\Assets\8485f9c1ddd0af9e632a40478b37363d.png">
+                        <collision-poly>
+                            <point x="0.224586" y="0.304" />
+                            <point x="0.502364" y="0.6736" />
+                            <point x="0.793144" y="0.4992" />
+                            <point x="0.803783" y="0.7344" />
+                            <point x="0.5" y="0.7376" />
+                            <point x="0.247045" y="0.6656" />
+                            <point x="0.255319" y="0.4992" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sheep_game2" sid="193569391559702">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="379568736818766" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\assetgameBARU\SHEEO.png">
+                        <collision-poly>
+                            <point x="0.180921" y="0.199275" />
+                            <point x="0.5" y="0.181159" />
+                            <point x="0.940789" y="0.0652174" />
+                            <point x="0.835526" y="0.5" />
+                            <point x="0.717105" y="0.688406" />
+                            <point x="0.5" y="0.974638" />
+                            <point x="0.0427632" y="0.952899" />
+                            <point x="0.0657895" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtChickenDescription" sid="407150410612290">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="cow_pos" sid="405663535721661">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="852516511145896" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtChicken" sid="563585112231471">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="526254360742941">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="896520186952295" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\Assets\chicken.png">
+                        <collision-poly>
+                            <point x="0.19" y="0.38" />
+                            <point x="0.5" y="0.32" />
+                            <point x="0.765" y="0.47" />
+                            <point x="0.99" y="0.5" />
+                            <point x="0.82" y="0.64" />
+                            <point x="0.5" y="0.69" />
+                            <point x="0.18" y="0.64" />
+                            <point x="0.005" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtCow" sid="190677142541601">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="715139329087407">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="679340624975131" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\assetgameBARU\cow.png">
+                        <collision-poly>
+                            <point x="0.21" y="0.42" />
+                            <point x="0.5" y="0.36" />
+                            <point x="0.8" y="0.4" />
+                            <point x="0.78" y="0.5" />
+                            <point x="0.775" y="0.55" />
+                            <point x="0.5" y="0.67" />
+                            <point x="0.205" y="0.59" />
+                            <point x="0.2" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtGrass" sid="999315737200333">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="926696040804446">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="237148832286752" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\assetgameBARU\grass.png">
+                        <collision-poly>
+                            <point x="0.18" y="0.36" />
+                            <point x="0.5" y="0.36" />
+                            <point x="0.81" y="0.38" />
+                            <point x="0.805" y="0.5" />
+                            <point x="0.835" y="0.67" />
+                            <point x="0.5" y="0.63" />
+                            <point x="0.17" y="0.66" />
+                            <point x="0.135" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtEgg" sid="485583510685421">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="956573703875454">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="925513969762563" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\assetgameBARU\egg.png">
+                        <collision-poly>
+                            <point x="0.16" y="0.533333" />
+                            <point x="0.5" y="0.133333" />
+                            <point x="0.83" y="0.566667" />
+                            <point x="0.66" y="0.5" />
+                            <point x="0.89" y="0.633333" />
+                            <point x="0.5" y="0.966667" />
+                            <point x="0.16" y="0.466667" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtWorm" sid="554982857703314">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="171400050644168">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="167868077733123" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\assetgameBARU\worm.png">
+                        <collision-poly>
+                            <point x="0.12" y="0.4" />
+                            <point x="0.5" y="0.2" />
+                            <point x="0.96" y="0.133333" />
+                            <point x="0.99" y="0.5" />
+                            <point x="0.9" y="0.666667" />
+                            <point x="0.5" y="0.8" />
+                            <point x="0.06" y="0.8" />
+                            <point x="0.03" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtMilk" sid="194532359024394">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="349813255245060">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="775049266057407" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\assetgameBARU\milk.png">
+                        <collision-poly>
+                            <point x="0.22" y="0.733333" />
+                            <point x="0.5" y="0.0333333" />
+                            <point x="0.79" y="0.7" />
+                            <point x="0.76" y="0.5" />
+                            <point x="0.8" y="0.333333" />
+                            <point x="0.5" y="0.933333" />
+                            <point x="0.22" y="0.266667" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="egg_pos" sid="460055426153375">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="686083556415843" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="grass_pos" sid="765192420030926">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="952806040913669" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="chicken_pos" sid="733934216063809">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="671782260650706" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="worm_pos" sid="118233675526108">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="881733953522739" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="milk_pos" sid="716033430692606">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="423286487717262" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtLayout2Description" sid="838193477225317">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="txtOink" sid="250735654534747">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="495297381561999">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="663072971072700" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\assetgameBARU\oink.png">
+                        <collision-poly>
+                            <point x="0.193333" y="0.29" />
+                            <point x="0.5" y="0.3" />
+                            <point x="0.806667" y="0.29" />
+                            <point x="0.886667" y="0.5" />
+                            <point x="0.82" y="0.73" />
+                            <point x="0.16" y="0.76" />
+                            <point x="0.0133333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtPig" sid="174796917228444">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="184898408032526">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="223916017234156" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\assetgameBARU\pig.png">
+                        <collision-poly>
+                            <point x="0.166667" y="0.25" />
+                            <point x="0.5" y="0.05" />
+                            <point x="0.826667" y="0.26" />
+                            <point x="0.626667" y="0.5" />
+                            <point x="0.866667" y="0.8" />
+                            <point x="0.5" y="0.85" />
+                            <point x="0.106667" y="0.84" />
+                            <point x="0.0866667" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtFat" sid="738181415606222">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="668709189100902">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="536323851483737" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\assetgameBARU\fat.png">
+                        <collision-poly>
+                            <point x="0.18" y="0.27" />
+                            <point x="0.853333" y="0.22" />
+                            <point x="0.766667" y="0.5" />
+                            <point x="0.766667" y="0.65" />
+                            <point x="0.5" y="0.72" />
+                            <point x="0.166667" y="0.75" />
+                            <point x="0.16" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtFast" sid="831700291841348">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="749585853039236">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="165511077676622" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\assetgameBARU\fast.png">
+                        <collision-poly>
+                            <point x="0.14" y="0.21" />
+                            <point x="0.5" y="0.28" />
+                            <point x="0.853333" y="0.22" />
+                            <point x="0.88" y="0.5" />
+                            <point x="0.86" y="0.79" />
+                            <point x="0.173333" y="0.74" />
+                            <point x="0.0133333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtHorse" sid="995601020131276">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="574691305827724">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="584693994550920" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\assetgameBARU\horse.png">
+                        <collision-poly>
+                            <point x="0.246667" y="0.37" />
+                            <point x="0.5" y="0.28" />
+                            <point x="0.793333" y="0.31" />
+                            <point x="0.96" y="0.5" />
+                            <point x="0.786667" y="0.68" />
+                            <point x="0.5" y="0.64" />
+                            <point x="0.253333" y="0.62" />
+                            <point x="0.00666667" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pig_pos" sid="888478302317666">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="639946042375810" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fast_pos" sid="839514750257332">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="939907467787707" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fat_pos" sid="942017048170076">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="590850558466750" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="oink_pos" sid="515925117174825">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="378740940932480" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="horse_pos" sid="697317436926419">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="325063594813307" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtWool" sid="362213453716391">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="255225903804419">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="890695144246612" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\assetgameBARU\wool.png">
+                        <collision-poly>
+                            <point x="0.273333" y="0.41" />
+                            <point x="0.5" y="0.29" />
+                            <point x="0.793333" y="0.31" />
+                            <point x="0.926667" y="0.5" />
+                            <point x="0.78" y="0.67" />
+                            <point x="0.5" y="0.68" />
+                            <point x="0.226667" y="0.66" />
+                            <point x="0.0333333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtSheep" sid="832429590815566">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="403361723542722">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="586957979677988" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\assetgameBARU\sheep.png">
+                        <collision-poly>
+                            <point x="0.34" y="0.51" />
+                            <point x="0.5" y="0.32" />
+                            <point x="0.76" y="0.36" />
+                            <point x="0.993333" y="0.5" />
+                            <point x="0.813333" y="0.72" />
+                            <point x="0.5" y="0.73" />
+                            <point x="0.206667" y="0.69" />
+                            <point x="0.02" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtQuack" sid="239229175325707">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="187243485226118">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="638455687512818" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\assetgameBARU\quack.png">
+                        <collision-poly>
+                            <point x="0.04" y="0.15" />
+                            <point x="0.973333" y="0.1" />
+                            <point x="0.913333" y="0.5" />
+                            <point x="0.946667" y="0.8" />
+                            <point x="0.5" y="0.725" />
+                            <point x="0.0533333" y="0.8" />
+                            <point x="0.00666667" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtLake" sid="926042858620081">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="400347465785509">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="468868512346014" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\assetgameBARU\lake.png">
+                        <collision-poly>
+                            <point x="0.266667" y="0.4" />
+                            <point x="0.5" y="0.25" />
+                            <point x="0.853333" y="0.22" />
+                            <point x="0.926667" y="0.5" />
+                            <point x="0.853333" y="0.78" />
+                            <point x="0.5" y="0.76" />
+                            <point x="0.146667" y="0.78" />
+                            <point x="0.02" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtMammal" sid="272843721835000">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="568299270562814">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="228843616124877" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.513514" original-source="E:\kuliah\Sem 3\final project\assetgameBARU\mammal.png">
+                        <collision-poly>
+                            <point x="0.0733333" y="0.297297" />
+                            <point x="0.5" y="0.189189" />
+                            <point x="0.893333" y="0.432432" />
+                            <point x="0.886667" y="0.486486" />
+                            <point x="0.886667" y="0.540541" />
+                            <point x="0.5" y="0.351351" />
+                            <point x="0.0733333" y="0.702703" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtDuck" sid="800127528897759">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DragDrop" sid="135479066496588">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="112838148285668" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\kuliah\Sem 3\final project\assetgameBARU\duck.png">
+                        <collision-poly>
+                            <point x="0.273333" y="0.41" />
+                            <point x="0.5" y="0.36" />
+                            <point x="0.766667" y="0.35" />
+                            <point x="0.893333" y="0.5" />
+                            <point x="0.806667" y="0.71" />
+                            <point x="0.5" y="0.51" />
+                            <point x="0.273333" y="0.59" />
+                            <point x="0.02" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtLayout3rdDescription" sid="745699329100431">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="wool_pos" sid="393292847631096">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="891261394630740" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="duck_pos" sid="266484730931748">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="180917751916860" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="lake_pos" sid="432122446891032">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="452710595159544" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sheep_pos" sid="183847374422291">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="637925283266685" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="quack_pos" sid="271478657157258">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="361872744140417" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mammal_pos" sid="745792911280292">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="357979450363751" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1848,6 +2571,10 @@
         <layout>cow.xml</layout>
         <layout>chicken.xml</layout>
         <layout>leaderboard.xml</layout>
+        <layout>start_game2.xml</layout>
+        <layout>layout1_game2.xml</layout>
+        <layout>layout2_game2.xml</layout>
+        <layout>layout3_game2.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>start_event.xml</event-sheet>
@@ -1856,6 +2583,10 @@
         <event-sheet>cow_event.xml</event-sheet>
         <event-sheet>chicken_event.xml</event-sheet>
         <event-sheet>leaderboard_event.xml</event-sheet>
+        <event-sheet>start2_event.xml</event-sheet>
+        <event-sheet>layout1_game2_event.xml</event-sheet>
+        <event-sheet>layout2_game2_event.xml</event-sheet>
+        <event-sheet>layout3_game2_event.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="2" />

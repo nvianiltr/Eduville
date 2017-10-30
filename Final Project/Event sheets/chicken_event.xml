@@ -1536,6 +1536,12 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Play" sid="368900419455095" type="Audio">
+                            <param id="0" name="Audio file">mouse_click</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                         <action id="-2" name="Go to layout" sid="177504956173465" type="System">
                             <param id="0" name="Layout">menu</param>
                         </action>
@@ -1589,6 +1595,21 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-2" name="Set Y" sid="993751664584263" type="second2">
+                            <param id="0" name="Y">270</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="767017289118082" type="minute2">
+                            <param id="0" name="Y">270</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="679879712160953" type="minute1">
+                            <param id="0" name="Y">270</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="314896249769632" type="second1">
+                            <param id="0" name="Y">270</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="544716780276474" type="colon">
+                            <param id="0" name="Y">270</param>
+                        </action>
                         <action id="-16" name="Wait" sid="816373867053976" type="System">
                             <param id="0" name="Seconds">1.</param>
                         </action>
