@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>layout1_game2_event</name>
     <events>
+        <variable constant="0" name="tracker_game2" sid="585254534605024" static="0" type="number">0</variable>
         <event-block sid="807543400667023">
             <conditions>
                 <condition id="7" name="Cursor is over object" sid="671444465192819" type="Mouse">
@@ -49,5 +50,229 @@
                 </action>
             </actions>
         </event-block>
+        <event-group description="" sid="599621182449776" title="Game">
+            <sub-events>
+                <event-block sid="797316542229250">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="913549756665861" type="txtCow" />
+                        <condition id="1" name="Is overlapping another object" sid="987168191511220" type="txtCow">
+                            <param id="0" name="Object">cow_pos</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" sid="366475176592701" type="txtCow">
+                            <param id="0" name="Object">cow_pos</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="696546226462110" type="txtCow">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="325396464416295" type="System">
+                            <param id="0" name="Variable">tracker_game2</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="716304689656228">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="513372148850484" type="txtCow" />
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="916421543732249" type="txtCow">
+                            <param id="0" name="Object">cow_pos</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="861592570083078" type="txtCow">
+                            <param id="0" name="X">141</param>
+                            <param id="1" name="Y">447</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="866899848076311">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="973296962328651" type="txtChicken" />
+                        <condition id="1" name="Is overlapping another object" sid="370093553021879" type="txtChicken">
+                            <param id="0" name="Object">chicken_pos</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" sid="610674983880935" type="txtChicken">
+                            <param id="0" name="Object">chicken_pos</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="154897359494492" type="txtChicken">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="958297138855388" type="System">
+                            <param id="0" name="Variable">tracker_game2</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="834815379023465">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="859442234082041" type="txtChicken" />
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="386985944631060" type="txtChicken">
+                            <param id="0" name="Object">chicken_pos</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="447915238755387" type="txtChicken">
+                            <param id="0" name="X">444</param>
+                            <param id="1" name="Y">445</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="919646298048670">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="729731261449387" type="txtEgg" />
+                        <condition id="1" name="Is overlapping another object" sid="232893370337261" type="txtEgg">
+                            <param id="0" name="Object">egg_pos</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" sid="501661322640020" type="txtEgg">
+                            <param id="0" name="Object">egg_pos</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="497315221496648" type="txtEgg">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="618378018060186" type="System">
+                            <param id="0" name="Variable">tracker_game2</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="501642088920410">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="164786893317788" type="txtEgg" />
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="541373251054471" type="txtEgg">
+                            <param id="0" name="Object">egg_pos</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="863470208013599" type="txtEgg">
+                            <param id="0" name="X">229.773</param>
+                            <param id="1" name="Y">445.156</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="111562605608838">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="195373260342094" type="txtMilk" />
+                        <condition id="1" name="Is overlapping another object" sid="884464427278400" type="txtMilk">
+                            <param id="0" name="Object">milk_pos</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" sid="990142720253318" type="txtMilk">
+                            <param id="0" name="Object">milk_pos</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="811899923377324" type="txtMilk">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="355283904766050" type="System">
+                            <param id="0" name="Variable">tracker_game2</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="601454742288344">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="720002351379580" type="txtMilk" />
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="726711908595478" type="txtMilk">
+                            <param id="0" name="Object">milk_pos</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="892483396462519" type="txtMilk">
+                            <param id="0" name="X">657.818</param>
+                            <param id="1" name="Y">446.855</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="822261596721233">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="572859400736419" type="txtWorm" />
+                        <condition id="1" name="Is overlapping another object" sid="529221994389705" type="txtWorm">
+                            <param id="0" name="Object">worm_pos</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" sid="879857794697656" type="txtWorm">
+                            <param id="0" name="Object">worm_pos</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="139891043195812" type="txtWorm">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="118517460207289" type="System">
+                            <param id="0" name="Variable">tracker_game2</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="785427417199746">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="555962724694577" type="txtWorm" />
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="285932254778168" type="txtWorm">
+                            <param id="0" name="Object">worm_pos</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="896721201279132" type="txtWorm">
+                            <param id="0" name="X">563.661</param>
+                            <param id="1" name="Y">448.202</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="822930878310270">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="639505472339884" type="txtGrass" />
+                        <condition id="1" name="Is overlapping another object" sid="430227183730416" type="txtGrass">
+                            <param id="0" name="Object">grass_pos</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-4" name="Set position to another object" sid="945674844563742" type="txtGrass">
+                            <param id="0" name="Object">grass_pos</param>
+                            <param id="1" name="Image point (optional)">0</param>
+                        </action>
+                        <action behavior="DragDrop" id="0" name="Set enabled" sid="751103728940822" type="txtGrass">
+                            <param id="0" name="State">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="306147879426941" type="System">
+                            <param id="0" name="Variable">tracker_game2</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="749919513156786">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="575694811032902" type="txtGrass" />
+                        <condition id="1" inverted="1" name="Is overlapping another object" sid="910859213299016" type="txtGrass">
+                            <param id="0" name="Object">grass_pos</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="498630534701931" type="txtGrass">
+                            <param id="0" name="X">329</param>
+                            <param id="1" name="Y">445</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="653901061243312">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="148573150587583" type="System">
+                            <param id="0" name="Variable">tracker_game2</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">6</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

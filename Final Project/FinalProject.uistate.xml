@@ -13,14 +13,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="0">start_game2</layout>
         <layout order="1">start</layout>
         <layout order="4">layout1_game2</layout>
-        <layout order="5">layout2_game2</layout>
+        <layout order="6">layout2_game2</layout>
         <layout order="8">layout3_game2</layout>
         <event-sheet order="2">start_event</event-sheet>
         <event-sheet order="3">start2_event</event-sheet>
-        <event-sheet order="6">layout2_game2_event</event-sheet>
-        <event-sheet order="7">layout1_game2_event</event-sheet>
-        <event-sheet order="9">layout3_game2_event</event-sheet>
-        <event-sheet active="1" order="10">chicken_event</event-sheet>
+        <event-sheet order="7">layout2_game2_event</event-sheet>
+        <event-sheet order="5">layout1_game2_event</event-sheet>
+        <event-sheet active="1" order="9">layout3_game2_event</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -138,5 +137,39 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite12/" />
         <folder expanded="1" path="animation-folder/duck_game2/" />
         <folder expanded="1" path="animation-folder/sheep_game2/" />
+        <folder expanded="1" path="animation-folder/cow_pos/" />
+        <folder expanded="1" path="animation-folder/txtChicken/" />
+        <folder expanded="1" path="animation-folder/txtCow/" />
+        <folder expanded="1" path="animation-folder/txtGrass/" />
+        <folder expanded="1" path="animation-folder/txtEgg/" />
+        <folder expanded="1" path="animation-folder/txtWorm/" />
+        <folder expanded="1" path="animation-folder/txtMilk/" />
+        <folder expanded="1" path="animation-folder/egg_pos/" />
+        <folder expanded="1" path="animation-folder/grass_pos/" />
+        <folder expanded="1" path="animation-folder/chicken_pos/" />
+        <folder expanded="1" path="animation-folder/worm_pos/" />
+        <folder expanded="1" path="animation-folder/milk_pos/" />
+        <folder expanded="1" path="animation-folder/txtOink/" />
+        <folder expanded="1" path="animation-folder/txtPig/" />
+        <folder expanded="1" path="animation-folder/txtFat/" />
+        <folder expanded="1" path="animation-folder/txtFast/" />
+        <folder expanded="1" path="animation-folder/txtHorse/" />
+        <folder expanded="1" path="animation-folder/pig_pos/" />
+        <folder expanded="1" path="animation-folder/fast_pos/" />
+        <folder expanded="1" path="animation-folder/fat_pos/" />
+        <folder expanded="1" path="animation-folder/oink_pos/" />
+        <folder expanded="1" path="animation-folder/horse_pos/" />
+        <folder expanded="1" path="animation-folder/txtWool/" />
+        <folder expanded="1" path="animation-folder/txtSheep/" />
+        <folder expanded="1" path="animation-folder/txtQuack/" />
+        <folder expanded="1" path="animation-folder/txtLake/" />
+        <folder expanded="1" path="animation-folder/txtMammal/" />
+        <folder expanded="1" path="animation-folder/txtDuck/" />
+        <folder expanded="1" path="animation-folder/wool_pos/" />
+        <folder expanded="1" path="animation-folder/duck_pos/" />
+        <folder expanded="1" path="animation-folder/lake_pos/" />
+        <folder expanded="1" path="animation-folder/sheep_pos/" />
+        <folder expanded="1" path="animation-folder/quack_pos/" />
+        <folder expanded="1" path="animation-folder/mammal_pos/" />
     </folders-expanded>
 </c2uistate>
