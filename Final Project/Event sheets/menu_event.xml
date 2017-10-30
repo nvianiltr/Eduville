@@ -361,6 +361,12 @@
                             <param id="0" name="Variable">startGame</param>
                             <param id="1" name="Value">&quot;no&quot;</param>
                         </action>
+                        <action id="0" name="Play" sid="283106382961641" type="Audio">
+                            <param id="0" name="Audio file">mouse_click</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>

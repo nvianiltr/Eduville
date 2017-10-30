@@ -14,12 +14,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="1">start</layout>
         <layout order="4">layout1_game2</layout>
         <layout order="5">layout2_game2</layout>
-        <layout active="1" order="8">layout3_game2</layout>
+        <layout order="8">layout3_game2</layout>
         <event-sheet order="2">start_event</event-sheet>
         <event-sheet order="3">start2_event</event-sheet>
         <event-sheet order="6">layout2_game2_event</event-sheet>
         <event-sheet order="7">layout1_game2_event</event-sheet>
         <event-sheet order="9">layout3_game2_event</event-sheet>
+        <event-sheet active="1" order="10">chicken_event</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
