@@ -1356,6 +1356,7 @@
                             <param id="0" name="X">440.254</param>
                             <param id="1" name="Y">357.609</param>
                         </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="706073756832504" type="Sprite6" />
                         <action behavior="Fade" id="1" name="Start fade" sid="603003114578528" type="star1" />
                         <action id="-16" name="Wait" sid="842982237587718" type="System">
                             <param id="0" name="Seconds">0.5</param>
@@ -1418,6 +1419,7 @@
                             <param id="0" name="X">440.254</param>
                             <param id="1" name="Y">357.609</param>
                         </action>
+                        <action behavior="Fade" id="1" name="Start fade" sid="870103715486296" type="Sprite6" />
                         <action behavior="Fade" id="1" name="Start fade" sid="908229657626683" type="star1" />
                         <action id="-16" name="Wait" sid="872716623494824" type="System">
                             <param id="0" name="Seconds">0.5</param>
@@ -1604,6 +1606,32 @@
                         <action id="-3" name="Set position" sid="758660763472027" type="ok">
                             <param id="0" name="X">183.157</param>
                             <param id="1" name="Y">342.012</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="174409712345237">
+                    <conditions>
+                        <condition behavior="Fade" id="1" name="On fade-in finished" sid="184527074848760" type="star1" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="918306620948010" type="Audio">
+                            <param id="0" name="Audio file">kids cheering</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-0.5</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="561679919728220">
+                    <conditions>
+                        <condition behavior="Fade" id="1" name="On fade-in finished" sid="597653725372594" type="txtCongrats" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="161316697766907" type="Audio">
+                            <param id="0" name="Audio file">kids cheering</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-0.5</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>

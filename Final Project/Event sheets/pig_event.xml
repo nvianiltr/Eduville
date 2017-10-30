@@ -978,6 +978,32 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="996799434064483">
+                    <conditions>
+                        <condition behavior="Fade" id="1" name="On fade-in finished" sid="877054711044551" type="star1" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="775145162998979" type="Audio">
+                            <param id="0" name="Audio file">kids cheering</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-0.5</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="647721585093305">
+                    <conditions>
+                        <condition behavior="Fade" id="1" name="On fade-in finished" sid="174020798147014" type="txtCongrats" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="543952588748685" type="Audio">
+                            <param id="0" name="Audio file">kids cheering</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-0.5</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
         <event-group description="" sid="400921904994565" title="Volume2">

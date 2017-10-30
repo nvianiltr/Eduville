@@ -194,7 +194,7 @@
         </object-type>
         <object-type name="TiledBackground2" sid="574144290488923">
             <plugin id="TiledBg" />
-            <texture original-source="C:\Users\nvian\Desktop\FINAL FINAL PROJECT\hcimulmedfinal\Assets\menubg.png" />
+            <texture original-source="E:\kuliah\Sem 3\final project\Assets\PUZLMENUg.png" />
         </object-type>
         <object-type name="PIG" sid="419162028935631">
             <plugin id="Sprite" />
@@ -1823,6 +1823,22 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="TiledBackground5" sid="381259569720981">
+            <plugin id="TiledBg" />
+            <texture original-source="E:\kuliah\Sem 3\final project\Assets\LEADERBOARDBG.png" />
+        </object-type>
+        <object-type name="second1_leaderboard" sid="568490573602614">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="second2_leaderboard" sid="891701794509932">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="minute1_leaderboard" sid="694652929583135">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="minute2_leaderboard" sid="594094555771896">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -1839,7 +1855,7 @@
         <event-sheet>pig_event.xml</event-sheet>
         <event-sheet>cow_event.xml</event-sheet>
         <event-sheet>chicken_event.xml</event-sheet>
-        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>leaderboard_event.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="2" />
@@ -1878,6 +1894,8 @@
         <file name="false.ogg" />
         <file name="snort.m4a" />
         <file name="snort.ogg" />
+        <file name="kids cheering.m4a" />
+        <file name="kids cheering.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>

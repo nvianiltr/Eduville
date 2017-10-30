@@ -2,7 +2,7 @@
 <c2layout>
     <name>leaderboard</name>
     <sid>910728390490934</sid>
-    <event-sheet>Event sheet 1</event-sheet>
+    <event-sheet>leaderboard_event</event-sheet>
     <size>
         <width>854</width>
         <height>480</height>
@@ -29,12 +29,32 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="name_pig" uid="117">
+                <instance type="TiledBackground5" uid="0">
                     <properties>
-                        <text>nama babi</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>0</x>
+                        <y>1</y>
+                        <z>0</z>
+                        <width>858</width>
+                        <height>485</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="colon" uid="171">
+                    <properties>
+                        <text>:</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>BubbleGum,-43,400,0</font>
+                        <color>112,25,45</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -44,10 +64,357 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>72</x>
-                        <y>25</y>
+                        <x>154</x>
+                        <y>311</y>
                         <z>0</z>
-                        <width>163</width>
+                        <width>19</width>
+                        <height>55</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="second1" uid="172">
+                    <properties>
+                        <text>0</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>BubbleGum,-43,400,0</font>
+                        <color>112,25,45</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>168</x>
+                        <y>316</y>
+                        <z>0</z>
+                        <width>35</width>
+                        <height>49</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="minute1" uid="173">
+                    <properties>
+                        <text>0</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>BubbleGum,-43,400,0</font>
+                        <color>112,25,45</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>94</x>
+                        <y>317</y>
+                        <z>0</z>
+                        <width>34</width>
+                        <height>48</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="second1_leaderboard" uid="174">
+                    <properties>
+                        <text>0</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>BubbleGum,-43,400,0</font>
+                        <color>66,44,23</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>430</x>
+                        <y>316</y>
+                        <z>0</z>
+                        <width>49</width>
+                        <height>70</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="colon" uid="175">
+                    <properties>
+                        <text>:</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>BubbleGum,-43,400,0</font>
+                        <color>66,44,23</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>415</x>
+                        <y>311</y>
+                        <z>0</z>
+                        <width>19</width>
+                        <height>55</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="colon" uid="176">
+                    <properties>
+                        <text>:</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>BubbleGum,-43,400,0</font>
+                        <color>85,76,164</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>693</x>
+                        <y>311</y>
+                        <z>0</z>
+                        <width>19</width>
+                        <height>55</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="second2_leaderboard" uid="177">
+                    <properties>
+                        <text>0</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>BubbleGum,-43,400,0</font>
+                        <color>85,76,164</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>708</x>
+                        <y>316</y>
+                        <z>0</z>
+                        <width>46</width>
+                        <height>49</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="minute1_leaderboard" uid="178">
+                    <properties>
+                        <text>0</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>BubbleGum,-43,400,0</font>
+                        <color>66,44,23</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>360</x>
+                        <y>316</y>
+                        <z>0</z>
+                        <width>47</width>
+                        <height>64</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="minute2_leaderboard" uid="179">
+                    <properties>
+                        <text>0</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>BubbleGum,-43,400,0</font>
+                        <color>85,76,164</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>637</x>
+                        <y>316</y>
+                        <z>0</z>
+                        <width>37</width>
+                        <height>64</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="back" uid="180">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>80</x>
+                        <y>57</y>
+                        <z>0</z>
+                        <width>59</width>
+                        <height>59</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Volume" uid="181">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <SoundOn>true</SoundOn>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Fade">
+                            <properties>
+                                <active-at-start>No</active-at-start>
+                                <fade-in-time>0</fade-in-time>
+                                <wait-time>0</wait-time>
+                                <fade-out-time>1</fade-out-time>
+                                <destroy>After fade out</destroy>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>783</x>
+                        <y>55</y>
+                        <z>0</z>
+                        <width>59</width>
+                        <height>59</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="Layer 1" sid="121655787521692">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>1</x>
+                <y>1</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="second_pig" uid="119">
+                    <properties>
+                        <text>0</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>BubbleGum,-43,400,0</font>
+                        <color>112,25,45</color>
+                        <horizontal-alignment>Right</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>138</x>
+                        <y>316</y>
+                        <z>0</z>
+                        <width>85</width>
+                        <height>73</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="name_pig" uid="117">
+                    <properties>
+                        <text>EMPTY</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>BubbleGum,-35,400,0</font>
+                        <color>112,25,45</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>41</x>
+                        <y>268</y>
+                        <z>0</z>
+                        <width>234</width>
                         <height>59</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -58,11 +425,11 @@
                 </instance>
                 <instance type="minute_pig" uid="118">
                     <properties>
-                        <text>menit babi</text>
+                        <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
+                        <font>BubbleGum,-43,400,0</font>
+                        <color>112,25,45</color>
+                        <horizontal-alignment>Right</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
                         <wrapping>Word</wrapping>
@@ -71,38 +438,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>274</x>
-                        <y>23</y>
+                        <x>79</x>
+                        <y>317</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="second_pig" uid="119">
-                    <properties>
-                        <text>detik babi</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>544</x>
-                        <y>17</y>
-                        <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
+                        <width>70</width>
+                        <height>80</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -112,11 +452,11 @@
                 </instance>
                 <instance type="name_cow" uid="120">
                     <properties>
-                        <text>nama sapi</text>
+                        <text>EMPTY</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
+                        <font>BubbleGum,-35,400,0</font>
+                        <color>66,44,23</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
                         <wrapping>Word</wrapping>
@@ -125,11 +465,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>125</x>
-                        <y>124</y>
+                        <x>311</x>
+                        <y>268</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
+                        <width>234</width>
+                        <height>59</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -139,11 +479,11 @@
                 </instance>
                 <instance type="minute_cow" uid="121">
                     <properties>
-                        <text>menit sapi</text>
+                        <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
+                        <font>BubbleGum,-43,400,0</font>
+                        <color>66,44,23</color>
+                        <horizontal-alignment>Right</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
                         <wrapping>Word</wrapping>
@@ -152,11 +492,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>263</x>
-                        <y>114</y>
+                        <x>345</x>
+                        <y>316</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
+                        <width>68</width>
+                        <height>60</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -166,11 +506,11 @@
                 </instance>
                 <instance type="second_cow" uid="122">
                     <properties>
-                        <text>detik sapi</text>
+                        <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
+                        <font>BubbleGum,-43,400,0</font>
+                        <color>66,44,23</color>
+                        <horizontal-alignment>Right</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
                         <wrapping>Word</wrapping>
@@ -179,11 +519,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>529</x>
-                        <y>87</y>
+                        <x>417</x>
+                        <y>316</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
+                        <width>67</width>
+                        <height>59</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -193,11 +533,11 @@
                 </instance>
                 <instance type="name_chicken" uid="129">
                     <properties>
-                        <text>nama ayam</text>
+                        <text>EMPTY</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
+                        <font>BubbleGum,-35,400,0</font>
+                        <color>85,76,164</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
                         <wrapping>Word</wrapping>
@@ -206,11 +546,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>92</x>
-                        <y>237</y>
+                        <x>582</x>
+                        <y>268</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
+                        <width>234</width>
+                        <height>59</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -220,11 +560,11 @@
                 </instance>
                 <instance type="minute_chicken" uid="130">
                     <properties>
-                        <text>menit ayam</text>
+                        <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
+                        <font>BubbleGum,-43,400,0</font>
+                        <color>85,76,164</color>
+                        <horizontal-alignment>Right</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
                         <wrapping>Word</wrapping>
@@ -233,11 +573,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>317</x>
-                        <y>239</y>
+                        <x>605</x>
+                        <y>316</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
+                        <width>87</width>
+                        <height>60</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -247,11 +587,11 @@
                 </instance>
                 <instance type="second_chicken" uid="131">
                     <properties>
-                        <text>detik ayam</text>
+                        <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
+                        <font>BubbleGum,-43,400,0</font>
+                        <color>85,76,164</color>
+                        <horizontal-alignment>Right</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
                         <wrapping>Word</wrapping>
@@ -260,11 +600,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>555</x>
-                        <y>229</y>
+                        <x>696</x>
+                        <y>316</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
+                        <width>65</width>
+                        <height>59</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

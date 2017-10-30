@@ -78,11 +78,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>157</x>
-                        <y>253</y>
+                        <x>151</x>
+                        <y>266</y>
                         <z>0</z>
-                        <width>233</width>
-                        <height>164</height>
+                        <width>183</width>
+                        <height>134</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -105,8 +105,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>89</x>
-                        <y>206</y>
+                        <x>80</x>
+                        <y>221</y>
                         <z>0</z>
                         <width>156</width>
                         <height>100</height>
@@ -163,11 +163,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>430</x>
-                        <y>253</y>
+                        <x>423.5</x>
+                        <y>265.5</y>
                         <z>0</z>
-                        <width>233</width>
-                        <height>164</height>
+                        <width>183</width>
+                        <height>134</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -185,11 +185,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>702</x>
-                        <y>253</y>
+                        <x>699</x>
+                        <y>266</y>
                         <z>0</z>
-                        <width>233</width>
-                        <height>164</height>
+                        <width>183</width>
+                        <height>134</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -201,7 +201,7 @@
                     <properties>
                         <text>CHICK</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>BubbleGum,-80,400,0</font>
+                        <font>BubbleGum,-64,400,0</font>
                         <color>255,204,51</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -212,8 +212,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>593</x>
-                        <y>212</y>
+                        <x>610</x>
+                        <y>234</y>
                         <z>0</z>
                         <width>261</width>
                         <height>105</height>
@@ -228,7 +228,7 @@
                     <properties>
                         <text>COW</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>BubbleGum,-96,400,0</font>
+                        <font>BubbleGum,-85,400,0</font>
                         <color>105,105,105</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
@@ -239,11 +239,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>266</x>
-                        <y>140</y>
+                        <x>313</x>
+                        <y>188</y>
                         <z>0</z>
-                        <width>325</width>
-                        <height>226</height>
+                        <width>222.503601074</width>
+                        <height>154.725585938</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

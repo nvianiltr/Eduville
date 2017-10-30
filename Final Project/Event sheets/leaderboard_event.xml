@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>leaderboard_event</name>
+    <events>
+        <event-group description="" sid="588431161551949" title="Load">
+            <sub-events>
+                <event-block sid="180048136113745">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="488586766376153" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Check item exists" sid="367435165807085" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_pig_name&quot;</param>
+                        </action>
+                        <action id="5" name="Check item exists" sid="648921678148269" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_minute_pig&quot;</param>
+                        </action>
+                        <action id="5" name="Check item exists" sid="308366343796793" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_second_pig&quot;</param>
+                        </action>
+                        <action id="5" name="Check item exists" sid="408755138775994" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_cow_name&quot;</param>
+                        </action>
+                        <action id="5" name="Check item exists" sid="889000438177160" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_minute_cow&quot;</param>
+                        </action>
+                        <action id="5" name="Check item exists" sid="668308269815256" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_second_cow&quot;</param>
+                        </action>
+                        <action id="5" name="Check item exists" sid="118501906205764" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_chick_name&quot;</param>
+                        </action>
+                        <action id="5" name="Check item exists" sid="110414119989089" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_minute_chick&quot;</param>
+                        </action>
+                        <action id="5" name="Check item exists" sid="962447862077105" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_second_chick&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="659902910503634">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="742311417365126" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_pig_name&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="662276784340067" type="System">
+                            <param id="0" name="Variable">user1</param>
+                            <param id="1" name="Value">LocalStorage.ItemValue</param>
+                        </action>
+                        <action id="0" name="Set text" sid="339866709427031" type="name_pig">
+                            <param id="0" name="Text">user1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="767983347607103">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="440569386176223" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_minute_pig&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="161831263384782" type="System">
+                            <param id="0" name="Variable">best_minute_pig</param>
+                            <param id="1" name="Value">LocalStorage.ItemValue</param>
+                        </action>
+                        <action id="0" name="Set text" sid="534286833828150" type="minute_pig">
+                            <param id="0" name="Text">best_minute_pig</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="681683099106863">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="679485967545879" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_second_pig&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="971529553889026" type="System">
+                            <param id="0" name="Variable">best_second_pig</param>
+                            <param id="1" name="Value">LocalStorage.ItemValue</param>
+                        </action>
+                        <action id="0" name="Set text" sid="615174934567426" type="second_pig">
+                            <param id="0" name="Text">best_second_pig</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="397276006435877">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="941445126876902" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_cow_name&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="813234648667264" type="System">
+                            <param id="0" name="Variable">user2</param>
+                            <param id="1" name="Value">LocalStorage.ItemValue</param>
+                        </action>
+                        <action id="0" name="Set text" sid="771287237703027" type="name_cow">
+                            <param id="0" name="Text">user2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="974500433332457">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="875657939811165" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_minute_cow&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="487269741763550" type="System">
+                            <param id="0" name="Variable">best_minute_cow</param>
+                            <param id="1" name="Value">LocalStorage.ItemValue</param>
+                        </action>
+                        <action id="0" name="Set text" sid="210209774784926" type="minute_cow">
+                            <param id="0" name="Text">best_minute_cow</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="463187222602882">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="637871282673344" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_second_cow&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="167744807042773" type="System">
+                            <param id="0" name="Variable">best_second_cow</param>
+                            <param id="1" name="Value">LocalStorage.ItemValue</param>
+                        </action>
+                        <action id="0" name="Set text" sid="496844422545462" type="second_cow">
+                            <param id="0" name="Text">best_second_cow</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="183278807117919">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="513638963701724" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_chick_name&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="216330598867796" type="System">
+                            <param id="0" name="Variable">user3</param>
+                            <param id="1" name="Value">LocalStorage.ItemValue</param>
+                        </action>
+                        <action id="0" name="Set text" sid="186822947045467" type="name_chicken">
+                            <param id="0" name="Text">user3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="725743841048203">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="493445602656392" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_minute_chick&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="310678076282104" type="System">
+                            <param id="0" name="Variable">best_minute_chick</param>
+                            <param id="1" name="Value">LocalStorage.ItemValue</param>
+                        </action>
+                        <action id="0" name="Set text" sid="235182370489786" type="minute_chicken">
+                            <param id="0" name="Text">best_minute_chick</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="865129222664014">
+                    <conditions>
+                        <condition id="9" name="On item exists" sid="963519926922316" type="LocalStorage">
+                            <param id="0" name="Key">&quot;best_second_chick&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="314689498364266" type="System">
+                            <param id="0" name="Variable">best_second_chick</param>
+                            <param id="1" name="Value">LocalStorage.ItemValue</param>
+                        </action>
+                        <action id="0" name="Set text" sid="706677655334531" type="second_chicken">
+                            <param id="0" name="Text">best_second_chick</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="442922698752046">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="289906036773795" type="System">
+                            <param id="0" name="Variable">best_second_pig</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="310556516870604" type="second1">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="541928365855600">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="521812121425868" type="System">
+                            <param id="0" name="Variable">best_minute_pig</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="363922648958229" type="minute1">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="810856858192876">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="353119656602721" type="System">
+                            <param id="0" name="Variable">best_second_cow</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="981531521790311" type="second1_leaderboard">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="201698394624640">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="631952786320116" type="System">
+                            <param id="0" name="Variable">best_minute_cow</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="698751875679226" type="minute1_leaderboard">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="409012290277680">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="391088282681229" type="System">
+                            <param id="0" name="Variable">best_second_chick</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="239730815665369" type="second2_leaderboard">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="539589763925390">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="410532677945968" type="System">
+                            <param id="0" name="Variable">best_minute_chick</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">9</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="684741831528390" type="minute2_leaderboard">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="852838730504615">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="388060420202398" type="Mouse">
+                            <param id="0" name="Object">back</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="431044270117744" type="back">
+                            <param id="0" name="Width">65</param>
+                            <param id="1" name="Height">65</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="563779279782140">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="589273747103341" type="Mouse">
+                            <param id="0" name="Object">back</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="641100193862205" type="back">
+                            <param id="0" name="Width">59</param>
+                            <param id="1" name="Height">59</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="399508840078738">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="794525976245022" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">back</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="610970199082575" type="Audio">
+                            <param id="0" name="Audio file">mouse_click</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="321956431763634" type="System">
+                            <param id="0" name="Layout">start</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="823973660227766" type="System">
+                            <param id="0" name="Variable">startGame</param>
+                            <param id="1" name="Value">&quot;no&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="320236424259800" title="Volume5">
+            <sub-events>
+                <event-block sid="598911397159594">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="720478801874863" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Volume</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-14" name="Toggle boolean" sid="150179731037044" type="Volume">
+                            <param id="0" name="Instance variable">SoundOn</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="215680403500073">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="525539278337022" type="Volume">
+                                    <param id="0" name="Instance variable">SoundOn</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="2" name="Set muted" sid="943182574438733" type="Audio">
+                                    <param id="0" name="Tag">&quot;bg&quot;</param>
+                                    <param id="1" name="State">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="794096324425029" type="Volume">
+                                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="187758532623143" type="System">
+                                    <param id="0" name="Variable">Sound</param>
+                                    <param id="1" name="Value">&quot;on&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="278580947953968">
+                            <conditions>
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="180858980041718" type="Volume">
+                                    <param id="0" name="Instance variable">SoundOn</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="2" name="Set muted" sid="603500064459693" type="Audio">
+                                    <param id="0" name="Tag">&quot;bg&quot;</param>
+                                    <param id="1" name="State">0</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="372466950598670" type="Volume">
+                                    <param id="0" name="Animation">&quot;mute&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="420204966110396" type="System">
+                                    <param id="0" name="Variable">Sound</param>
+                                    <param id="1" name="Value">&quot;off&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="962951681708518">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="499412312542506" type="Mouse">
+                            <param id="0" name="Object">Volume</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="155040595504587" type="Volume">
+                            <param id="0" name="Width">65</param>
+                            <param id="1" name="Height">65</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="779501542542586">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="186828562832957" type="Mouse">
+                            <param id="0" name="Object">Volume</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="814729444418022" type="Volume">
+                            <param id="0" name="Width">58.447</param>
+                            <param id="1" name="Height">58.447</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="562395632604179">
+                    <conditions>
+                        <condition id="-9" name="Layer is visible" sid="850296753345225" type="System">
+                            <param id="0" name="Layer">&quot;Layer 0&quot;</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="736464712680799" type="System">
+                            <param id="0" name="Variable">Sound</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;off&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set muted" sid="635549629364340" type="Audio">
+                            <param id="0" name="Tag">&quot;bg&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="826503000080644" type="Volume">
+                            <param id="0" name="Animation">&quot;mute&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="889330305447021" type="Volume">
+                            <param id="0" name="Instance variable">SoundOn</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="733464938861700">
+                    <conditions>
+                        <condition id="-9" name="Layer is visible" sid="524781297195088" type="System">
+                            <param id="0" name="Layer">&quot;Layer 0&quot;</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="892927136496462" type="System">
+                            <param id="0" name="Variable">Sound</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;on&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set muted" sid="905716137336348" type="Audio">
+                            <param id="0" name="Tag">&quot;bg&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="744813070879071" type="Volume">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-13" name="Set boolean" sid="527661208351541" type="Volume">
+                            <param id="0" name="Instance variable">SoundOn</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
