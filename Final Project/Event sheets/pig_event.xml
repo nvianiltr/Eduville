@@ -855,11 +855,6 @@
                             <param id="1" name="Comparison">4</param>
                             <param id="2" name="Value">best_second_pig</param>
                         </condition>
-                        <condition id="-14" inverted="1" name="Compare variable" sid="944901254744325" type="System">
-                            <param id="0" name="Variable">best_minute_pig</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">0</param>
-                        </condition>
                         <condition id="-14" inverted="1" name="Compare variable" sid="200758625912323" type="System">
                             <param id="0" name="Variable">best_second_pig</param>
                             <param id="1" name="Comparison">0</param>
