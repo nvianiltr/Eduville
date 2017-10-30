@@ -871,6 +871,21 @@
                             <param id="0" name="X">183.157</param>
                             <param id="1" name="Y">342.012</param>
                         </action>
+                        <action id="-2" name="Set Y" sid="153359638112399" type="second2">
+                            <param id="0" name="Y">270</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="588634513465143" type="minute2">
+                            <param id="0" name="Y">270</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="263338543532201" type="minute1">
+                            <param id="0" name="Y">270</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="705519401187265" type="second1">
+                            <param id="0" name="Y">270</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="351210522682845" type="colon">
+                            <param id="0" name="Y">270</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="452958430544775">

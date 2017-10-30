@@ -10,18 +10,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">leaderboard</layout>
-        <layout order="2">menu</layout>
-        <layout order="4">start</layout>
-        <layout order="6">pig</layout>
-        <layout order="8">cow</layout>
-        <layout order="10">chicken</layout>
-        <event-sheet order="1">leaderboard_event</event-sheet>
-        <event-sheet order="3">menu_event</event-sheet>
-        <event-sheet order="5">start_event</event-sheet>
-        <event-sheet order="7">pig_event</event-sheet>
-        <event-sheet order="9">cow_event</event-sheet>
-        <event-sheet active="1" order="11">chicken_event</event-sheet>
+        <layout order="0">start_game2</layout>
+        <layout order="1">start</layout>
+        <layout order="4">layout1_game2</layout>
+        <layout order="5">layout2_game2</layout>
+        <layout active="1" order="8">layout3_game2</layout>
+        <event-sheet order="2">start_event</event-sheet>
+        <event-sheet order="3">start2_event</event-sheet>
+        <event-sheet order="6">layout2_game2_event</event-sheet>
+        <event-sheet order="7">layout1_game2_event</event-sheet>
+        <event-sheet order="9">layout3_game2_event</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -128,5 +126,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Sprite4/" />
         <folder expanded="1" path="animation-folder/txtCongrats/" />
         <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/bgnew/" />
+        <folder expanded="1" path="animation-folder/Sprite7/" />
+        <folder expanded="1" path="animation-folder/Sprite8/" />
+        <folder expanded="1" path="animation-folder/cow_game2/" />
+        <folder expanded="1" path="animation-folder/chicken_game2/" />
+        <folder expanded="1" path="animation-folder/Sprite11/" />
+        <folder expanded="1" path="animation-folder/Sprite9/" />
+        <folder expanded="1" path="animation-folder/Sprite10/" />
+        <folder expanded="1" path="animation-folder/Sprite12/" />
+        <folder expanded="1" path="animation-folder/duck_game2/" />
+        <folder expanded="1" path="animation-folder/sheep_game2/" />
     </folders-expanded>
 </c2uistate>

@@ -1057,7 +1057,7 @@
                         <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>BubbleGum,-48,400,0</font>
-                        <color>255,102,102</color>
+                        <color>221,93,42</color>
                         <horizontal-alignment>Right</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -1087,7 +1087,7 @@
                         <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>BubbleGum,-48,400,0</font>
-                        <color>255,102,102</color>
+                        <color>222,93,42</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -1114,7 +1114,7 @@
                         <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>BubbleGum,-48,400,0</font>
-                        <color>255,102,102</color>
+                        <color>222,93,42</color>
                         <horizontal-alignment>Right</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -1144,7 +1144,7 @@
                         <text>:</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>BubbleGum,-48,400,0</font>
-                        <color>255,102,102</color>
+                        <color>222,93,42</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -1171,7 +1171,7 @@
                         <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>BubbleGum,-48,400,0</font>
-                        <color>255,102,102</color>
+                        <color>222,93,42</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -1408,7 +1408,7 @@
                         <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>BubbleGum,-35,400,0</font>
-                        <color>255,102,102</color>
+                        <color>222,93,42</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -1435,7 +1435,7 @@
                         <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>BubbleGum,-35,400,0</font>
-                        <color>255,102,102</color>
+                        <color>222,93,42</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -1462,7 +1462,7 @@
                         <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>BubbleGum,-35,400,0</font>
-                        <color>255,102,102</color>
+                        <color>222,93,42</color>
                         <horizontal-alignment>Right</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -1492,7 +1492,7 @@
                         <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>BubbleGum,-35,400,0</font>
-                        <color>255,102,102</color>
+                        <color>222,93,42</color>
                         <horizontal-alignment>Right</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -1506,7 +1506,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>432.695983887</x>
-                        <y>214.867050171</y>
+                        <y>214.86706543</y>
                         <z>0</z>
                         <width>67</width>
                         <height>48</height>
@@ -1557,11 +1557,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>185.999984741</x>
-                        <y>182.171081543</y>
+                        <x>185.240997314</x>
+                        <y>218.541000366</y>
                         <z>0</z>
-                        <width>240.748901367</width>
-                        <height>68.304092407</height>
+                        <width>252.192993164</width>
+                        <height>280.006011963</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

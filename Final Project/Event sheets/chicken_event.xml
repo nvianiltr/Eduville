@@ -1589,6 +1589,21 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-2" name="Set Y" sid="993751664584263" type="second2">
+                            <param id="0" name="Y">270</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="767017289118082" type="minute2">
+                            <param id="0" name="Y">270</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="679879712160953" type="minute1">
+                            <param id="0" name="Y">270</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="314896249769632" type="second1">
+                            <param id="0" name="Y">270</param>
+                        </action>
+                        <action id="-2" name="Set Y" sid="544716780276474" type="colon">
+                            <param id="0" name="Y">270</param>
+                        </action>
                         <action id="-16" name="Wait" sid="816373867053976" type="System">
                             <param id="0" name="Seconds">1.</param>
                         </action>
