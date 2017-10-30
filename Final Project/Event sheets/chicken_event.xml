@@ -1383,6 +1383,9 @@
                             <param id="0" name="Variable">user3</param>
                             <param id="1" name="Value">nametxt.Text</param>
                         </action>
+                        <action id="-16" name="Set opacity" sid="392829773897707" type="Sprite3">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="982673267466858">
@@ -1441,6 +1444,9 @@
                         <action id="-9" name="Set value" sid="688462892565213" type="System">
                             <param id="0" name="Variable">user3</param>
                             <param id="1" name="Value">nametxt.Text</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="703154789455099" type="Sprite3">
+                            <param id="0" name="Opacity">100</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1529,7 +1535,7 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="177504956173465" type="System">
-                            <param id="0" name="Layout">start</param>
+                            <param id="0" name="Layout">menu</param>
                         </action>
                         <action id="-9" name="Set value" sid="853220209015936" type="System">
                             <param id="0" name="Variable">user3</param>
@@ -1579,15 +1585,13 @@
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">0</param>
                         </condition>
-                        <condition id="-14" inverted="1" name="Compare variable" sid="779493496856637" type="System">
-                            <param id="0" name="Variable">best_minute_chick</param>
-                            <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">0</param>
-                        </condition>
                     </conditions>
                     <actions>
                         <action id="-16" name="Wait" sid="816373867053976" type="System">
                             <param id="0" name="Seconds">1.</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="733600611402383" type="Sprite3">
+                            <param id="0" name="Opacity">100</param>
                         </action>
                         <action id="-4" name="Set layer visible" sid="859710314635718" type="System">
                             <param id="0" name="Layer">&quot;congrats&quot;</param>
